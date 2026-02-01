@@ -1,0 +1,1624 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPromptTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activeVersionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_20</activeVersionIdentifier>
+    <description>Answers a user’s query with information in the Knowledge base.</description>
+    <developerName>answerWithKnowledge_Override</developerName>
+    <masterLabel>Answer Questions with Knowledge</masterLabel>
+    <overrideSource>einstein_gpt__answerWithKnowledge</overrideSource>
+    <templateVersions>
+        <content>###
+INSTRUCTIONS
+
+ 1. Analyze the query: Carefully read and understand the user&apos;s question or issue from the QUESTION section.
+ 2. At first, search &quot;KNOWLEDGE&quot;: Review the provided company &quot;KNOWLEDGE&quot; to find relevant information.
+2. a. If the query cannot be sufficiently answered, search &quot;WEB KNOWLEDGE&quot; to find relevant information
+
+ 3. Evaluate information: Determine if the available information in the &quot;KNOWLEDGE &quot; or &quot;WEB KNOWLEDGE&quot; section is sufficient to answer the QUESTION.
+ 4. Formulate response: To generate a reply &lt;generated_response&gt; to the user, you must follow these rules
+ a. Find the article-chunk(s) that is most relevant to answer the user query and VERBATIM extract the ID of the article to set &lt;source_id&gt; field in the response JSON. If you are unable to find the relevant article, set &lt;source_id&gt; to NONE.
+ b. Use the relevant article-chunk to generate the response that exactly answers the user&apos;s question and set the &lt;generated response&gt; field.
+ c. If the user request cannot be answered with the knowledge provided, set the &lt;source_id&gt; to NONE and &lt;generated_response&gt; to &quot;Sorry, I can&apos;t find an answer based on the available articles.&quot;
+ 5. Refine and deliver: Ensure your response is polite, professional and concise.
+ 6. Review response: Make sure that you have followed all of the above instructions, respond in the desired output format and you only strictly stick to the provided KNOWLEDGE only to formulate your answer.
+
+ ###
+KNOWLEDGE:
+{!$EinsteinSearch:sfdc_ai__DynamicRetriever.results}
+
+ ###
+WEB KNOWLEDGE:
+{!$EinsteinSearch:Default_NBN_Retriever_1Cx_hm589b82bd5.results}
+{!$EinsteinSearch:Default_National_Insurance_Retriever_1Cx_hm5263bb816.results}
+
+ ###
+QUESTION:
+{!$Input:Query}
+
+ ###
+Response:
+</content>
+        <inputs>
+            <apiName>Query</apiName>
+            <definition>primitive://String</definition>
+            <referenceName>Input:Query</referenceName>
+            <required>true</required>
+        </inputs>
+        <inputs>
+            <apiName>RetrieverIdOrName</apiName>
+            <definition>primitive://String</definition>
+            <referenceName>Input:RetrieverIdOrName</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultGPT4Omni</primaryModel>
+        <status>Published</status>
+        <templateDataProviders>
+            <definition>invocable://getEinsteinRetrieverResults/sfdc_ai__DynamicRetriever</definition>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>true</isRequired>
+                <parameterName>searchText</parameterName>
+                <valueExpression>{!$Input:Query}</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>false</isRequired>
+                <parameterName>retrieverIdOrName</parameterName>
+                <valueExpression>{!$Input:RetrieverIdOrName}</valueExpression>
+            </parameters>
+            <referenceName>EinsteinSearch:sfdc_ai__DynamicRetriever</referenceName>
+        </templateDataProviders>
+        <templateDataProviders>
+            <definition>invocable://getEinsteinRetrieverResults/Default_NBN_Retriever_1Cx_hm589b82bd5</definition>
+            <label>Default NBN Retriever</label>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>true</isRequired>
+                <parameterName>searchText</parameterName>
+                <valueExpression>{!$Input:Query}</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://List&lt;String&gt;</definition>
+                <isRequired>false</isRequired>
+                <parameterName>outputFieldNames</parameterName>
+                <valueExpression>[&quot;Chunk&quot;,&quot;Data_Source&quot;]</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://Integer</definition>
+                <isRequired>false</isRequired>
+                <parameterName>resultCount</parameterName>
+                <valueExpression>4</valueExpression>
+            </parameters>
+            <referenceName>EinsteinSearch:Default_NBN_Retriever_1Cx_hm589b82bd5</referenceName>
+        </templateDataProviders>
+        <templateDataProviders>
+            <definition>invocable://getEinsteinRetrieverResults/Default_National_Insurance_Retriever_1Cx_hm5263bb816</definition>
+            <label>Default National Insurance Retriever</label>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>true</isRequired>
+                <parameterName>searchText</parameterName>
+                <valueExpression>{!$Input:Query}</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://List&lt;String&gt;</definition>
+                <isRequired>false</isRequired>
+                <parameterName>outputFieldNames</parameterName>
+                <valueExpression>[&quot;Chunk&quot;,&quot;Data_Source&quot;]</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://Integer</definition>
+                <isRequired>false</isRequired>
+                <parameterName>resultCount</parameterName>
+                <valueExpression>4</valueExpression>
+            </parameters>
+            <referenceName>EinsteinSearch:Default_National_Insurance_Retriever_1Cx_hm5263bb816</referenceName>
+        </templateDataProviders>
+        <versionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_1</versionIdentifier>
+    </templateVersions>
+    <templateVersions>
+        <content>###
+INSTRUCTIONS
+
+ 1. Analyze the query: Carefully read and understand the user&apos;s question or issue from the QUESTION section.
+ 2. At first, search &quot;KNOWLEDGE&quot;: Review the provided company &quot;KNOWLEDGE&quot; to find relevant information.
+2. a. If the query cannot be sufficiently answered, search &quot;WEB KNOWLEDGE&quot; to find relevant information
+
+ 3. Evaluate information: Determine if the available information in the &quot;WEB KNOWLEDGE&quot; section is sufficient to answer the QUESTION.
+ 4. Formulate response: To generate a reply &lt;generated_response&gt; to the user, you must follow these rules
+ a. Find the article-chunk(s) that is most relevant to answer the user query and VERBATIM extract the ID of the article to set &lt;source_id&gt; field in the response JSON. If you are unable to find the relevant article, set &lt;source_id&gt; to NONE.
+ b. Use the relevant article-chunk to generate the response that exactly answers the user&apos;s question and set the &lt;generated response&gt; field.
+ c. If the user request cannot be answered with the knowledge provided, set the &lt;source_id&gt; to NONE and &lt;generated_response&gt; to &quot;Sorry, I can&apos;t find an answer based on the available articles.&quot;
+ 5. Refine and deliver: Ensure your response is polite, professional and concise.
+ 6. Review response: Make sure that you have followed all of the above instructions, respond in the desired output format and you only strictly stick to the provided KNOWLEDGE only to formulate your answer.
+
+ ###
+KNOWLEDGE:
+{!$EinsteinSearch:sfdc_ai__DynamicRetriever.results}
+
+ ###
+WEB KNOWLEDGE:
+{!$EinsteinSearch:Default_NBN_Retriever_1Cx_hm589b82bd5.results}
+{!$EinsteinSearch:Default_National_Insurance_Retriever_1Cx_hm5263bb816.results}
+
+ ###
+QUESTION:
+{!$Input:Query}
+
+ ###
+Response:
+</content>
+        <inputs>
+            <apiName>Query</apiName>
+            <definition>primitive://String</definition>
+            <referenceName>Input:Query</referenceName>
+            <required>true</required>
+        </inputs>
+        <inputs>
+            <apiName>RetrieverIdOrName</apiName>
+            <definition>primitive://String</definition>
+            <referenceName>Input:RetrieverIdOrName</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultGPT4Omni</primaryModel>
+        <status>Draft</status>
+        <templateDataProviders>
+            <definition>invocable://getEinsteinRetrieverResults/sfdc_ai__DynamicRetriever</definition>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>false</isRequired>
+                <parameterName>retrieverIdOrName</parameterName>
+                <valueExpression>{!$Input:RetrieverIdOrName}</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>true</isRequired>
+                <parameterName>searchText</parameterName>
+                <valueExpression>{!$Input:Query}</valueExpression>
+            </parameters>
+            <referenceName>EinsteinSearch:sfdc_ai__DynamicRetriever</referenceName>
+        </templateDataProviders>
+        <templateDataProviders>
+            <definition>invocable://getEinsteinRetrieverResults/Default_NBN_Retriever_1Cx_hm589b82bd5</definition>
+            <label>Default NBN Retriever</label>
+            <parameters>
+                <definition>primitive://Integer</definition>
+                <isRequired>false</isRequired>
+                <parameterName>resultCount</parameterName>
+                <valueExpression>4</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://List&lt;String&gt;</definition>
+                <isRequired>false</isRequired>
+                <parameterName>outputFieldNames</parameterName>
+                <valueExpression>[&quot;Chunk&quot;,&quot;Data_Source&quot;]</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>true</isRequired>
+                <parameterName>searchText</parameterName>
+                <valueExpression>{!$Input:Query}</valueExpression>
+            </parameters>
+            <referenceName>EinsteinSearch:Default_NBN_Retriever_1Cx_hm589b82bd5</referenceName>
+        </templateDataProviders>
+        <templateDataProviders>
+            <definition>invocable://getEinsteinRetrieverResults/Default_National_Insurance_Retriever_1Cx_hm5263bb816</definition>
+            <label>Default National Insurance Retriever</label>
+            <parameters>
+                <definition>primitive://Integer</definition>
+                <isRequired>false</isRequired>
+                <parameterName>resultCount</parameterName>
+                <valueExpression>4</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://List&lt;String&gt;</definition>
+                <isRequired>false</isRequired>
+                <parameterName>outputFieldNames</parameterName>
+                <valueExpression>[&quot;Chunk&quot;,&quot;Data_Source&quot;]</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>true</isRequired>
+                <parameterName>searchText</parameterName>
+                <valueExpression>{!$Input:Query}</valueExpression>
+            </parameters>
+            <referenceName>EinsteinSearch:Default_National_Insurance_Retriever_1Cx_hm5263bb816</referenceName>
+        </templateDataProviders>
+        <versionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_2</versionIdentifier>
+    </templateVersions>
+    <templateVersions>
+        <content>###
+INSTRUCTIONS
+
+ 1. Analyze the query: Carefully read and understand the user&apos;s question or issue from the QUESTION section.
+ 2. At first, search &quot;KNOWLEDGE&quot;: Review the provided company &quot;KNOWLEDGE&quot; to find relevant information.
+2. a. If the query cannot be sufficiently answered, search &quot;WEB KNOWLEDGE&quot; to find relevant information
+
+ 3. Evaluate information: Determine if the available information in the &quot;KNOWLEDGE&quot; or &quot;WEB KNOWLEDGE&quot; section is sufficient to answer the QUESTION.
+ 4. Formulate response: To generate a reply &lt;generated_response&gt; to the user, you must follow these rules
+ a. Find the article-chunk(s) that is most relevant to answer the user query and VERBATIM extract the ID of the article to set &lt;source_id&gt; field in the response JSON. If you are unable to find the relevant article, set &lt;source_id&gt; to NONE.
+ b. Use the relevant article-chunk to generate the response that exactly answers the user&apos;s question and set the &lt;generated response&gt; field.
+ c. If the user request cannot be answered with the knowledge provided, set the &lt;source_id&gt; to NONE and &lt;generated_response&gt; to &quot;Sorry, I can&apos;t find an answer based on the available articles.&quot;
+ 5. Refine and deliver: Ensure your response is polite, professional and concise.
+ 6. Review response: Make sure that you have followed all of the above instructions, respond in the desired output format and you only strictly stick to the provided &quot;KNOWLEDGE&quot; or &quot;WEB KNOWLEDGE&quot; only to formulate your answer.
+
+ ###
+KNOWLEDGE:
+{!$EinsteinSearch:sfdc_ai__DynamicRetriever.results}
+
+ ###
+WEB KNOWLEDGE:
+{!$EinsteinSearch:Default_NBN_Retriever_1Cx_hm589b82bd5.results}
+{!$EinsteinSearch:Default_National_Insurance_Retriever_1Cx_hm5263bb816.results}
+
+ ###
+QUESTION:
+{!$Input:Query}
+
+ ###
+Response:
+</content>
+        <inputs>
+            <apiName>Query</apiName>
+            <definition>primitive://String</definition>
+            <referenceName>Input:Query</referenceName>
+            <required>true</required>
+        </inputs>
+        <inputs>
+            <apiName>RetrieverIdOrName</apiName>
+            <definition>primitive://String</definition>
+            <referenceName>Input:RetrieverIdOrName</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultGPT4Omni</primaryModel>
+        <status>Published</status>
+        <templateDataProviders>
+            <definition>invocable://getEinsteinRetrieverResults/sfdc_ai__DynamicRetriever</definition>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>false</isRequired>
+                <parameterName>retrieverIdOrName</parameterName>
+                <valueExpression>{!$Input:RetrieverIdOrName}</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>true</isRequired>
+                <parameterName>searchText</parameterName>
+                <valueExpression>{!$Input:Query}</valueExpression>
+            </parameters>
+            <referenceName>EinsteinSearch:sfdc_ai__DynamicRetriever</referenceName>
+        </templateDataProviders>
+        <templateDataProviders>
+            <definition>invocable://getEinsteinRetrieverResults/Default_NBN_Retriever_1Cx_hm589b82bd5</definition>
+            <label>Default NBN Retriever</label>
+            <parameters>
+                <definition>primitive://Integer</definition>
+                <isRequired>false</isRequired>
+                <parameterName>resultCount</parameterName>
+                <valueExpression>4</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://List&lt;String&gt;</definition>
+                <isRequired>false</isRequired>
+                <parameterName>outputFieldNames</parameterName>
+                <valueExpression>[&quot;Chunk&quot;,&quot;Data_Source&quot;]</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>true</isRequired>
+                <parameterName>searchText</parameterName>
+                <valueExpression>{!$Input:Query}</valueExpression>
+            </parameters>
+            <referenceName>EinsteinSearch:Default_NBN_Retriever_1Cx_hm589b82bd5</referenceName>
+        </templateDataProviders>
+        <templateDataProviders>
+            <definition>invocable://getEinsteinRetrieverResults/Default_National_Insurance_Retriever_1Cx_hm5263bb816</definition>
+            <label>Default National Insurance Retriever</label>
+            <parameters>
+                <definition>primitive://Integer</definition>
+                <isRequired>false</isRequired>
+                <parameterName>resultCount</parameterName>
+                <valueExpression>4</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://List&lt;String&gt;</definition>
+                <isRequired>false</isRequired>
+                <parameterName>outputFieldNames</parameterName>
+                <valueExpression>[&quot;Chunk&quot;,&quot;Data_Source&quot;]</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>true</isRequired>
+                <parameterName>searchText</parameterName>
+                <valueExpression>{!$Input:Query}</valueExpression>
+            </parameters>
+            <referenceName>EinsteinSearch:Default_National_Insurance_Retriever_1Cx_hm5263bb816</referenceName>
+        </templateDataProviders>
+        <versionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_4</versionIdentifier>
+    </templateVersions>
+    <templateVersions>
+        <content>###
+INSTRUCTIONS
+
+ 1. Analyze the query: Carefully read and understand the user&apos;s question or issue from the QUESTION section.
+ 2. At first, search &quot;KNOWLEDGE&quot;: Review the provided company &quot;KNOWLEDGE&quot; to find relevant information.
+2. a. If the query cannot be sufficiently answered, search &quot;WEB KNOWLEDGE&quot; to find relevant information
+
+ 3. Evaluate information: Determine if the available information in the &quot;KNOWLEDGE&quot; or &quot;WEB KNOWLEDGE&quot; section is sufficient to answer the QUESTION.
+ 4. Formulate response: To generate a reply &lt;generated_response&gt; to the user, you must follow these rules
+ a. Find the article-chunk(s) that is most relevant to answer the user query and VERBATIM extract the ID of the article to set &lt;source_id&gt; field in the response JSON. If you are unable to find the relevant article, set &lt;source_id&gt; to NONE.
+ b. Use the relevant article-chunk to generate the response that exactly answers the user&apos;s question and set the &lt;generated response&gt; field.
+ c. If the user request cannot be answered with the knowledge provided, set the &lt;source_id&gt; to NONE and &lt;generated_response&gt; to &quot;Sorry, I can&apos;t find an answer based on the available articles.&quot;
+ 5. Refine and deliver: Ensure your response is polite, professional and concise.
+ 6. Review response: Make sure that you have followed all of the above instructions, respond in the desired output format and you only strictly stick to the provided &quot;KNOWLEDGE&quot; or &quot;WEB KNOWLEDGE&quot; only to formulate your answer.
+
+ ###
+KNOWLEDGE:
+{!$EinsteinSearch:sfdc_ai__DynamicRetriever.results}
+
+ ###
+WEB KNOWLEDGE:
+{!$EinsteinSearch:Default_NBN_Retriever_1Cx_hm589b82bd5.results}
+{!$EinsteinSearch:Default_National_Insurance_Retriever_1Cx_hm5263bb816.results}
+
+ ###
+QUESTION:
+{!$Input:Query}
+
+ ###
+Response:
+</content>
+        <inputs>
+            <apiName>RetrieverIdOrName</apiName>
+            <definition>primitive://String</definition>
+            <referenceName>Input:RetrieverIdOrName</referenceName>
+            <required>true</required>
+        </inputs>
+        <inputs>
+            <apiName>Query</apiName>
+            <definition>primitive://String</definition>
+            <referenceName>Input:Query</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultGPT4Omni</primaryModel>
+        <status>Published</status>
+        <templateDataProviders>
+            <definition>invocable://getEinsteinRetrieverResults/Default_National_Insurance_Retriever_1Cx_hm5263bb816</definition>
+            <label>Default National Insurance Retriever</label>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>true</isRequired>
+                <parameterName>searchText</parameterName>
+                <valueExpression>{!$Input:Query}</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://List&lt;String&gt;</definition>
+                <isRequired>false</isRequired>
+                <parameterName>outputFieldNames</parameterName>
+                <valueExpression>[&quot;Chunk&quot;,&quot;Data_Source&quot;]</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://Integer</definition>
+                <isRequired>false</isRequired>
+                <parameterName>resultCount</parameterName>
+                <valueExpression>10</valueExpression>
+            </parameters>
+            <referenceName>EinsteinSearch:Default_National_Insurance_Retriever_1Cx_hm5263bb816</referenceName>
+        </templateDataProviders>
+        <templateDataProviders>
+            <definition>invocable://getEinsteinRetrieverResults/Default_NBN_Retriever_1Cx_hm589b82bd5</definition>
+            <label>Default NBN Retriever</label>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>true</isRequired>
+                <parameterName>searchText</parameterName>
+                <valueExpression>{!$Input:Query}</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://List&lt;String&gt;</definition>
+                <isRequired>false</isRequired>
+                <parameterName>outputFieldNames</parameterName>
+                <valueExpression>[&quot;Chunk&quot;,&quot;Data_Source&quot;]</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://Integer</definition>
+                <isRequired>false</isRequired>
+                <parameterName>resultCount</parameterName>
+                <valueExpression>10</valueExpression>
+            </parameters>
+            <referenceName>EinsteinSearch:Default_NBN_Retriever_1Cx_hm589b82bd5</referenceName>
+        </templateDataProviders>
+        <templateDataProviders>
+            <definition>invocable://getEinsteinRetrieverResults/sfdc_ai__DynamicRetriever</definition>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>true</isRequired>
+                <parameterName>searchText</parameterName>
+                <valueExpression>{!$Input:Query}</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>false</isRequired>
+                <parameterName>retrieverIdOrName</parameterName>
+                <valueExpression>{!$Input:RetrieverIdOrName}</valueExpression>
+            </parameters>
+            <referenceName>EinsteinSearch:sfdc_ai__DynamicRetriever</referenceName>
+        </templateDataProviders>
+        <versionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_5</versionIdentifier>
+    </templateVersions>
+    <templateVersions>
+        <content>###
+INSTRUCTIONS
+
+ 1. Analyze the query: Carefully read and understand the user&apos;s question or issue from the QUESTION section.
+ 2. At first, search &quot;KNOWLEDGE&quot;: Review the provided company &quot;KNOWLEDGE&quot; to find relevant information.
+2. a. If the query cannot be sufficiently answered, search &quot;WEB KNOWLEDGE&quot; to find relevant information
+
+ 3. Evaluate information: Determine if the available information in the &quot;KNOWLEDGE&quot; or &quot;WEB KNOWLEDGE&quot; section is sufficient to answer the QUESTION.
+ 4. Formulate response: To generate a reply &lt;generated_response&gt; to the user, you must follow these rules
+ a. Find the article-chunk(s) that is most relevant to answer the user query and VERBATIM extract the ID of the article to set &lt;source_id&gt; field in the response JSON. If you are unable to find the relevant article, set &lt;source_id&gt; to NONE.
+ b. Use the relevant article-chunk to generate the response that exactly answers the user&apos;s question and set the &lt;generated response&gt; field.
+ c. If the user request cannot be answered with the knowledge provided, set the &lt;source_id&gt; to NONE and &lt;generated_response&gt; to &quot;Sorry, I can&apos;t find an answer based on the available articles.&quot;
+ 5. Refine and deliver: Ensure your response is polite, professional and concise.
+ 6. Review response: Make sure that you have followed all of the above instructions, respond in the desired output format and you only strictly stick to the provided &quot;KNOWLEDGE&quot; or &quot;WEB KNOWLEDGE&quot; only to formulate your answer.
+
+ ###
+KNOWLEDGE:
+{!$EinsteinSearch:sfdc_ai__DynamicRetriever.results}
+
+ ###
+WEB KNOWLEDGE:
+{!$EinsteinSearch:Default_NBN_Retriever_1Cx_hm589b82bd5.results}
+{!$EinsteinSearch:Default_National_Insurance_Retriever_1Cx_hm5263bb816.results}
+
+ ###
+QUESTION:
+{!$Input:Query}
+
+ ###
+Response:
+</content>
+        <inputs>
+            <apiName>Query</apiName>
+            <definition>primitive://String</definition>
+            <referenceName>Input:Query</referenceName>
+            <required>true</required>
+        </inputs>
+        <inputs>
+            <apiName>RetrieverIdOrName</apiName>
+            <definition>primitive://String</definition>
+            <referenceName>Input:RetrieverIdOrName</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultGPT4Omni</primaryModel>
+        <status>Published</status>
+        <templateDataProviders>
+            <definition>invocable://getEinsteinRetrieverResults/sfdc_ai__DynamicRetriever</definition>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>false</isRequired>
+                <parameterName>retrieverIdOrName</parameterName>
+                <valueExpression>{!$Input:RetrieverIdOrName}</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>true</isRequired>
+                <parameterName>searchText</parameterName>
+                <valueExpression>{!$Input:Query}</valueExpression>
+            </parameters>
+            <referenceName>EinsteinSearch:sfdc_ai__DynamicRetriever</referenceName>
+        </templateDataProviders>
+        <templateDataProviders>
+            <definition>invocable://getEinsteinRetrieverResults/Default_NBN_Retriever_1Cx_hm589b82bd5</definition>
+            <label>Default NBN Retriever</label>
+            <parameters>
+                <definition>primitive://Integer</definition>
+                <isRequired>false</isRequired>
+                <parameterName>resultCount</parameterName>
+                <valueExpression>10</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://List&lt;String&gt;</definition>
+                <isRequired>false</isRequired>
+                <parameterName>outputFieldNames</parameterName>
+                <valueExpression>[&quot;Chunk&quot;,&quot;Data_Source&quot;,&quot;Data_Source_Object&quot;]</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>true</isRequired>
+                <parameterName>searchText</parameterName>
+                <valueExpression>{!$Input:Query}</valueExpression>
+            </parameters>
+            <referenceName>EinsteinSearch:Default_NBN_Retriever_1Cx_hm589b82bd5</referenceName>
+        </templateDataProviders>
+        <templateDataProviders>
+            <definition>invocable://getEinsteinRetrieverResults/Default_National_Insurance_Retriever_1Cx_hm5263bb816</definition>
+            <label>Default National Insurance Retriever</label>
+            <parameters>
+                <definition>primitive://Integer</definition>
+                <isRequired>false</isRequired>
+                <parameterName>resultCount</parameterName>
+                <valueExpression>10</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://List&lt;String&gt;</definition>
+                <isRequired>false</isRequired>
+                <parameterName>outputFieldNames</parameterName>
+                <valueExpression>[&quot;Chunk&quot;,&quot;Data_Source&quot;,&quot;Data_Source_Object&quot;]</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>true</isRequired>
+                <parameterName>searchText</parameterName>
+                <valueExpression>{!$Input:Query}</valueExpression>
+            </parameters>
+            <referenceName>EinsteinSearch:Default_National_Insurance_Retriever_1Cx_hm5263bb816</referenceName>
+        </templateDataProviders>
+        <versionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_6</versionIdentifier>
+    </templateVersions>
+    <templateVersions>
+        <content>###
+INSTRUCTIONS
+
+ 1. Analyze the query: Carefully read and understand the user&apos;s question or issue from the QUESTION section.
+ 2. At first, search &quot;KNOWLEDGE&quot;: Review the provided company &quot;KNOWLEDGE&quot; to find relevant information.
+2. a. If the query cannot be sufficiently answered, search NBN KNOWLEDGE&quot; and &quot;BTL KNOWLEDGE&quot; to find relevant information
+
+ 3. Evaluate information: Determine if the available information in the &quot;KNOWLEDGE&quot; or &quot;NBN KNOWLEDGE&quot; or &quot;BTL KNOWLEDGE&quot; section is sufficient to answer the QUESTION.
+ 4. Formulate response: To generate a reply &lt;generated_response&gt; to the user, you must follow these rules
+ a. Find the article-chunk(s) that is most relevant to answer the user query and set &lt;source_id&gt; field as &quot;Knowledge&quot; for  an article-chunk from &quot;KNOWLEDGE&quot;, as &quot;Nefesh B&apos;Nefesh&quot; for an article-chunk from &quot;NBN KNOWLEDGE&quot; or as &quot;National Insurance&quot; for an article-chunk from &quot;BTL KNOWLEDGE&quot;. If you are unable to find the relevant article, set &lt;source_id&gt; to NONE.
+ b. Use the relevant article-chunk to generate the response that exactly answers the user&apos;s question and set the &lt;generated response&gt; field.
+ c. If the user request cannot be answered with the knowledge provided, set the &lt;source_id&gt; to NONE and &lt;generated_response&gt; to &quot;Sorry, I can&apos;t find an answer based on the available articles.&quot;
+ 5. Refine and deliver: Ensure your response is polite, professional and concise.
+ 6. Review response: Make sure that you have followed all of the above instructions, respond in the desired output format and you only strictly stick to the provided &quot;KNOWLEDGE&quot; or &quot;WEB KNOWLEDGE&quot; only to formulate your answer.
+
+ ###
+KNOWLEDGE:
+{!$EinsteinSearch:sfdc_ai__DynamicRetriever.results}
+
+ ###
+NBN KNOWLEDGE:
+{!$EinsteinSearch:Default_NBN_Retriever_1Cx_hm589b82bd5.results}
+
+ ###
+BTL KNOWLEDGE:
+{!$EinsteinSearch:Default_National_Insurance_Retriever_1Cx_hm5263bb816.results}
+
+ ###
+QUESTION:
+{!$Input:Query}
+
+ ###
+Response:
+</content>
+        <inputs>
+            <apiName>RetrieverIdOrName</apiName>
+            <definition>primitive://String</definition>
+            <referenceName>Input:RetrieverIdOrName</referenceName>
+            <required>true</required>
+        </inputs>
+        <inputs>
+            <apiName>Query</apiName>
+            <definition>primitive://String</definition>
+            <referenceName>Input:Query</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultGPT4Omni</primaryModel>
+        <status>Published</status>
+        <templateDataProviders>
+            <definition>invocable://getEinsteinRetrieverResults/Default_National_Insurance_Retriever_1Cx_hm5263bb816</definition>
+            <label>Default National Insurance Retriever</label>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>true</isRequired>
+                <parameterName>searchText</parameterName>
+                <valueExpression>{!$Input:Query}</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://List&lt;String&gt;</definition>
+                <isRequired>false</isRequired>
+                <parameterName>outputFieldNames</parameterName>
+                <valueExpression>[&quot;Chunk&quot;,&quot;Data_Source&quot;,&quot;Data_Source_Object&quot;]</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://Integer</definition>
+                <isRequired>false</isRequired>
+                <parameterName>resultCount</parameterName>
+                <valueExpression>10</valueExpression>
+            </parameters>
+            <referenceName>EinsteinSearch:Default_National_Insurance_Retriever_1Cx_hm5263bb816</referenceName>
+        </templateDataProviders>
+        <templateDataProviders>
+            <definition>invocable://getEinsteinRetrieverResults/Default_NBN_Retriever_1Cx_hm589b82bd5</definition>
+            <label>Default NBN Retriever</label>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>true</isRequired>
+                <parameterName>searchText</parameterName>
+                <valueExpression>{!$Input:Query}</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://List&lt;String&gt;</definition>
+                <isRequired>false</isRequired>
+                <parameterName>outputFieldNames</parameterName>
+                <valueExpression>[&quot;Chunk&quot;,&quot;Data_Source&quot;,&quot;Data_Source_Object&quot;]</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://Integer</definition>
+                <isRequired>false</isRequired>
+                <parameterName>resultCount</parameterName>
+                <valueExpression>10</valueExpression>
+            </parameters>
+            <referenceName>EinsteinSearch:Default_NBN_Retriever_1Cx_hm589b82bd5</referenceName>
+        </templateDataProviders>
+        <templateDataProviders>
+            <definition>invocable://getEinsteinRetrieverResults/sfdc_ai__DynamicRetriever</definition>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>true</isRequired>
+                <parameterName>searchText</parameterName>
+                <valueExpression>{!$Input:Query}</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>false</isRequired>
+                <parameterName>retrieverIdOrName</parameterName>
+                <valueExpression>{!$Input:RetrieverIdOrName}</valueExpression>
+            </parameters>
+            <referenceName>EinsteinSearch:sfdc_ai__DynamicRetriever</referenceName>
+        </templateDataProviders>
+        <versionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_7</versionIdentifier>
+    </templateVersions>
+    <templateVersions>
+        <content>###
+INSTRUCTIONS
+
+ 1. Analyze the query: Carefully read and understand the user&apos;s question or issue from the QUESTION section.
+ 2. At first, search &quot;KNOWLEDGE&quot;: Review the provided company &quot;KNOWLEDGE&quot; to find relevant information.
+2. a. If the query cannot be sufficiently answered, search NBN KNOWLEDGE&quot; and &quot;BTL KNOWLEDGE&quot; to find relevant information
+
+ 3. Evaluate information: Determine if the available information in the &quot;KNOWLEDGE&quot; or &quot;NBN KNOWLEDGE&quot; or &quot;BTL KNOWLEDGE&quot; section is sufficient to answer the QUESTION.
+ 4. Formulate response: To generate a reply &lt;generated_response&gt; to the user, you must follow these rules
+ a. Find the article-chunk(s) that is most relevant to answer the user query and set &lt;source_id&gt; field to the word &quot;Knowledge&quot; for  an article-chunk that came from &quot;KNOWLEDGE&quot;, as the word &quot;Nefesh B&apos;Nefesh&quot; for an article-chunk that came from &quot;NBN KNOWLEDGE&quot; or as the word &quot;National Insurance&quot; for an article-chunk that came from &quot;BTL KNOWLEDGE&quot;. If you are unable to find the relevant article, set &lt;source_id&gt; to NONE.
+ b. Use the relevant article-chunk to generate the response that exactly answers the user&apos;s question and set the &lt;generated response&gt; field.
+ c. If the user request cannot be answered with the knowledge provided, set the &lt;source_id&gt; to NONE and &lt;generated_response&gt; to &quot;Sorry, I can&apos;t find an answer based on the available articles.&quot;
+ 5. Refine and deliver: Ensure your response is polite, professional and concise.
+ 6. Review response: Make sure that you have followed all of the above instructions, respond in the desired output format and you only strictly stick to the provided &quot;KNOWLEDGE&quot; or &quot;WEB KNOWLEDGE&quot; only to formulate your answer.
+
+ ###
+KNOWLEDGE:
+{!$EinsteinSearch:sfdc_ai__DynamicRetriever.results}
+
+ ###
+NBN KNOWLEDGE:
+{!$EinsteinSearch:Default_NBN_Retriever_1Cx_hm589b82bd5.results}
+
+ ###
+BTL KNOWLEDGE:
+{!$EinsteinSearch:Default_National_Insurance_Retriever_1Cx_hm5263bb816.results}
+
+ ###
+QUESTION:
+{!$Input:Query}
+
+ ###
+Response:
+</content>
+        <inputs>
+            <apiName>Query</apiName>
+            <definition>primitive://String</definition>
+            <referenceName>Input:Query</referenceName>
+            <required>true</required>
+        </inputs>
+        <inputs>
+            <apiName>RetrieverIdOrName</apiName>
+            <definition>primitive://String</definition>
+            <referenceName>Input:RetrieverIdOrName</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultGPT4Omni</primaryModel>
+        <status>Published</status>
+        <templateDataProviders>
+            <definition>invocable://getEinsteinRetrieverResults/sfdc_ai__DynamicRetriever</definition>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>false</isRequired>
+                <parameterName>retrieverIdOrName</parameterName>
+                <valueExpression>{!$Input:RetrieverIdOrName}</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>true</isRequired>
+                <parameterName>searchText</parameterName>
+                <valueExpression>{!$Input:Query}</valueExpression>
+            </parameters>
+            <referenceName>EinsteinSearch:sfdc_ai__DynamicRetriever</referenceName>
+        </templateDataProviders>
+        <templateDataProviders>
+            <definition>invocable://getEinsteinRetrieverResults/Default_NBN_Retriever_1Cx_hm589b82bd5</definition>
+            <label>Default NBN Retriever</label>
+            <parameters>
+                <definition>primitive://Integer</definition>
+                <isRequired>false</isRequired>
+                <parameterName>resultCount</parameterName>
+                <valueExpression>10</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://List&lt;String&gt;</definition>
+                <isRequired>false</isRequired>
+                <parameterName>outputFieldNames</parameterName>
+                <valueExpression>[&quot;Chunk&quot;,&quot;Data_Source&quot;,&quot;Data_Source_Object&quot;]</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>true</isRequired>
+                <parameterName>searchText</parameterName>
+                <valueExpression>{!$Input:Query}</valueExpression>
+            </parameters>
+            <referenceName>EinsteinSearch:Default_NBN_Retriever_1Cx_hm589b82bd5</referenceName>
+        </templateDataProviders>
+        <templateDataProviders>
+            <definition>invocable://getEinsteinRetrieverResults/Default_National_Insurance_Retriever_1Cx_hm5263bb816</definition>
+            <label>Default National Insurance Retriever</label>
+            <parameters>
+                <definition>primitive://Integer</definition>
+                <isRequired>false</isRequired>
+                <parameterName>resultCount</parameterName>
+                <valueExpression>10</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://List&lt;String&gt;</definition>
+                <isRequired>false</isRequired>
+                <parameterName>outputFieldNames</parameterName>
+                <valueExpression>[&quot;Chunk&quot;,&quot;Data_Source&quot;,&quot;Data_Source_Object&quot;]</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>true</isRequired>
+                <parameterName>searchText</parameterName>
+                <valueExpression>{!$Input:Query}</valueExpression>
+            </parameters>
+            <referenceName>EinsteinSearch:Default_National_Insurance_Retriever_1Cx_hm5263bb816</referenceName>
+        </templateDataProviders>
+        <versionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_8</versionIdentifier>
+    </templateVersions>
+    <templateVersions>
+        <content>###
+INSTRUCTIONS
+
+ 1. Analyze the query: Carefully read and understand the user&apos;s question or issue from the QUESTION section.
+ 2. At first, search &quot;KNOWLEDGE&quot;: Review the provided company &quot;KNOWLEDGE&quot; to find relevant information.
+2. a. If the query cannot be sufficiently answered, search NBN KNOWLEDGE&quot; and &quot;BTL KNOWLEDGE&quot; to find relevant information
+
+ 3. Evaluate information: Determine if the available information in the &quot;KNOWLEDGE&quot; or &quot;NBN KNOWLEDGE&quot; or &quot;BTL KNOWLEDGE&quot; section is sufficient to answer the QUESTION.
+ 4. Formulate response: To generate a reply &lt;generated_response&gt; to the user, you must follow these rules
+ a. Find the article-chunk(s) that is most relevant to answer the user query and set &lt;source_id&gt; field to the word &quot;Knowledge&quot; for  an article-chunk that came from &quot;KNOWLEDGE&quot;, as the word &quot;Nefesh B&apos;Nefesh&quot; for an article-chunk that came from &quot;NBN KNOWLEDGE&quot; or as the word &quot;National Insurance&quot; for an article-chunk that came from &quot;BTL KNOWLEDGE&quot;. If you are unable to find the relevant article, set &lt;source_id&gt; to NONE.
+ b. Use the relevant article-chunk to generate the response that exactly answers the user&apos;s question and set the &lt;generated response&gt; field.
+ c. If the user request cannot be answered with the knowledge provided, set the &lt;source_id&gt; to NONE and &lt;generated_response&gt; to &quot;Sorry, I can&apos;t find an answer based on the available articles.&quot;
+ 5. Refine and deliver: Ensure your response is polite, professional and concise.
+ 6. Review response: Make sure that you have followed all of the above instructions, respond in the desired output format and you only strictly stick to the provided &quot;KNOWLEDGE&quot; or &quot;WEB KNOWLEDGE&quot; only to formulate your answer.
+
+ ###
+KNOWLEDGE:
+{!$EinsteinSearch:sfdc_ai__DynamicRetriever.results}
+
+ ###
+NBN KNOWLEDGE:
+{!$EinsteinSearch:Default_NBN_Retriever_1Cx_hm589b82bd5.results}
+
+ ###
+BTL KNOWLEDGE:
+{!$EinsteinSearch:Default_National_Insurance_Retriever_1Cx_hm5263bb816.results}
+
+ ###
+QUESTION:
+{!$Input:Query}
+
+ ###
+Response:
+</content>
+        <inputs>
+            <apiName>RetrieverIdOrName</apiName>
+            <definition>primitive://String</definition>
+            <referenceName>Input:RetrieverIdOrName</referenceName>
+            <required>true</required>
+        </inputs>
+        <inputs>
+            <apiName>Query</apiName>
+            <definition>primitive://String</definition>
+            <referenceName>Input:Query</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultGPT4Omni</primaryModel>
+        <status>Published</status>
+        <templateDataProviders>
+            <definition>invocable://getEinsteinRetrieverResults/Default_National_Insurance_Retriever_1Cx_hm5263bb816</definition>
+            <label>Default National Insurance Retriever</label>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>true</isRequired>
+                <parameterName>searchText</parameterName>
+                <valueExpression>{!$Input:Query}</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://List&lt;String&gt;</definition>
+                <isRequired>false</isRequired>
+                <parameterName>outputFieldNames</parameterName>
+                <valueExpression>[&quot;Chunk&quot;,&quot;Data_Source&quot;,&quot;Data_Source_Object&quot;]</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://Integer</definition>
+                <isRequired>false</isRequired>
+                <parameterName>resultCount</parameterName>
+                <valueExpression>10</valueExpression>
+            </parameters>
+            <referenceName>EinsteinSearch:Default_National_Insurance_Retriever_1Cx_hm5263bb816</referenceName>
+        </templateDataProviders>
+        <templateDataProviders>
+            <definition>invocable://getEinsteinRetrieverResults/Default_NBN_Retriever_1Cx_hm589b82bd5</definition>
+            <label>Default NBN Retriever</label>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>true</isRequired>
+                <parameterName>searchText</parameterName>
+                <valueExpression>{!$Input:Query}</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://List&lt;String&gt;</definition>
+                <isRequired>false</isRequired>
+                <parameterName>outputFieldNames</parameterName>
+                <valueExpression>[&quot;Chunk&quot;,&quot;Data_Source&quot;,&quot;Data_Source_Object&quot;]</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://Integer</definition>
+                <isRequired>false</isRequired>
+                <parameterName>resultCount</parameterName>
+                <valueExpression>10</valueExpression>
+            </parameters>
+            <referenceName>EinsteinSearch:Default_NBN_Retriever_1Cx_hm589b82bd5</referenceName>
+        </templateDataProviders>
+        <templateDataProviders>
+            <definition>invocable://getEinsteinRetrieverResults/sfdc_ai__DynamicRetriever</definition>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>true</isRequired>
+                <parameterName>searchText</parameterName>
+                <valueExpression>{!$Input:Query}</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>false</isRequired>
+                <parameterName>retrieverIdOrName</parameterName>
+                <valueExpression>{!$Input:RetrieverIdOrName}</valueExpression>
+            </parameters>
+            <referenceName>EinsteinSearch:sfdc_ai__DynamicRetriever</referenceName>
+        </templateDataProviders>
+        <versionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_13</versionIdentifier>
+    </templateVersions>
+    <templateVersions>
+        <content>###
+INSTRUCTIONS
+
+ 1. Analyze the query: Carefully read and understand the user&apos;s question or issue from the QUESTION section.
+ 2. At first, search &quot;KNOWLEDGE&quot;: Review the provided company &quot;KNOWLEDGE&quot; to find relevant information.
+2. a. If the query cannot be sufficiently answered, search NBN KNOWLEDGE&quot; and &quot;BTL KNOWLEDGE&quot; to find relevant information
+
+ 3. Evaluate information: Determine if the available information in the &quot;KNOWLEDGE&quot; or &quot;NBN KNOWLEDGE&quot; or &quot;BTL KNOWLEDGE&quot; section is sufficient to answer the QUESTION.
+ 4. Formulate response: To generate a reply &lt;generated_response&gt; to the user, you must follow these rules
+ a. Find the article-chunk(s) that is most relevant to answer the user query and set &lt;source_id&gt; field to the word &quot;Knowledge&quot; for  an article-chunk that came from &quot;KNOWLEDGE&quot;, as the url &quot;https://www.nbn.org.il/&quot; for an article-chunk that came from &quot;NBN KNOWLEDGE&quot; or as the URL &quot;https://www.btl.gov.il/English%20homepage/Pages/default.aspx&quot; for an article-chunk that came from &quot;BTL KNOWLEDGE&quot;. If you are unable to find the relevant article, set &lt;source_id&gt; to NONE.
+ b. Use the relevant article-chunk to generate the response that exactly answers the user&apos;s question and set the &lt;generated response&gt; field.
+ c. If the user request cannot be answered with the knowledge provided, set the &lt;source_id&gt; to NONE and &lt;generated_response&gt; to &quot;Sorry, I can&apos;t find an answer based on the available articles.&quot;
+ 5. Refine and deliver: Ensure your response is polite, professional and concise.
+ 6. Review response: Make sure that you have followed all of the above instructions, respond in the desired output format and you only strictly stick to the provided &quot;KNOWLEDGE&quot; or &quot;WEB KNOWLEDGE&quot; only to formulate your answer.
+
+ ###
+KNOWLEDGE:
+{!$EinsteinSearch:sfdc_ai__DynamicRetriever.results}
+
+ ###
+NBN KNOWLEDGE:
+{!$EinsteinSearch:Default_NBN_Retriever_1Cx_hm589b82bd5.results}
+
+ ###
+BTL KNOWLEDGE:
+{!$EinsteinSearch:Default_National_Insurance_Retriever_1Cx_hm5263bb816.results}
+
+ ###
+QUESTION:
+{!$Input:Query}
+
+ ###
+Response:
+</content>
+        <inputs>
+            <apiName>Query</apiName>
+            <definition>primitive://String</definition>
+            <referenceName>Input:Query</referenceName>
+            <required>true</required>
+        </inputs>
+        <inputs>
+            <apiName>RetrieverIdOrName</apiName>
+            <definition>primitive://String</definition>
+            <referenceName>Input:RetrieverIdOrName</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultGPT4Omni</primaryModel>
+        <status>Published</status>
+        <templateDataProviders>
+            <definition>invocable://getEinsteinRetrieverResults/sfdc_ai__DynamicRetriever</definition>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>false</isRequired>
+                <parameterName>retrieverIdOrName</parameterName>
+                <valueExpression>{!$Input:RetrieverIdOrName}</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>true</isRequired>
+                <parameterName>searchText</parameterName>
+                <valueExpression>{!$Input:Query}</valueExpression>
+            </parameters>
+            <referenceName>EinsteinSearch:sfdc_ai__DynamicRetriever</referenceName>
+        </templateDataProviders>
+        <templateDataProviders>
+            <definition>invocable://getEinsteinRetrieverResults/Default_NBN_Retriever_1Cx_hm589b82bd5</definition>
+            <label>Default NBN Retriever</label>
+            <parameters>
+                <definition>primitive://Integer</definition>
+                <isRequired>false</isRequired>
+                <parameterName>resultCount</parameterName>
+                <valueExpression>10</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://List&lt;String&gt;</definition>
+                <isRequired>false</isRequired>
+                <parameterName>outputFieldNames</parameterName>
+                <valueExpression>[&quot;Chunk&quot;,&quot;Data_Source&quot;,&quot;Data_Source_Object&quot;]</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>true</isRequired>
+                <parameterName>searchText</parameterName>
+                <valueExpression>{!$Input:Query}</valueExpression>
+            </parameters>
+            <referenceName>EinsteinSearch:Default_NBN_Retriever_1Cx_hm589b82bd5</referenceName>
+        </templateDataProviders>
+        <templateDataProviders>
+            <definition>invocable://getEinsteinRetrieverResults/Default_National_Insurance_Retriever_1Cx_hm5263bb816</definition>
+            <label>Default National Insurance Retriever</label>
+            <parameters>
+                <definition>primitive://Integer</definition>
+                <isRequired>false</isRequired>
+                <parameterName>resultCount</parameterName>
+                <valueExpression>10</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://List&lt;String&gt;</definition>
+                <isRequired>false</isRequired>
+                <parameterName>outputFieldNames</parameterName>
+                <valueExpression>[&quot;Chunk&quot;,&quot;Data_Source&quot;,&quot;Data_Source_Object&quot;]</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>true</isRequired>
+                <parameterName>searchText</parameterName>
+                <valueExpression>{!$Input:Query}</valueExpression>
+            </parameters>
+            <referenceName>EinsteinSearch:Default_National_Insurance_Retriever_1Cx_hm5263bb816</referenceName>
+        </templateDataProviders>
+        <versionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_14</versionIdentifier>
+    </templateVersions>
+    <templateVersions>
+        <content>###
+INSTRUCTIONS
+
+ 1. Analyze the query: Carefully read and understand the user&apos;s question or issue from the QUESTION section.
+ 2. At first, search &quot;KNOWLEDGE&quot;: Review the provided company &quot;KNOWLEDGE&quot; to find relevant information.
+2. a. If the query cannot be sufficiently answered, search NBN KNOWLEDGE&quot; and &quot;BTL KNOWLEDGE&quot; to find relevant information
+
+ 3. Evaluate information: Determine if the available information in the &quot;KNOWLEDGE&quot; or &quot;NBN KNOWLEDGE&quot; or &quot;BTL KNOWLEDGE&quot; section is sufficient to answer the QUESTION.
+ 4. Formulate response: To generate a reply &lt;generated_response&gt; to the user, you must follow these rules
+ a. Find the article-chunk(s) that is most relevant to answer the user query and set &lt;source_id&gt; field to the word &quot;Knowledge&quot; for  an article-chunk that came from &quot;KNOWLEDGE&quot;, as the url &quot;https://www.nbn.org.il/&quot; for an article-chunk that came from &quot;NBN KNOWLEDGE&quot; or as the URL &quot;https://www.btl.gov.il/English%20homepage/Pages/default.aspx&quot; for an article-chunk that came from &quot;BTL KNOWLEDGE&quot;. If you are unable to find the relevant article, set &lt;source_id&gt; to NONE.
+ b. Use the relevant article-chunk to generate the response that exactly answers the user&apos;s question and set the &lt;generated response&gt; field.
+ c. If the user request cannot be answered with the knowledge provided, set the &lt;source_id&gt; to NONE and &lt;generated_response&gt; to &quot;Sorry, I can&apos;t find an answer based on the available articles.&quot;
+ 5. Refine and deliver: Ensure your response is polite, professional and concise.  If a link is provided from the chunk do not filter it out.
+ 6. Review response: Make sure that you have followed all of the above instructions, respond in the desired output format and you only strictly stick to the provided &quot;KNOWLEDGE&quot; or &quot;WEB KNOWLEDGE&quot; only to formulate your answer.
+
+ ###
+KNOWLEDGE:
+{!$EinsteinSearch:sfdc_ai__DynamicRetriever.results}
+
+ ###
+NBN KNOWLEDGE:
+{!$EinsteinSearch:Default_NBN_Retriever_1Cx_hm589b82bd5.results}
+
+ ###
+BTL KNOWLEDGE:
+{!$EinsteinSearch:Default_National_Insurance_Retriever_1Cx_hm5263bb816.results}
+
+ ###
+QUESTION:
+{!$Input:Query}
+
+ ###
+Response:
+</content>
+        <inputs>
+            <apiName>Query</apiName>
+            <definition>primitive://String</definition>
+            <referenceName>Input:Query</referenceName>
+            <required>true</required>
+        </inputs>
+        <inputs>
+            <apiName>RetrieverIdOrName</apiName>
+            <definition>primitive://String</definition>
+            <referenceName>Input:RetrieverIdOrName</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultGPT4Omni</primaryModel>
+        <status>Published</status>
+        <templateDataProviders>
+            <definition>invocable://getEinsteinRetrieverResults/sfdc_ai__DynamicRetriever</definition>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>false</isRequired>
+                <parameterName>retrieverIdOrName</parameterName>
+                <valueExpression>{!$Input:RetrieverIdOrName}</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>true</isRequired>
+                <parameterName>searchText</parameterName>
+                <valueExpression>{!$Input:Query}</valueExpression>
+            </parameters>
+            <referenceName>EinsteinSearch:sfdc_ai__DynamicRetriever</referenceName>
+        </templateDataProviders>
+        <templateDataProviders>
+            <definition>invocable://getEinsteinRetrieverResults/Default_NBN_Retriever_1Cx_hm589b82bd5</definition>
+            <label>Default NBN Retriever</label>
+            <parameters>
+                <definition>primitive://Integer</definition>
+                <isRequired>false</isRequired>
+                <parameterName>resultCount</parameterName>
+                <valueExpression>10</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://List&lt;String&gt;</definition>
+                <isRequired>false</isRequired>
+                <parameterName>outputFieldNames</parameterName>
+                <valueExpression>[&quot;Chunk&quot;,&quot;Data_Source&quot;,&quot;Data_Source_Object&quot;]</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>true</isRequired>
+                <parameterName>searchText</parameterName>
+                <valueExpression>{!$Input:Query}</valueExpression>
+            </parameters>
+            <referenceName>EinsteinSearch:Default_NBN_Retriever_1Cx_hm589b82bd5</referenceName>
+        </templateDataProviders>
+        <templateDataProviders>
+            <definition>invocable://getEinsteinRetrieverResults/Default_National_Insurance_Retriever_1Cx_hm5263bb816</definition>
+            <label>Default National Insurance Retriever</label>
+            <parameters>
+                <definition>primitive://Integer</definition>
+                <isRequired>false</isRequired>
+                <parameterName>resultCount</parameterName>
+                <valueExpression>10</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://List&lt;String&gt;</definition>
+                <isRequired>false</isRequired>
+                <parameterName>outputFieldNames</parameterName>
+                <valueExpression>[&quot;Chunk&quot;,&quot;Data_Source&quot;,&quot;Data_Source_Object&quot;]</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>true</isRequired>
+                <parameterName>searchText</parameterName>
+                <valueExpression>{!$Input:Query}</valueExpression>
+            </parameters>
+            <referenceName>EinsteinSearch:Default_National_Insurance_Retriever_1Cx_hm5263bb816</referenceName>
+        </templateDataProviders>
+        <versionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_15</versionIdentifier>
+    </templateVersions>
+    <templateVersions>
+        <content>### INSTRUCTIONS
+Your primary task is to act as an expert information synthesizer. You must intelligently **identify, extract, and formulate** an answer that precisely and completely addresses the user&apos;s question based *only* on the provided KNOWLEDGE.
+
+**Core Goal: Precision over Quotation and Synthesis.**
+Do not simply return entire paragraphs or boilerplate text. The measure of a successful answer is its **relevance** and **completeness** to the user&apos;s specific scenario, not its length.
+
+#### Synthesis Rules:
+
+1. **Analyze and Deconstruct:** Carefully read and fully understand the user&apos;s **QUESTION**. Break down complex questions into their component parts (e.g., &quot;divorce,&quot; &quot;minor children,&quot; &quot;conversion,&quot; &quot;required documents&quot;).
+2. **Intelligent Extraction:** Search the KNOWLEDGE base and identify the specific, granular facts and rules that directly address *each* component of the user&apos;s question.
+3. **Formulate the Answer (&lt;generated_response&gt;):**
+  * **Simple Query Rule (STRICT):** If the question is a direct query about **eligibility** (e.g., &quot;Am I eligible for X?&quot;), the answer must be a **single, concise, direct statement** affirming or denying eligibility based on the KNOWLEDGE. **DO NOT** include any details about required documents, evidence, or next steps in the response.
+    * *Example:* &quot;Yes, according to the criteria defined in the Law of Return, a grandchild of a Jew is eligible to immigrate to Israel and receive Israeli citizenship.&quot;
+  * **Complex Query Rule:** If the question explicitly asks for **required documents, procedures, or complex scenarios**, provide a structured, comprehensive response that addresses all parts of the query.
+  * **List Formatting (STRICT RULE):** If the answer requires listing documents, requirements, or similar items, you must **ONLY** list the main categories or titles (e.g., &quot;Proof of Conversion,&quot; &quot;Proof of Custody&quot;). **STRICTLY OMIT** any subsequent explanations, sub-bullet points, or detailed descriptions for each list item.
+  * **Prioritize Relevance:** Ensure every piece of information in the final answer is **relevant** and directly addresses the user&apos;s prompt.
+  * **Professional Tone:** Ensure the response is polite, professional, and clear.
+
+4. **Source Identification (&lt;source_id&gt;):** Find the ID of the article-chunk(s) that were the **most relevant and necessary** to construct the final answer. **VERBATIM** extract this ID to set the &lt;source_id&gt; field. If multiple chunks were critical, list the single most important one.
+5. **Handling Missing Information:** If the user&apos;s request **cannot be answered** with the information provided in the KNOWLEDGE, set the &lt;source_id&gt; to $\text{NONE}$ and the &lt;generated_response&gt; to &quot;Sorry, I can&apos;t find an answer based on the available articles.&quot;
+
+6. **Review and Deliver:** Strictly adhere to the output format and ensure the response is formulated *only* from the provided KNOWLEDGE.
+ ###
+KNOWLEDGE:
+{!$EinsteinSearch:sfdc_ai__DynamicRetriever.results}
+
+ ###
+QUESTION:
+{!$Input:Query}
+
+ ###
+Response:
+</content>
+        <inputs>
+            <apiName>Query</apiName>
+            <definition>primitive://String</definition>
+            <referenceName>Input:Query</referenceName>
+            <required>true</required>
+        </inputs>
+        <inputs>
+            <apiName>RetrieverIdOrName</apiName>
+            <definition>primitive://String</definition>
+            <referenceName>Input:RetrieverIdOrName</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultGPT4Omni</primaryModel>
+        <status>Published</status>
+        <templateDataProviders>
+            <definition>invocable://getEinsteinRetrieverResults/sfdc_ai__DynamicRetriever</definition>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>true</isRequired>
+                <parameterName>searchText</parameterName>
+                <valueExpression>{!$Input:Query}</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>false</isRequired>
+                <parameterName>retrieverIdOrName</parameterName>
+                <valueExpression>{!$Input:RetrieverIdOrName}</valueExpression>
+            </parameters>
+            <referenceName>EinsteinSearch:sfdc_ai__DynamicRetriever</referenceName>
+        </templateDataProviders>
+        <versionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_16</versionIdentifier>
+    </templateVersions>
+    <templateVersions>
+        <content>### INSTRUCTIONS
+
+Your primary task is to act as an expert information synthesizer. You must intelligently **identify, extract, and formulate** an answer that precisely and completely addresses the user&apos;s question based *only* on the provided KNOWLEDGE.
+
+**Core Goal: Precision over Quotation and Synthesis.**
+Do not simply return entire paragraphs or boilerplate text. The measure of a successful answer is its **relevance** and **completeness** to the user&apos;s specific scenario, not its length.
+
+#### Synthesis Rules:
+
+1. **Analyze and Deconstruct:** Carefully read and fully understand the user&apos;s **QUESTION**. Break down complex questions into their component parts (e.g., &quot;divorce,&quot; &quot;minor children,&quot; &quot;conversion,&quot; &quot;required documents&quot;).
+2. **Intelligent Extraction:** Search the KNOWLEDGE base and identify the specific, granular facts and rules that directly address *each* component of the user&apos;s question.
+3. **Formulate the Answer (&lt;generated_response&gt;):**
+
+  **A. LIST FORMATTING (ABSOLUTELY STRICT RULE):** If the answer requires listing documents, requirements, or similar items, you must **ONLY** list the main categories or titles (e.g., &quot;Proof of Conversion,&quot; &quot;Proof of Custody,&quot; &quot;Valid Passport&quot;). **STRICTLY OMIT ALL DESCRIPTIVE TEXT, EXPLANATIONS, AND SUBSEQUENT DETAIL** for each item. Only the highest-level category names are permitted in the list.
+
+  **B. Simple Query Rule (STRICT):** If the question is a direct query about **eligibility** (e.g., &quot;Am I eligible for X?&quot;), the answer must be a **single, concise, direct statement** affirming or denying eligibility based on the KNOWLEDGE. **DO NOT** include any details about required documents, evidence, or next steps in the response.
+
+  **C. Complex Query Rule:** If the question explicitly asks for **required documents, procedures, or complex scenarios**, provide a structured, comprehensive response that addresses all parts of the query, adhering to the List Formatting Rule (A).
+
+  * **Prioritize Relevance:** Ensure every piece of information in the final answer is **relevant** and directly addresses the user&apos;s prompt.
+  * **Professional Tone:** Ensure the response is polite, professional, and clear.
+
+4. **Source Identification (&lt;source_id&gt;):** Find the ID of the article-chunk(s) that were the **most relevant and necessary** to construct the final answer. **VERBATIM** extract this ID to set the &lt;source_id&gt; field. If multiple chunks were critical, list the single most important one.
+5. **Handling Missing Information:** If the user&apos;s request **cannot be answered** with the information provided in the KNOWLEDGE, set the &lt;source_id&gt; to $\text{NONE}$ and the &lt;generated_response&gt; to &quot;Sorry, I can&apos;t find an answer based on the available articles.&quot;
+
+6. **Review and Deliver:** Strictly adhere to the output format and ensure the response is formulated *only* from the provided KNOWLEDGE.KNOWLEDGE.
+ ###
+KNOWLEDGE:
+{!$EinsteinSearch:sfdc_ai__DynamicRetriever.results}
+
+ ###
+QUESTION:
+{!$Input:Query}
+
+ ###
+Response:
+</content>
+        <inputs>
+            <apiName>Query</apiName>
+            <definition>primitive://String</definition>
+            <referenceName>Input:Query</referenceName>
+            <required>true</required>
+        </inputs>
+        <inputs>
+            <apiName>RetrieverIdOrName</apiName>
+            <definition>primitive://String</definition>
+            <referenceName>Input:RetrieverIdOrName</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultGPT4Omni</primaryModel>
+        <status>Published</status>
+        <templateDataProviders>
+            <definition>invocable://getEinsteinRetrieverResults/sfdc_ai__DynamicRetriever</definition>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>true</isRequired>
+                <parameterName>searchText</parameterName>
+                <valueExpression>{!$Input:Query}</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>false</isRequired>
+                <parameterName>retrieverIdOrName</parameterName>
+                <valueExpression>{!$Input:RetrieverIdOrName}</valueExpression>
+            </parameters>
+            <referenceName>EinsteinSearch:sfdc_ai__DynamicRetriever</referenceName>
+        </templateDataProviders>
+        <versionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_17</versionIdentifier>
+    </templateVersions>
+    <templateVersions>
+        <content>### INSTRUCTIONS
+
+Your primary task is to act as an expert information synthesizer. You must intelligently **identify, extract, and formulate** an answer that precisely and completely addresses the user&apos;s question based *only* on the provided KNOWLEDGE.
+
+**Core Goal: Precision over Quotation and Synthesis.**
+Do not simply return entire paragraphs or boilerplate text. The measure of a successful answer is its **relevance** and **completeness** to the user&apos;s specific scenario, not its length.
+
+#### Synthesis Rules:
+
+1. **Analyze and Deconstruct:** Carefully read and fully understand the user&apos;s **QUESTION**. Break down complex questions into their component parts (e.g., &quot;divorce,&quot; &quot;minor children,&quot; &quot;conversion,&quot; &quot;required documents&quot;).
+2. **Intelligent Extraction:** Search the KNOWLEDGE base and identify the specific, granular facts and rules that directly address *each* component of the user&apos;s question.
+3. **Formulate the Answer (&lt;generated_response&gt;):**
+
+  **A. LIST FORMATTING (ABSOLUTELY STRICT RULE):** If the answer requires listing documents, requirements, or similar items, you must **ONLY** list the main categories or titles (e.g., &quot;Proof of Conversion,&quot; &quot;Proof of Custody,&quot; &quot;Valid Passport&quot;). **STRICTLY OMIT ALL DESCRIPTIVE TEXT, EXPLANATIONS, AND SUBSEQUENT DETAIL** for each item. Only the highest-level category names are permitted in the list.
+
+  **B. Simple Query Rule (STRICT):** If the question is a direct query about **eligibility** (e.g., &quot;Am I eligible for X?&quot;), the answer must be a **single, concise, direct statement** affirming or denying eligibility based on the KNOWLEDGE. **DO NOT** include any details about required documents, evidence, or next steps in the response.
+
+  **C. Complex Query Rule:** If the question explicitly asks for **required documents, procedures, or complex scenarios**, provide a structured, comprehensive response that addresses all parts of the query, adhering to the List Formatting Rule (A).
+
+  * **Prioritize Relevance:** Ensure every piece of information in the final answer is **relevant** and directly addresses the user&apos;s prompt.
+  * **Professional Tone:** Ensure the response is polite, professional, and clear.
+
+4. **Source Identification (&lt;source_id&gt;):** Find the ID of the article-chunk(s) that were the **most relevant and necessary** to construct the final answer. **VERBATIM** extract this ID to set the &lt;source_id&gt; field. If multiple chunks were critical, list the single most important one.
+5. **Handling Missing Information:** If the user&apos;s request **cannot be answered** with the information provided in the KNOWLEDGE, set the &lt;source_id&gt; to $\text{NONE}$ and the &lt;generated_response&gt; to &quot;Sorry, I can&apos;t find an answer based on the available articles.&quot;
+
+6. **Review and Deliver:** Strictly adhere to the output format and ensure the response is formulated *only* from the provided KNOWLEDGE.KNOWLEDGE.
+ ###
+KNOWLEDGE:
+{!$EinsteinSearch:sfdc_ai__DynamicRetriever.results}
+
+ ###
+QUESTION:
+{!$Input:Query}
+
+ ###
+Response:
+</content>
+        <inputs>
+            <apiName>Query</apiName>
+            <definition>primitive://String</definition>
+            <referenceName>Input:Query</referenceName>
+            <required>true</required>
+        </inputs>
+        <inputs>
+            <apiName>RetrieverIdOrName</apiName>
+            <definition>primitive://String</definition>
+            <referenceName>Input:RetrieverIdOrName</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultGPT5</primaryModel>
+        <status>Published</status>
+        <templateDataProviders>
+            <definition>invocable://getEinsteinRetrieverResults/sfdc_ai__DynamicRetriever</definition>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>true</isRequired>
+                <parameterName>searchText</parameterName>
+                <valueExpression>{!$Input:Query}</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>false</isRequired>
+                <parameterName>retrieverIdOrName</parameterName>
+                <valueExpression>{!$Input:RetrieverIdOrName}</valueExpression>
+            </parameters>
+            <referenceName>EinsteinSearch:sfdc_ai__DynamicRetriever</referenceName>
+        </templateDataProviders>
+        <versionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_18</versionIdentifier>
+    </templateVersions>
+    <templateVersions>
+        <content>### INSTRUCTIONS
+
+Your primary task is to act as an expert information synthesizer. You must intelligently **identify, extract, and formulate** an answer that precisely and completely addresses the user&apos;s question based *only* on the provided KNOWLEDGE.
+
+**Core Goal: Precision over Quotation and Synthesis.**
+Do not simply return entire paragraphs or boilerplate text. The measure of a successful answer is its **relevance** and **completeness** to the user&apos;s specific scenario, not its length.
+
+#### Synthesis Rules:
+
+1. **Analyze and Deconstruct:** Carefully read and fully understand the user&apos;s **QUESTION**. Break down complex questions into their component parts (e.g., &quot;divorce,&quot; &quot;minor children,&quot; &quot;conversion,&quot; &quot;required documents&quot;).
+2. **Intelligent Extraction:** Search the KNOWLEDGE base and identify the specific, granular facts and rules that directly address *each* component of the user&apos;s question.
+3. **Formulate the Answer (&lt;generated_response&gt;):**
+
+  **A. LIST FORMATTING (ABSOLUTELY STRICT RULE):** If the answer requires listing documents, requirements, or similar items, you must **ONLY** list the main categories or titles (e.g., &quot;Proof of Conversion,&quot; &quot;Proof of Custody,&quot; &quot;Valid Passport&quot;). **STRICTLY OMIT ALL DESCRIPTIVE TEXT, EXPLANATIONS, AND SUBSEQUENT DETAIL** for each item. Only the highest-level category names are permitted in the list.
+
+  **B. Complex Query Rule:** If the question explicitly asks for **required documents, procedures, or complex scenarios**, provide a structured, comprehensive response that addresses all parts of the query, adhering to the List Formatting Rule (A).
+
+  * **Prioritize Relevance:** Ensure every piece of information in the final answer is **relevant** and directly addresses the user&apos;s prompt.
+  * **Professional Tone:** Ensure the response is polite, professional, and clear.
+
+4. **Source Identification (&lt;source_id&gt;):** Find the ID of the article-chunk(s) that were the **most relevant and necessary** to construct the final answer. **VERBATIM** extract this ID to set the &lt;source_id&gt; field. If multiple chunks were critical, list the single most important one.
+5. **Handling Missing Information:** If the user&apos;s request **cannot be answered** with the information provided in the KNOWLEDGE, set the &lt;source_id&gt; to $\text{NONE}$ and the &lt;generated_response&gt; to &quot;Sorry, I can&apos;t find an answer based on the available articles.&quot;
+
+6. **Review and Deliver:** Strictly adhere to the output format and ensure the response is formulated *only* from the provided KNOWLEDGE.KNOWLEDGE.
+ ###
+KNOWLEDGE:
+{!$EinsteinSearch:sfdc_ai__DynamicRetriever.results}
+
+ ###
+QUESTION:
+{!$Input:Query}
+
+ ###
+Response:
+</content>
+        <inputs>
+            <apiName>RetrieverIdOrName</apiName>
+            <definition>primitive://String</definition>
+            <referenceName>Input:RetrieverIdOrName</referenceName>
+            <required>true</required>
+        </inputs>
+        <inputs>
+            <apiName>Query</apiName>
+            <definition>primitive://String</definition>
+            <referenceName>Input:Query</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultGPT5</primaryModel>
+        <status>Published</status>
+        <templateDataProviders>
+            <definition>invocable://getEinsteinRetrieverResults/sfdc_ai__DynamicRetriever</definition>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>true</isRequired>
+                <parameterName>searchText</parameterName>
+                <valueExpression>{!$Input:Query}</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>false</isRequired>
+                <parameterName>retrieverIdOrName</parameterName>
+                <valueExpression>{!$Input:RetrieverIdOrName}</valueExpression>
+            </parameters>
+            <referenceName>EinsteinSearch:sfdc_ai__DynamicRetriever</referenceName>
+        </templateDataProviders>
+        <versionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_19</versionIdentifier>
+    </templateVersions>
+    <templateVersions>
+        <content>###
+INSTRUCTIONS
+
+ 1. Analyze the query: Carefully read and understand the user&apos;s question or issue from the QUESTION section.
+ 2. Search KNOWLEDGE: Review the provided company KNOWLEDGE to find relevant information.
+ 3. Evaluate information: Determine if the available information in the KNOWLEDGE section is sufficient to answer the QUESTION.
+ 4. Formulate response: To generate a reply &lt;generated_response&gt; to the user, you must follow these rules
+ a. Find the article-chunk(s) that is most relevant to answer the user query and VERBATIM extract the ID of the article to set &lt;source_id&gt; field in the response JSON. If you are unable to find the relevant article, set &lt;source_id&gt; to NONE.
+ b. Use the relevant article-chunk to generate the response that exactly answers the user&apos;s question and set the &lt;generated response&gt; field.
+ c. If the user request cannot be answered with the knowledge provided, set the &lt;source_id&gt; to NONE and &lt;generated_response&gt; to &quot;Sorry, I can&apos;t find an answer based on the available articles.&quot;
+ 5. Refine and deliver: Ensure your response is polite, professional and concise.
+ 6. Review response: Make sure that you have followed all of the above instructions, respond in the desired output format and you only strictly stick to the provided KNOWLEDGE only to formulate your answer.
+
+ ###
+KNOWLEDGE:
+{!$EinsteinSearch:sfdc_ai__DynamicRetriever.results}
+
+ ###
+QUESTION:
+{!$Input:Query}
+
+ ###
+Response:
+</content>
+        <inputs>
+            <apiName>Query</apiName>
+            <definition>primitive://String</definition>
+            <referenceName>Input:Query</referenceName>
+            <required>true</required>
+        </inputs>
+        <inputs>
+            <apiName>RetrieverIdOrName</apiName>
+            <definition>primitive://String</definition>
+            <referenceName>Input:RetrieverIdOrName</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultBedrockAnthropicClaude4Sonnet</primaryModel>
+        <status>Published</status>
+        <templateDataProviders>
+            <definition>invocable://getEinsteinRetrieverResults/sfdc_ai__DynamicRetriever</definition>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>true</isRequired>
+                <parameterName>searchText</parameterName>
+                <valueExpression>{!$Input:Query}</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>false</isRequired>
+                <parameterName>retrieverIdOrName</parameterName>
+                <valueExpression>{!$Input:RetrieverIdOrName}</valueExpression>
+            </parameters>
+            <referenceName>EinsteinSearch:sfdc_ai__DynamicRetriever</referenceName>
+        </templateDataProviders>
+        <versionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_20</versionIdentifier>
+    </templateVersions>
+    <templateVersions>
+        <content>###
+INSTRUCTIONS
+
+ 1. Analyze the query: Carefully read and understand the user&apos;s question or issue from the QUESTION section.
+ 2. Search KNOWLEDGE: Review the provided company KNOWLEDGE to find relevant information.
+ 3. Evaluate information: Determine if the available information in the KNOWLEDGE section is sufficient to answer the QUESTION.
+ 4. Formulate response: To generate a reply &lt;generated_response&gt; to the user, you must follow these rules
+ a. Find the article-chunk(s) that is most relevant to answer the user query and VERBATIM extract the ID of the article to set &lt;source_id&gt; field in the response JSON. If you are unable to find the relevant article, set &lt;source_id&gt; to NONE.
+ b. Use the relevant article-chunk to generate the response that exactly answers the user&apos;s question and set the &lt;generated response&gt; field.
+ c. If the user request cannot be answered with the knowledge provided, set the &lt;source_id&gt; to NONE and &lt;generated_response&gt; to &quot;Sorry, I can&apos;t find an answer based on the available articles.&quot;
+ 5. Refine and deliver: Ensure your response is polite, professional and concise.
+ 6. Review response: Make sure that you have followed all of the above instructions, respond in the desired output format and you only strictly stick to the provided KNOWLEDGE only to formulate your answer.
+
+ ###
+KNOWLEDGE:
+{!$EinsteinSearch:sfdc_ai__DynamicRetriever.results}
+
+ ###
+QUESTION:
+{!$Input:Query}
+
+ ###
+Response:
+</content>
+        <inputs>
+            <apiName>RetrieverIdOrName</apiName>
+            <definition>primitive://String</definition>
+            <referenceName>Input:RetrieverIdOrName</referenceName>
+            <required>true</required>
+        </inputs>
+        <inputs>
+            <apiName>Query</apiName>
+            <definition>primitive://String</definition>
+            <referenceName>Input:Query</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultGPT5</primaryModel>
+        <status>Published</status>
+        <templateDataProviders>
+            <definition>invocable://getEinsteinRetrieverResults/sfdc_ai__DynamicRetriever</definition>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>true</isRequired>
+                <parameterName>searchText</parameterName>
+                <valueExpression>{!$Input:Query}</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>false</isRequired>
+                <parameterName>retrieverIdOrName</parameterName>
+                <valueExpression>{!$Input:RetrieverIdOrName}</valueExpression>
+            </parameters>
+            <referenceName>EinsteinSearch:sfdc_ai__DynamicRetriever</referenceName>
+        </templateDataProviders>
+        <versionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_21</versionIdentifier>
+    </templateVersions>
+    <templateVersions>
+        <content>###
+INSTRUCTIONS
+
+ 1. Analyze the query: Carefully read and understand the user&apos;s question or issue from the QUESTION section.
+ 2. Search KNOWLEDGE: Review the provided company KNOWLEDGE to find relevant information.
+ 3. Evaluate information: Determine if the available information in the KNOWLEDGE section is sufficient to answer the QUESTION.
+ 4. Formulate response: To generate a reply &lt;generated_response&gt; to the user, you must follow these rules
+ a. Find the article-chunk(s) that is most relevant to answer the user query and VERBATIM extract the ID of the article to set &lt;source_id&gt; field in the response JSON. If you are unable to find the relevant article, set &lt;source_id&gt; to NONE.
+ b. Use the relevant article-chunk to generate the response that exactly answers the user&apos;s question and set the &lt;generated response&gt; field.
+ c. If the user request cannot be answered with the knowledge provided, set the &lt;source_id&gt; to NONE and &lt;generated_response&gt; to &quot;Sorry, I can&apos;t find an answer based on the available articles.&quot;
+ 5. Refine and deliver: Ensure your response is polite, professional and concise.
+ 6. Review response: Make sure that you have followed all of the above instructions, respond in the desired output format and you only strictly stick to the provided KNOWLEDGE only to formulate your answer.
+
+ ###
+KNOWLEDGE:
+{!$EinsteinSearch:sfdc_ai__DynamicRetriever.results}
+
+ ###
+QUESTION:
+{!$Input:Query}
+
+ ###
+Response:
+</content>
+        <inputs>
+            <apiName>Query</apiName>
+            <definition>primitive://String</definition>
+            <referenceName>Input:Query</referenceName>
+            <required>true</required>
+        </inputs>
+        <inputs>
+            <apiName>RetrieverIdOrName</apiName>
+            <definition>primitive://String</definition>
+            <referenceName>Input:RetrieverIdOrName</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultGPT5Mini</primaryModel>
+        <status>Published</status>
+        <templateDataProviders>
+            <definition>invocable://getEinsteinRetrieverResults/sfdc_ai__DynamicRetriever</definition>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>true</isRequired>
+                <parameterName>searchText</parameterName>
+                <valueExpression>{!$Input:Query}</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>false</isRequired>
+                <parameterName>retrieverIdOrName</parameterName>
+                <valueExpression>{!$Input:RetrieverIdOrName}</valueExpression>
+            </parameters>
+            <referenceName>EinsteinSearch:sfdc_ai__DynamicRetriever</referenceName>
+        </templateDataProviders>
+        <versionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_22</versionIdentifier>
+    </templateVersions>
+    <templateVersions>
+        <content>###
+INSTRUCTIONS
+
+ 1. Analyze the query: Carefully read and understand the user&apos;s question or issue from the QUESTION section.
+ 2. Search KNOWLEDGE: Review the provided company KNOWLEDGE to find relevant information.
+ 3. Evaluate information: Determine if the available information in the KNOWLEDGE section is sufficient to answer the QUESTION.
+ 4. Formulate response: To generate a reply &lt;generated_response&gt; to the user, you must follow these rules
+ a. Find the article-chunk(s) that is most relevant to answer the user query and VERBATIM extract the ID of the article to set &lt;source_id&gt; field in the response JSON. If you are unable to find the relevant article, set &lt;source_id&gt; to NONE.
+ b. Use the relevant article-chunk to generate the response that exactly answers the user&apos;s question and set the &lt;generated response&gt; field.
+ c. If the user request cannot be answered with the knowledge provided, set the &lt;source_id&gt; to NONE and &lt;generated_response&gt; to &quot;Sorry, I can&apos;t find an answer based on the available articles.&quot;
+ 5. Refine and deliver: Ensure your response is polite, professional and concise.
+ 6. Review response: Make sure that you have followed all of the above instructions, respond in the desired output format and you only strictly stick to the provided KNOWLEDGE only to formulate your answer.
+
+ ###
+KNOWLEDGE:
+
+{!$EinsteinSearch:KA_Aliyah_Knowledge_1Cx_hm545d9f32c.results}
+
+ ###
+QUESTION:
+{!$Input:Query}
+
+ ###
+Response:
+</content>
+        <inputs>
+            <apiName>Query</apiName>
+            <definition>primitive://String</definition>
+            <referenceName>Input:Query</referenceName>
+            <required>true</required>
+        </inputs>
+        <inputs>
+            <apiName>RetrieverIdOrName</apiName>
+            <definition>primitive://String</definition>
+            <referenceName>Input:RetrieverIdOrName</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultGPT4OmniMini</primaryModel>
+        <status>Draft</status>
+        <templateDataProviders>
+            <definition>invocable://getEinsteinRetrieverResults/KA_Aliyah_Knowledge_1Cx_hm545d9f32c</definition>
+            <description>KA_Aliyah_Knowledge</description>
+            <label>KA_Aliyah_Knowledge</label>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>true</isRequired>
+                <parameterName>searchText</parameterName>
+                <valueExpression>{!$Input:Query}</valueExpression>
+            </parameters>
+            <referenceName>EinsteinSearch:KA_Aliyah_Knowledge_1Cx_hm545d9f32c</referenceName>
+        </templateDataProviders>
+        <versionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_23</versionIdentifier>
+    </templateVersions>
+    <type>einstein_gpt__knowledgeAnswers</type>
+    <visibility>Global</visibility>
+</GenAiPromptTemplate>

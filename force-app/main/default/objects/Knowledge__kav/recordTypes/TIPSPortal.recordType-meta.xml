@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TIPSPortal</fullName>
+    <active>true</active>
+    <label>TIPSPortal</label>
+    <picklistValues>
+        <picklist>Aliyah_Portal_FAQ_Categories__c</picklist>
+        <values>
+            <fullName>Documents</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eligibility</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flight</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Interview</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Questionnaires</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Aliyah_Portal_StepbyStep_Categories__c</picklist>
+        <values>
+            <fullName>Family details</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finalize my Aliyah</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Getting Started</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Interview</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Life in Israel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending Approval</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

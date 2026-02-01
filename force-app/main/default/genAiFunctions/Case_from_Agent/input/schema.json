@@ -1,0 +1,21 @@
+{
+  "required" : [ "contactIDfromBOT", "recordId" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "contactIDfromBOT" : {
+      "title" : "contactIDfromBOT",
+      "description" : "Stores the contact ID associated with the newly created Case.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "recordId" : {
+      "title" : "recordId",
+      "description" : "the messaging session id\n",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

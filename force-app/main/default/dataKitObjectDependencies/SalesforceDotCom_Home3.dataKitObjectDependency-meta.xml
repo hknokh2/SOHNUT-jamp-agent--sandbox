@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataKitObjectDependency xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataPackageKitDef>KB_Agentforce_DevOps</dataPackageKitDef>
+    <developerName>SalesforceDotCom_Home3</developerName>
+    <masterLabel>Salesforce Connector Jewish Agency Home</masterLabel>
+    <sourceObject>Knowledge_kav_Home_1769978244545</sourceObject>
+    <sourceObjectType>DataStreamTemplate</sourceObjectType>
+    <targetObject>SalesforceDotCom_Home</targetObject>
+</DataKitObjectDependency>

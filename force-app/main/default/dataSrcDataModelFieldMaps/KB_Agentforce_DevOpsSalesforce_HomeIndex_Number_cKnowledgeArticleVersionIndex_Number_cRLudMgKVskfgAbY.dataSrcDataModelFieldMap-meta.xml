@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataSrcDataModelFieldMap xmlns="http://soap.sforce.com/2006/04/metadata">
+    <filterApplied>false</filterApplied>
+    <filterOperationType>Equal</filterOperationType>
+    <masterLabel>KB_Agentforce_DevOpsSalesforce_HomeIndex_Number_cKnowledgeArticleVersionIndex_Number_cRLudMgKVskfgAbY</masterLabel>
+    <sourceField>Knowledge_kav_Home1.Index_Number_c__c</sourceField>
+    <targetField>ssot__KnowledgeArticleVersion__dlm.Index_Number_c__c</targetField>
+    <templateVersion>1</templateVersion>
+    <versionNumber>1.0</versionNumber>
+</DataSrcDataModelFieldMap>
