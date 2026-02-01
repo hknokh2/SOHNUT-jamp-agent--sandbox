@@ -1,0 +1,156 @@
+{
+  "status": 0,
+  "result": {
+    "records": [
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DashboardLocalization"
+        },
+        "QualifiedApiName": "DashboardLocalization"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AssociatedLocation"
+        },
+        "QualifiedApiName": "AssociatedLocation"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AssociatedLocationHistory"
+        },
+        "QualifiedApiName": "AssociatedLocationHistory"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AssociatedLocationChangeEvent"
+        },
+        "QualifiedApiName": "AssociatedLocationChangeEvent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ConversationRecordLookup"
+        },
+        "QualifiedApiName": "ConversationRecordLookup"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataModelTaxonomy"
+        },
+        "QualifiedApiName": "DataModelTaxonomy"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/MktDataLakeObject"
+        },
+        "QualifiedApiName": "MktDataLakeObject"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/MktDataModelObject"
+        },
+        "QualifiedApiName": "MktDataModelObject"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/MktDataLakeField"
+        },
+        "QualifiedApiName": "MktDataLakeField"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/MktDataModelField"
+        },
+        "QualifiedApiName": "MktDataModelField"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ConversationRecordLookupCondition"
+        },
+        "QualifiedApiName": "ConversationRecordLookupCondition"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataLakeObjectInstance"
+        },
+        "QualifiedApiName": "DataLakeObjectInstance"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataLakeObjectInstanceHistory"
+        },
+        "QualifiedApiName": "DataLakeObjectInstanceHistory"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataLakeObjectInstanceFeed"
+        },
+        "QualifiedApiName": "DataLakeObjectInstanceFeed"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataSrcDataModelFieldMap"
+        },
+        "QualifiedApiName": "DataSrcDataModelFieldMap"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/MktSgmtDefDataMdlObjFld"
+        },
+        "QualifiedApiName": "MktSgmtDefDataMdlObjFld"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/MktDataLakeMapping"
+        },
+        "QualifiedApiName": "MktDataLakeMapping"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataModelDomainCapUsage"
+        },
+        "QualifiedApiName": "DataModelDomainCapUsage"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/MktSgmtActvDataModelFld"
+        },
+        "QualifiedApiName": "MktSgmtActvDataModelFld"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/MapsAndLocationSettings"
+        },
+        "QualifiedApiName": "MapsAndLocationSettings"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/PartyDataModelSettings"
+        },
+        "QualifiedApiName": "PartyDataModelSettings"
+      }
+    ],
+    "totalSize": 21,
+    "done": true
+  }
+}

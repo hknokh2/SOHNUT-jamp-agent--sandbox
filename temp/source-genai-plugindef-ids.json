@@ -1,0 +1,42 @@
+{
+  "status": 0,
+  "result": {
+    "records": [
+      {
+        "attributes": {
+          "type": "GenAiPluginDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/GenAiPluginDefinition/179Ve000003iid7IAA"
+        },
+        "Id": "179Ve000003iid7IAA",
+        "DeveloperName": "Escalation_16j3ef489e23bc0",
+        "MasterLabel": "Escalation",
+        "PluginType": "Topic",
+        "PlannerId": "16jVe0000002CBZIA2"
+      },
+      {
+        "attributes": {
+          "type": "GenAiPluginDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/GenAiPluginDefinition/179Ve000003iid8IAA"
+        },
+        "Id": "179Ve000003iid8IAA",
+        "DeveloperName": "GeneralFAQ_16j6bbb3c3b424c",
+        "MasterLabel": "General FAQ",
+        "PluginType": "Topic",
+        "PlannerId": "16jVe0000002CBZIA2"
+      },
+      {
+        "attributes": {
+          "type": "GenAiPluginDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/GenAiPluginDefinition/179Ve000003iiejIAA"
+        },
+        "Id": "179Ve000003iiejIAA",
+        "DeveloperName": "Check_Aliyah_Eligibility_16jVe0000002CBZ",
+        "MasterLabel": "Check Aliyah Eligibility",
+        "PluginType": "Topic",
+        "PlannerId": "16jVe0000002CBZIA2"
+      }
+    ],
+    "totalSize": 3,
+    "done": true
+  }
+}

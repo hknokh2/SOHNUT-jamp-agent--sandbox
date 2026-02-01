@@ -1,0 +1,79 @@
+{
+  "status": 0,
+  "result": {
+    "records": [
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPluginFunctionDef.Id"
+        },
+        "QualifiedApiName": "Id"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPluginFunctionDef.IsDeleted"
+        },
+        "QualifiedApiName": "IsDeleted"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPluginFunctionDef.ManageableState"
+        },
+        "QualifiedApiName": "ManageableState"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPluginFunctionDef.CreatedDate"
+        },
+        "QualifiedApiName": "CreatedDate"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPluginFunctionDef.CreatedBy"
+        },
+        "QualifiedApiName": "CreatedById"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPluginFunctionDef.LastModifiedDate"
+        },
+        "QualifiedApiName": "LastModifiedDate"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPluginFunctionDef.LastModifiedBy"
+        },
+        "QualifiedApiName": "LastModifiedById"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPluginFunctionDef.SystemModstamp"
+        },
+        "QualifiedApiName": "SystemModstamp"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPluginFunctionDef.Plugin"
+        },
+        "QualifiedApiName": "PluginId"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPluginFunctionDef.Function"
+        },
+        "QualifiedApiName": "Function"
+      }
+    ],
+    "totalSize": 10,
+    "done": true
+  }
+}

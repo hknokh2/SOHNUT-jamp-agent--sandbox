@@ -1,0 +1,40 @@
+{
+  "SourceRequired": [
+    {
+      "Name": "Knowledge_kav_Home",
+      "Exists": true
+    },
+    {
+      "Name": "Knowledge_DataCategorySelection_Home",
+      "Exists": true
+    },
+    {
+      "Name": "DataCategory_Home",
+      "Exists": true
+    },
+    {
+      "Name": "DataCategoryGroup_Home",
+      "Exists": true
+    }
+  ],
+  "TargetRequired": [
+    {
+      "Name": "Knowledge_kav_Home",
+      "Exists": false
+    },
+    {
+      "Name": "Knowledge_DataCategorySelection_Home",
+      "Exists": false
+    },
+    {
+      "Name": "DataCategory_Home",
+      "Exists": false
+    },
+    {
+      "Name": "DataCategoryGroup_Home",
+      "Exists": false
+    }
+  ],
+  "TargetCount": 4,
+  "SourceCount": 33
+}

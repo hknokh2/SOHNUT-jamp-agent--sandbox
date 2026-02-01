@@ -1,0 +1,32 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "005Ve00000I50A9IAJ",
+      "createdByName": "Haim Knokh",
+      "createdDate": "1970-01-01T00:00:00.000Z",
+      "fileName": "datacategorygroups/Portal_Aliyah.datacategorygroup",
+      "fullName": "Portal_Aliyah",
+      "id": "",
+      "lastModifiedById": "005Ve00000I50A9IAJ",
+      "lastModifiedByName": "Haim Knokh",
+      "lastModifiedDate": "1970-01-01T00:00:00.000Z",
+      "namespacePrefix": "",
+      "type": "DataCategoryGroup"
+    },
+    {
+      "createdById": "005Ve00000I50A9IAJ",
+      "createdByName": "Haim Knokh",
+      "createdDate": "1970-01-01T00:00:00.000Z",
+      "fileName": "datacategorygroups/Ogdan.datacategorygroup",
+      "fullName": "Ogdan",
+      "id": "",
+      "lastModifiedById": "005Ve00000I50A9IAJ",
+      "lastModifiedByName": "Haim Knokh",
+      "lastModifiedDate": "1970-01-01T00:00:00.000Z",
+      "namespacePrefix": "",
+      "type": "DataCategoryGroup"
+    }
+  ],
+  "warnings": []
+}

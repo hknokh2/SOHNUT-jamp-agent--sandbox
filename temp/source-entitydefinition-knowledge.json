@@ -1,0 +1,310 @@
+{
+  "status": 0,
+  "result": {
+    "records": [
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/KnowledgeableUser"
+        },
+        "QualifiedApiName": "KnowledgeableUser"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataKnowledgeSpace"
+        },
+        "QualifiedApiName": "DataKnowledgeSpace"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataKnowledgeSpaceShare"
+        },
+        "QualifiedApiName": "DataKnowledgeSpaceShare"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataKnowledgeSpaceOwnerSharingRule"
+        },
+        "QualifiedApiName": "DataKnowledgeSpaceOwnerSharingRule"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataKnowledgeSpaceSession"
+        },
+        "QualifiedApiName": "DataKnowledgeSpaceSession"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataKnowledgeSrcFileRef"
+        },
+        "QualifiedApiName": "DataKnowledgeSrcFileRef"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataKnowledgeSrcFileRefShare"
+        },
+        "QualifiedApiName": "DataKnowledgeSrcFileRefShare"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataKnowledgeSrcFileRefOwnerSharingRule"
+        },
+        "QualifiedApiName": "DataKnowledgeSrcFileRefOwnerSharingRule"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/KnowledgeArticleQuestionShare"
+        },
+        "QualifiedApiName": "KnowledgeArticleQuestionShare"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/KnowledgeArticleQuestionOwnerSharingRule"
+        },
+        "QualifiedApiName": "KnowledgeArticleQuestionOwnerSharingRule"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/KnowledgeArticleQuestionSetShare"
+        },
+        "QualifiedApiName": "KnowledgeArticleQuestionSetShare"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/KnowledgeArticleQuestionSetOwnerSharingRule"
+        },
+        "QualifiedApiName": "KnowledgeArticleQuestionSetOwnerSharingRule"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/KnowledgeArticleSummaryShare"
+        },
+        "QualifiedApiName": "KnowledgeArticleSummaryShare"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/KnowledgeArticleSummaryOwnerSharingRule"
+        },
+        "QualifiedApiName": "KnowledgeArticleSummaryOwnerSharingRule"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000001dHec"
+        },
+        "QualifiedApiName": "smagicinteract__Acknowledgement_Popup_Setting__c"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000001dHec.OwnerSharingRule"
+        },
+        "QualifiedApiName": "smagicinteract__Acknowledgement_Popup_Setting__OwnerSharingRule"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000001dHec.Tag"
+        },
+        "QualifiedApiName": "smagicinteract__Acknowledgement_Popup_Setting__Tag"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000001dHec.ChangeEvent"
+        },
+        "QualifiedApiName": "smagicinteract__Acknowledgement_Popup_Setting__ChangeEvent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000000foDD"
+        },
+        "QualifiedApiName": "Knowledge__ka"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000000foDD.Feed"
+        },
+        "QualifiedApiName": "Knowledge__Feed"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000000foDD.VoteStat"
+        },
+        "QualifiedApiName": "Knowledge__VoteStat"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000000foDD.ViewStat"
+        },
+        "QualifiedApiName": "Knowledge__ViewStat"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000000foDC"
+        },
+        "QualifiedApiName": "Knowledge__kav"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000000foDC.DataCategorySelection"
+        },
+        "QualifiedApiName": "Knowledge__DataCategorySelection"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01IVg000000luLJ"
+        },
+        "QualifiedApiName": "AliyahPortal_KnowledgeCategories__mdt"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01IVg000001CQ4b"
+        },
+        "QualifiedApiName": "Portal_Aliyah_knowledge_categories__mdt"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/KnowledgeArticle"
+        },
+        "QualifiedApiName": "KnowledgeArticle"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/KnowledgeArticleVersionHistory"
+        },
+        "QualifiedApiName": "KnowledgeArticleVersionHistory"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/KnowledgeArticleVersion"
+        },
+        "QualifiedApiName": "KnowledgeArticleVersion"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/KnowledgeAnswerSettings"
+        },
+        "QualifiedApiName": "KnowledgeAnswerSettings"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/KnowledgeCaseField"
+        },
+        "QualifiedApiName": "KnowledgeCaseField"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/KnowledgeCaseFieldsSettings"
+        },
+        "QualifiedApiName": "KnowledgeCaseFieldsSettings"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/KnowledgeCaseSettings"
+        },
+        "QualifiedApiName": "KnowledgeCaseSettings"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/KnowledgeGenerationSettings"
+        },
+        "QualifiedApiName": "KnowledgeGenerationSettings"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/KnowledgeLanguage"
+        },
+        "QualifiedApiName": "KnowledgeLanguage"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/KnowledgeLanguageSettings"
+        },
+        "QualifiedApiName": "KnowledgeLanguageSettings"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/KnowledgeSettings"
+        },
+        "QualifiedApiName": "KnowledgeSettings"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/KnowledgeSitesSettings"
+        },
+        "QualifiedApiName": "KnowledgeSitesSettings"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/KnowledgeSuggestedArticlesSettings"
+        },
+        "QualifiedApiName": "KnowledgeSuggestedArticlesSettings"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/KnowledgeWorkOrderField"
+        },
+        "QualifiedApiName": "KnowledgeWorkOrderField"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/KnowledgeWorkOrderFieldsSettings"
+        },
+        "QualifiedApiName": "KnowledgeWorkOrderFieldsSettings"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/KnowledgeWorkOrderLineItemField"
+        },
+        "QualifiedApiName": "KnowledgeWorkOrderLineItemField"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/KnowledgeWorkOrderLineItemFieldsSettings"
+        },
+        "QualifiedApiName": "KnowledgeWorkOrderLineItemFieldsSettings"
+      }
+    ],
+    "totalSize": 43,
+    "done": true
+  }
+}

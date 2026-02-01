@@ -1,0 +1,142 @@
+{
+  "status": 0,
+  "result": {
+    "records": [
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPlannerDefinition.Id"
+        },
+        "QualifiedApiName": "Id"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPlannerDefinition.IsDeleted"
+        },
+        "QualifiedApiName": "IsDeleted"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPlannerDefinition.DeveloperName"
+        },
+        "QualifiedApiName": "DeveloperName"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPlannerDefinition.Language"
+        },
+        "QualifiedApiName": "Language"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPlannerDefinition.MasterLabel"
+        },
+        "QualifiedApiName": "MasterLabel"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPlannerDefinition.NamespacePrefix"
+        },
+        "QualifiedApiName": "NamespacePrefix"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPlannerDefinition.ManageableState"
+        },
+        "QualifiedApiName": "ManageableState"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPlannerDefinition.CreatedDate"
+        },
+        "QualifiedApiName": "CreatedDate"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPlannerDefinition.CreatedBy"
+        },
+        "QualifiedApiName": "CreatedById"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPlannerDefinition.LastModifiedDate"
+        },
+        "QualifiedApiName": "LastModifiedDate"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPlannerDefinition.LastModifiedBy"
+        },
+        "QualifiedApiName": "LastModifiedById"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPlannerDefinition.SystemModstamp"
+        },
+        "QualifiedApiName": "SystemModstamp"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPlannerDefinition.Description"
+        },
+        "QualifiedApiName": "Description"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPlannerDefinition.PlannerType"
+        },
+        "QualifiedApiName": "PlannerType"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPlannerDefinition.Capabilities"
+        },
+        "QualifiedApiName": "Capabilities"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPlannerDefinition.FullName"
+        },
+        "QualifiedApiName": "FullName"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPlannerDefinition.AgentGraph"
+        },
+        "QualifiedApiName": "AgentGraph"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPlannerDefinition.AgentGraphRef"
+        },
+        "QualifiedApiName": "AgentGraphRefId"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiPlannerDefinition.AgentScriptRef"
+        },
+        "QualifiedApiName": "AgentScriptRefId"
+      }
+    ],
+    "totalSize": 19,
+    "done": true
+  }
+}

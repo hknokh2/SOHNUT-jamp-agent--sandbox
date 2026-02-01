@@ -1,0 +1,59 @@
+{
+  "status": 0,
+  "result": {
+    "records": [
+      {
+        "attributes": {
+          "type": "GenAiPlannerDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/GenAiPlannerDefinition/16jVe0000001apRIAQ"
+        },
+        "Id": "16jVe0000001apRIAQ",
+        "DeveloperName": "Aliyah_Support",
+        "MasterLabel": "Aliyah Support",
+        "PlannerType": "AiCopilot__ReAct"
+      },
+      {
+        "attributes": {
+          "type": "GenAiPlannerDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/GenAiPlannerDefinition/16jVe00000026e1IAA"
+        },
+        "Id": "16jVe00000026e1IAA",
+        "DeveloperName": "Aliyah_Support_v2",
+        "MasterLabel": "Aliyah Support",
+        "PlannerType": "AiCopilot__ReAct"
+      },
+      {
+        "attributes": {
+          "type": "GenAiPlannerDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/GenAiPlannerDefinition/16jVe00000028fpIAA"
+        },
+        "Id": "16jVe00000028fpIAA",
+        "DeveloperName": "Aliyah_Support_v2_v3",
+        "MasterLabel": "Aliyah Support",
+        "PlannerType": "AiCopilot__ReAct"
+      },
+      {
+        "attributes": {
+          "type": "GenAiPlannerDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/GenAiPlannerDefinition/16jVe00000029wrIAA"
+        },
+        "Id": "16jVe00000029wrIAA",
+        "DeveloperName": "Aliyah_Support_v2_v3_v4",
+        "MasterLabel": "Aliyah Support",
+        "PlannerType": "AiCopilot__ReAct"
+      },
+      {
+        "attributes": {
+          "type": "GenAiPlannerDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/GenAiPlannerDefinition/16jVe0000002CBZIA2"
+        },
+        "Id": "16jVe0000002CBZIA2",
+        "DeveloperName": "Aliyah_Support_v2_v3_v4_v5",
+        "MasterLabel": "Aliyah Support",
+        "PlannerType": "AiCopilot__ReAct"
+      }
+    ],
+    "totalSize": 5,
+    "done": true
+  }
+}

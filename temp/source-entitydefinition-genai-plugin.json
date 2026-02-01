@@ -1,0 +1,44 @@
+{
+  "status": 0,
+  "result": {
+    "records": [
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/GenAiPluginDefinition"
+        },
+        "QualifiedApiName": "GenAiPluginDefinition"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/GenAiPluginFunctionDef"
+        },
+        "QualifiedApiName": "GenAiPluginFunctionDef"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/GenAiPluginInstructionDef"
+        },
+        "QualifiedApiName": "GenAiPluginInstructionDef"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/GenAiPluginDmnRltdFltr"
+        },
+        "QualifiedApiName": "GenAiPluginDmnRltdFltr"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/GenAiPluginDomain"
+        },
+        "QualifiedApiName": "GenAiPluginDomain"
+      }
+    ],
+    "totalSize": 5,
+    "done": true
+  }
+}

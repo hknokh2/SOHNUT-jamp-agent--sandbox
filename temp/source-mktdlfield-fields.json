@@ -1,0 +1,247 @@
+{
+  "status": 0,
+  "result": {
+    "records": [
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktDataLakeField.Id"
+        },
+        "QualifiedApiName": "Id"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktDataLakeField.IsDeleted"
+        },
+        "QualifiedApiName": "IsDeleted"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktDataLakeField.SobjectType"
+        },
+        "QualifiedApiName": "MktDataLakeObject"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktDataLakeField.DeveloperName"
+        },
+        "QualifiedApiName": "DeveloperName"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktDataLakeField.Language"
+        },
+        "QualifiedApiName": "Language"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktDataLakeField.MasterLabel"
+        },
+        "QualifiedApiName": "MasterLabel"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktDataLakeField.NamespacePrefix"
+        },
+        "QualifiedApiName": "NamespacePrefix"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktDataLakeField.ManageableState"
+        },
+        "QualifiedApiName": "ManageableState"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktDataLakeField.CreatedDate"
+        },
+        "QualifiedApiName": "CreatedDate"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktDataLakeField.CreatedBy"
+        },
+        "QualifiedApiName": "CreatedById"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktDataLakeField.LastModifiedDate"
+        },
+        "QualifiedApiName": "LastModifiedDate"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktDataLakeField.LastModifiedBy"
+        },
+        "QualifiedApiName": "LastModifiedById"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktDataLakeField.SystemModstamp"
+        },
+        "QualifiedApiName": "SystemModstamp"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktDataLakeField.FieldDefinition"
+        },
+        "QualifiedApiName": "FieldDefinitionId"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktDataLakeField.PrimaryIndexOrder"
+        },
+        "QualifiedApiName": "PrimaryIndexOrder"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktDataLakeField.IsInternalOrganization"
+        },
+        "QualifiedApiName": "IsInternalOrganization"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktDataLakeField.IsEventDate"
+        },
+        "QualifiedApiName": "IsEventDate"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktDataLakeField.CreationType"
+        },
+        "QualifiedApiName": "CreationType"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktDataLakeField.ExternalName"
+        },
+        "QualifiedApiName": "ExternalName"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktDataLakeField.IsRecordModified"
+        },
+        "QualifiedApiName": "IsRecordModified"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktDataLakeField.KeyQualifierName"
+        },
+        "QualifiedApiName": "KeyQualifierName"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktDataLakeField.UsageTag"
+        },
+        "QualifiedApiName": "UsageTag"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktDataLakeField.IsKeyQualifierFromSource"
+        },
+        "QualifiedApiName": "IsKeyQualifierFromSource"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktDataLakeField.MktDatalakeSrcKeyQualifier"
+        },
+        "QualifiedApiName": "MktDatalakeSrcKeyQualifierId"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktDataLakeField.DataLakeFieldStatus"
+        },
+        "QualifiedApiName": "DataLakeFieldStatus"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktDataLakeField.IsSourceVersion"
+        },
+        "QualifiedApiName": "IsSourceVersion"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktDataLakeField.ExternalFieldErrorStatus"
+        },
+        "QualifiedApiName": "ExternalFieldErrorStatus"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktDataLakeField.ExternalFieldErrorCode"
+        },
+        "QualifiedApiName": "ExternalFieldErrorCode"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktDataLakeField.IsUsedForTimeToLive"
+        },
+        "QualifiedApiName": "IsUsedForTimeToLive"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktDataLakeField.IsCurrencyIsoCode"
+        },
+        "QualifiedApiName": "IsCurrencyIsoCode"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktDataLakeField.ParentMktDataLakeObjectDeveloperName"
+        },
+        "QualifiedApiName": "ParentMktDataLakeObjectDeveloperName"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktDataLakeField.ParentMktDataLakeObjectNamespacePrefix"
+        },
+        "QualifiedApiName": "ParentMktDataLakeObjectNamespacePrefix"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktDataLakeField.ParentMktDataLakeObjectIdentifier"
+        },
+        "QualifiedApiName": "ParentMktDataLakeObjectIdentifier"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/MktDataLakeField.DcManageabilityStatus"
+        },
+        "QualifiedApiName": "DcManageabilityStatus"
+      }
+    ],
+    "totalSize": 34,
+    "done": true
+  }
+}

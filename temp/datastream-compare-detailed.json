@@ -1,0 +1,54 @@
+{
+  "Target": [
+    {
+      "Name": "Knowledge_kav_Home",
+      "Exists": false,
+      "DataStreamStatus": null,
+      "ImportRunStatus": null
+    },
+    {
+      "Name": "Knowledge_DataCategorySelection_Home",
+      "Exists": false,
+      "DataStreamStatus": null,
+      "ImportRunStatus": null
+    },
+    {
+      "Name": "DataCategory_Home",
+      "Exists": false,
+      "DataStreamStatus": null,
+      "ImportRunStatus": null
+    },
+    {
+      "Name": "DataCategoryGroup_Home",
+      "Exists": false,
+      "DataStreamStatus": null,
+      "ImportRunStatus": null
+    }
+  ],
+  "Source": [
+    {
+      "Name": "Knowledge_kav_Home",
+      "Exists": true,
+      "DataStreamStatus": "ACTIVE",
+      "ImportRunStatus": "SUCCESS"
+    },
+    {
+      "Name": "Knowledge_DataCategorySelection_Home",
+      "Exists": true,
+      "DataStreamStatus": "ACTIVE",
+      "ImportRunStatus": "SUCCESS"
+    },
+    {
+      "Name": "DataCategory_Home",
+      "Exists": true,
+      "DataStreamStatus": "ACTIVE",
+      "ImportRunStatus": "SUCCESS"
+    },
+    {
+      "Name": "DataCategoryGroup_Home",
+      "Exists": true,
+      "DataStreamStatus": "ACTIVE",
+      "ImportRunStatus": "SUCCESS"
+    }
+  ]
+}

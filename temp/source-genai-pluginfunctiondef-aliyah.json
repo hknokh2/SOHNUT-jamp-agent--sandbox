@@ -1,0 +1,36 @@
+{
+  "status": 0,
+  "result": {
+    "records": [
+      {
+        "attributes": {
+          "type": "GenAiPluginFunctionDef",
+          "url": "/services/data/v66.0/tooling/sobjects/GenAiPluginFunctionDef/17EVe000000BlI9MAK"
+        },
+        "Id": "17EVe000000BlI9MAK",
+        "PluginId": "179Ve000003iid8IAA",
+        "Function": "172Ve000001WP18IAG"
+      },
+      {
+        "attributes": {
+          "type": "GenAiPluginFunctionDef",
+          "url": "/services/data/v66.0/tooling/sobjects/GenAiPluginFunctionDef/17EVe000000BlIAMA0"
+        },
+        "Id": "17EVe000000BlIAMA0",
+        "PluginId": "179Ve000003iid8IAA",
+        "Function": "172Ve000001WP17IAG"
+      },
+      {
+        "attributes": {
+          "type": "GenAiPluginFunctionDef",
+          "url": "/services/data/v66.0/tooling/sobjects/GenAiPluginFunctionDef/17EVe000000BlIBMA0"
+        },
+        "Id": "17EVe000000BlIBMA0",
+        "PluginId": "179Ve000003iid7IAA",
+        "Function": "172Ve000001WP19IAG"
+      }
+    ],
+    "totalSize": 3,
+    "done": true
+  }
+}

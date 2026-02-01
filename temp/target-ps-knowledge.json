@@ -1,0 +1,39 @@
+{
+  "status": 0,
+  "result": {
+    "records": [
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v65.0/sobjects/PermissionSet/0PS3Y000000BmGnWAK"
+        },
+        "Id": "0PS3Y000000BmGnWAK",
+        "Name": "Knowledge_Manager_986070",
+        "Label": "Knowledge Manager",
+        "IsOwnedByProfile": false
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v65.0/sobjects/PermissionSet/0PS3Y000000ZniFWAS"
+        },
+        "Id": "0PS3Y000000ZniFWAS",
+        "Name": "Knowledge_Manager_Custom",
+        "Label": "Knowledge Manager End User",
+        "IsOwnedByProfile": false
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v65.0/sobjects/PermissionSet/0PSVg0000006dC0OAI"
+        },
+        "Id": "0PSVg0000006dC0OAI",
+        "Name": "ServiceLightningKnowledgeManager",
+        "Label": "Lightning Knowledge Manager",
+        "IsOwnedByProfile": false
+      }
+    ],
+    "totalSize": 3,
+    "done": true
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "status": 0,
+  "result": {
+    "records": [
+      {
+        "attributes": {
+          "type": "DataStream",
+          "url": "/services/data/v65.0/sobjects/DataStream/1dsVg00000009RVIAY"
+        },
+        "Id": "1dsVg00000009RVIAY",
+        "Name": "TenantBillingUsageEventStream",
+        "DataStreamStatus": "ACTIVE",
+        "ImportRunStatus": "SUCCESS"
+      },
+      {
+        "attributes": {
+          "type": "DataStream",
+          "url": "/services/data/v65.0/sobjects/DataStream/1dsVg00000009RWIAY"
+        },
+        "Id": "1dsVg00000009RWIAY",
+        "Name": "TenantUsageTypeMultiplierStream",
+        "DataStreamStatus": "ACTIVE",
+        "ImportRunStatus": "SUCCESS"
+      },
+      {
+        "attributes": {
+          "type": "DataStream",
+          "url": "/services/data/v65.0/sobjects/DataStream/1dsVg00000009RXIAY"
+        },
+        "Id": "1dsVg00000009RXIAY",
+        "Name": "TenantEntitlementTransactionStream",
+        "DataStreamStatus": "ACTIVE",
+        "ImportRunStatus": "SUCCESS"
+      },
+      {
+        "attributes": {
+          "type": "DataStream",
+          "url": "/services/data/v65.0/sobjects/DataStream/1dsVg00000009RYIAY"
+        },
+        "Id": "1dsVg00000009RYIAY",
+        "Name": "ProvisionedFeatureStream",
+        "DataStreamStatus": "ACTIVE",
+        "ImportRunStatus": "SUCCESS"
+      }
+    ],
+    "totalSize": 4,
+    "done": true
+  }
+}

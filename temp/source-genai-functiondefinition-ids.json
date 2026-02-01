@@ -1,0 +1,61 @@
+{
+  "status": 0,
+  "result": {
+    "records": [
+      {
+        "attributes": {
+          "type": "GenAiFunctionDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/GenAiFunctionDefinition/172Ve000001WP17IAG"
+        },
+        "Id": "172Ve000001WP17IAG",
+        "DeveloperName": "Answer_Questions_with_Ogdan_1794d18ca9926ed",
+        "MasterLabel": "Answer Questions with Ogdan",
+        "InvocationTargetType": "generatePromptResponse",
+        "InvocationTarget": "0hfVe000000Wxg5IAC",
+        "PluginId": "179Ve000003iid8IAA",
+        "PlannerId": null
+      },
+      {
+        "attributes": {
+          "type": "GenAiFunctionDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/GenAiFunctionDefinition/172Ve000001WP18IAG"
+        },
+        "Id": "172Ve000001WP18IAG",
+        "DeveloperName": "Get_Family_Member_Information_179524bb63cb606",
+        "MasterLabel": "Get Family Member Information",
+        "InvocationTargetType": "flow",
+        "InvocationTarget": "300Ve00000KHVrxIAH",
+        "PluginId": "179Ve000003iid8IAA",
+        "PlannerId": null
+      },
+      {
+        "attributes": {
+          "type": "GenAiFunctionDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/GenAiFunctionDefinition/172Ve000001WP19IAG"
+        },
+        "Id": "172Ve000001WP19IAG",
+        "DeveloperName": "Case_from_Agent_17954418e5c76b1",
+        "MasterLabel": "Case from Agent",
+        "InvocationTargetType": "flow",
+        "InvocationTarget": "300Ve00000GiGW5IAN",
+        "PluginId": "179Ve000003iid7IAA",
+        "PlannerId": null
+      },
+      {
+        "attributes": {
+          "type": "GenAiFunctionDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/GenAiFunctionDefinition/172Ve000001WP1AIAW"
+        },
+        "Id": "172Ve000001WP1AIAW",
+        "DeveloperName": "AnswerQuestionsWithKnowledge_16j62fbfddb23b3",
+        "MasterLabel": "Answer Questions with Knowledge",
+        "InvocationTargetType": "standardInvocableAction",
+        "InvocationTarget": "streamKnowledgeSearch",
+        "PluginId": null,
+        "PlannerId": "16jVe0000002CBZIA2"
+      }
+    ],
+    "totalSize": 4,
+    "done": true
+  }
+}

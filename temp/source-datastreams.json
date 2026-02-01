@@ -1,0 +1,339 @@
+{
+  "status": 0,
+  "result": {
+    "records": [
+      {
+        "attributes": {
+          "type": "DataStream",
+          "url": "/services/data/v66.0/sobjects/DataStream/1dsVe0000000E2zIAE"
+        },
+        "Id": "1dsVe0000000E2zIAE",
+        "Name": "NBN_ds",
+        "DataStreamStatus": "ACTIVE",
+        "ImportRunStatus": "SUCCESS"
+      },
+      {
+        "attributes": {
+          "type": "DataStream",
+          "url": "/services/data/v66.0/sobjects/DataStream/1dsVe0000000E4bIAE"
+        },
+        "Id": "1dsVe0000000E4bIAE",
+        "Name": "National_Insurance_ds",
+        "DataStreamStatus": "ACTIVE",
+        "ImportRunStatus": "SUCCESS"
+      },
+      {
+        "attributes": {
+          "type": "DataStream",
+          "url": "/services/data/v66.0/sobjects/DataStream/1dsVe0000000ECfIAM"
+        },
+        "Id": "1dsVe0000000ECfIAM",
+        "Name": "AiGroundingFileRef_Home",
+        "DataStreamStatus": "ACTIVE",
+        "ImportRunStatus": "SUCCESS"
+      },
+      {
+        "attributes": {
+          "type": "DataStream",
+          "url": "/services/data/v66.0/sobjects/DataStream/1dsVe0000000EKjIAM"
+        },
+        "Id": "1dsVe0000000EKjIAM",
+        "Name": "Knowledge_kav_Home",
+        "DataStreamStatus": "ACTIVE",
+        "ImportRunStatus": "SUCCESS"
+      },
+      {
+        "attributes": {
+          "type": "DataStream",
+          "url": "/services/data/v66.0/sobjects/DataStream/1dsVe0000000EKkIAM"
+        },
+        "Id": "1dsVe0000000EKkIAM",
+        "Name": "DataCategory_Home",
+        "DataStreamStatus": "ACTIVE",
+        "ImportRunStatus": "SUCCESS"
+      },
+      {
+        "attributes": {
+          "type": "DataStream",
+          "url": "/services/data/v66.0/sobjects/DataStream/1dsVe0000000EKlIAM"
+        },
+        "Id": "1dsVe0000000EKlIAM",
+        "Name": "DataCategoryGroup_Home",
+        "DataStreamStatus": "ACTIVE",
+        "ImportRunStatus": "SUCCESS"
+      },
+      {
+        "attributes": {
+          "type": "DataStream",
+          "url": "/services/data/v66.0/sobjects/DataStream/1dsVe0000000EKmIAM"
+        },
+        "Id": "1dsVe0000000EKmIAM",
+        "Name": "Knowledge_DataCategorySelection_Home",
+        "DataStreamStatus": "ACTIVE",
+        "ImportRunStatus": "SUCCESS"
+      },
+      {
+        "attributes": {
+          "type": "DataStream",
+          "url": "/services/data/v66.0/sobjects/DataStream/1dsVe0000000QfFIAU"
+        },
+        "Id": "1dsVe0000000QfFIAU",
+        "Name": "GenAIGatewayRequest",
+        "DataStreamStatus": "ACTIVE",
+        "ImportRunStatus": "SUCCESS"
+      },
+      {
+        "attributes": {
+          "type": "DataStream",
+          "url": "/services/data/v66.0/sobjects/DataStream/1dsVe0000000QfGIAU"
+        },
+        "Id": "1dsVe0000000QfGIAU",
+        "Name": "GenAIGatewayResponse",
+        "DataStreamStatus": "ACTIVE",
+        "ImportRunStatus": "SUCCESS"
+      },
+      {
+        "attributes": {
+          "type": "DataStream",
+          "url": "/services/data/v66.0/sobjects/DataStream/1dsVe0000000QfHIAU"
+        },
+        "Id": "1dsVe0000000QfHIAU",
+        "Name": "GenAIGeneration",
+        "DataStreamStatus": "ACTIVE",
+        "ImportRunStatus": "SUCCESS"
+      },
+      {
+        "attributes": {
+          "type": "DataStream",
+          "url": "/services/data/v66.0/sobjects/DataStream/1dsVe0000000QfIIAU"
+        },
+        "Id": "1dsVe0000000QfIIAU",
+        "Name": "GenAIFeedback",
+        "DataStreamStatus": "ACTIVE",
+        "ImportRunStatus": "SUCCESS"
+      },
+      {
+        "attributes": {
+          "type": "DataStream",
+          "url": "/services/data/v66.0/sobjects/DataStream/1dsVe0000000QfJIAU"
+        },
+        "Id": "1dsVe0000000QfJIAU",
+        "Name": "GenAIFeedbackDetail",
+        "DataStreamStatus": "ACTIVE",
+        "ImportRunStatus": "SUCCESS"
+      },
+      {
+        "attributes": {
+          "type": "DataStream",
+          "url": "/services/data/v66.0/sobjects/DataStream/1dsVe0000000QfKIAU"
+        },
+        "Id": "1dsVe0000000QfKIAU",
+        "Name": "GenAIContentQuality",
+        "DataStreamStatus": "ACTIVE",
+        "ImportRunStatus": "SUCCESS"
+      },
+      {
+        "attributes": {
+          "type": "DataStream",
+          "url": "/services/data/v66.0/sobjects/DataStream/1dsVe0000000QfLIAU"
+        },
+        "Id": "1dsVe0000000QfLIAU",
+        "Name": "GenAIAppGeneration",
+        "DataStreamStatus": "ACTIVE",
+        "ImportRunStatus": "SUCCESS"
+      },
+      {
+        "attributes": {
+          "type": "DataStream",
+          "url": "/services/data/v66.0/sobjects/DataStream/1dsVe0000000QfMIAU"
+        },
+        "Id": "1dsVe0000000QfMIAU",
+        "Name": "GenAIContentCategory",
+        "DataStreamStatus": "ACTIVE",
+        "ImportRunStatus": "SUCCESS"
+      },
+      {
+        "attributes": {
+          "type": "DataStream",
+          "url": "/services/data/v66.0/sobjects/DataStream/1dsVe0000000QfNIAU"
+        },
+        "Id": "1dsVe0000000QfNIAU",
+        "Name": "GenAIGatewayRequestTag",
+        "DataStreamStatus": "ACTIVE",
+        "ImportRunStatus": "SUCCESS"
+      },
+      {
+        "attributes": {
+          "type": "DataStream",
+          "url": "/services/data/v66.0/sobjects/DataStream/1dsVe0000000QfOIAU"
+        },
+        "Id": "1dsVe0000000QfOIAU",
+        "Name": "GenAIGtwyObjRecord",
+        "DataStreamStatus": "ACTIVE",
+        "ImportRunStatus": "SUCCESS"
+      },
+      {
+        "attributes": {
+          "type": "DataStream",
+          "url": "/services/data/v66.0/sobjects/DataStream/1dsVe0000000QfPIAU"
+        },
+        "Id": "1dsVe0000000QfPIAU",
+        "Name": "GenAIGtwyRequestLLM",
+        "DataStreamStatus": "ACTIVE",
+        "ImportRunStatus": "SUCCESS"
+      },
+      {
+        "attributes": {
+          "type": "DataStream",
+          "url": "/services/data/v66.0/sobjects/DataStream/1dsVe0000000QfQIAU"
+        },
+        "Id": "1dsVe0000000QfQIAU",
+        "Name": "GenAIGtwyObjRecCitationRef",
+        "DataStreamStatus": "ACTIVE",
+        "ImportRunStatus": "SUCCESS"
+      },
+      {
+        "attributes": {
+          "type": "DataStream",
+          "url": "/services/data/v66.0/sobjects/DataStream/1dsVe0000000QfRIAU"
+        },
+        "Id": "1dsVe0000000QfRIAU",
+        "Name": "GenAIGtwyRequestMetadata",
+        "DataStreamStatus": "ACTIVE",
+        "ImportRunStatus": "SUCCESS"
+      },
+      {
+        "attributes": {
+          "type": "DataStream",
+          "url": "/services/data/v66.0/sobjects/DataStream/1dsVe0000000QgrIAE"
+        },
+        "Id": "1dsVe0000000QgrIAE",
+        "Name": "AIRetrieverRequest",
+        "DataStreamStatus": "ACTIVE",
+        "ImportRunStatus": "SUCCESS"
+      },
+      {
+        "attributes": {
+          "type": "DataStream",
+          "url": "/services/data/v66.0/sobjects/DataStream/1dsVe0000000QgsIAE"
+        },
+        "Id": "1dsVe0000000QgsIAE",
+        "Name": "AIRetrieverResponse",
+        "DataStreamStatus": "ACTIVE",
+        "ImportRunStatus": "SUCCESS"
+      },
+      {
+        "attributes": {
+          "type": "DataStream",
+          "url": "/services/data/v66.0/sobjects/DataStream/1dsVe0000000QqXIAU"
+        },
+        "Id": "1dsVe0000000QqXIAU",
+        "Name": "AiAgentSession",
+        "DataStreamStatus": "ACTIVE",
+        "ImportRunStatus": "SUCCESS"
+      },
+      {
+        "attributes": {
+          "type": "DataStream",
+          "url": "/services/data/v66.0/sobjects/DataStream/1dsVe0000000QqYIAU"
+        },
+        "Id": "1dsVe0000000QqYIAU",
+        "Name": "AiAgentInteraction",
+        "DataStreamStatus": "ACTIVE",
+        "ImportRunStatus": "SUCCESS"
+      },
+      {
+        "attributes": {
+          "type": "DataStream",
+          "url": "/services/data/v66.0/sobjects/DataStream/1dsVe0000000QqZIAU"
+        },
+        "Id": "1dsVe0000000QqZIAU",
+        "Name": "AiAgentSessionParticipant",
+        "DataStreamStatus": "ACTIVE",
+        "ImportRunStatus": "SUCCESS"
+      },
+      {
+        "attributes": {
+          "type": "DataStream",
+          "url": "/services/data/v66.0/sobjects/DataStream/1dsVe0000000QqaIAE"
+        },
+        "Id": "1dsVe0000000QqaIAE",
+        "Name": "AiAgentInteractionMessage",
+        "DataStreamStatus": "ACTIVE",
+        "ImportRunStatus": "SUCCESS"
+      },
+      {
+        "attributes": {
+          "type": "DataStream",
+          "url": "/services/data/v66.0/sobjects/DataStream/1dsVe0000000QqbIAE"
+        },
+        "Id": "1dsVe0000000QqbIAE",
+        "Name": "AiAgentInteractionStep",
+        "DataStreamStatus": "ACTIVE",
+        "ImportRunStatus": "SUCCESS"
+      },
+      {
+        "attributes": {
+          "type": "DataStream",
+          "url": "/services/data/v66.0/sobjects/DataStream/1dsVe0000000QqcIAE"
+        },
+        "Id": "1dsVe0000000QqcIAE",
+        "Name": "AiAgentMessageAttachmentBridge",
+        "DataStreamStatus": "ACTIVE",
+        "ImportRunStatus": "SUCCESS"
+      },
+      {
+        "attributes": {
+          "type": "DataStream",
+          "url": "/services/data/v66.0/sobjects/DataStream/1dsVe0000000QqdIAE"
+        },
+        "Id": "1dsVe0000000QqdIAE",
+        "Name": "AiAgentSessionAttachmentBridge",
+        "DataStreamStatus": "ACTIVE",
+        "ImportRunStatus": "SUCCESS"
+      },
+      {
+        "attributes": {
+          "type": "DataStream",
+          "url": "/services/data/v66.0/sobjects/DataStream/1dsVg00000009RVIAY"
+        },
+        "Id": "1dsVg00000009RVIAY",
+        "Name": "TenantBillingUsageEventStream",
+        "DataStreamStatus": "NEEDS_ACTIVATION",
+        "ImportRunStatus": "NONE"
+      },
+      {
+        "attributes": {
+          "type": "DataStream",
+          "url": "/services/data/v66.0/sobjects/DataStream/1dsVg00000009RWIAY"
+        },
+        "Id": "1dsVg00000009RWIAY",
+        "Name": "TenantUsageTypeMultiplierStream",
+        "DataStreamStatus": "ACTIVE",
+        "ImportRunStatus": "SUCCESS"
+      },
+      {
+        "attributes": {
+          "type": "DataStream",
+          "url": "/services/data/v66.0/sobjects/DataStream/1dsVg00000009RXIAY"
+        },
+        "Id": "1dsVg00000009RXIAY",
+        "Name": "TenantEntitlementTransactionStream",
+        "DataStreamStatus": "ACTIVE",
+        "ImportRunStatus": "SUCCESS"
+      },
+      {
+        "attributes": {
+          "type": "DataStream",
+          "url": "/services/data/v66.0/sobjects/DataStream/1dsVg00000009RYIAY"
+        },
+        "Id": "1dsVg00000009RYIAY",
+        "Name": "ProvisionedFeatureStream",
+        "DataStreamStatus": "ACTIVE",
+        "ImportRunStatus": "SUCCESS"
+      }
+    ],
+    "totalSize": 33,
+    "done": true
+  }
+}

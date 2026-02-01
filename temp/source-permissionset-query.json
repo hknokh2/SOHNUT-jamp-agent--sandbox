@@ -1,0 +1,329 @@
+{
+  "status": 0,
+  "result": {
+    "records": [
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PS3Y0000006chrWAA"
+        },
+        "Id": "0PS3Y0000006chrWAA",
+        "Name": "OmniChannel_Agent_Permissions",
+        "Label": "OmniChannel Agent Permissions",
+        "IsOwnedByProfile": false
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PS3Y000000BmGcWAK"
+        },
+        "Id": "0PS3Y000000BmGcWAK",
+        "Name": "Live_Agent_Setup_Flow",
+        "Label": "Chat Setup Flow",
+        "IsOwnedByProfile": false
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSVg0000006dA6OAI"
+        },
+        "Id": "0PSVg0000006dA6OAI",
+        "Name": "AgentforceServiceAgentUserPsg",
+        "Label": "AgentforceServiceAgentUserPsg",
+        "IsOwnedByProfile": false
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSVg0000006dBaOAI"
+        },
+        "Id": "0PSVg0000006dBaOAI",
+        "Name": "AgentPlatformBuilder",
+        "Label": "Agent Platform Builder",
+        "IsOwnedByProfile": false
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSVg0000006dBbOAI"
+        },
+        "Id": "0PSVg0000006dBbOAI",
+        "Name": "AgentforceServiceAgentBase",
+        "Label": "Agentforce Service Agent Object Access",
+        "IsOwnedByProfile": false
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSVg0000006dBcOAI"
+        },
+        "Id": "0PSVg0000006dBcOAI",
+        "Name": "AgentforceServiceAgentBuilder",
+        "Label": "Agentforce Service Agent Configuration",
+        "IsOwnedByProfile": false
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSVg0000006dBdOAI"
+        },
+        "Id": "0PSVg0000006dBdOAI",
+        "Name": "AgentforceServiceAgentSecureBase",
+        "Label": "Agentforce Service Agent Secure Base",
+        "IsOwnedByProfile": false
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSVg0000006dBeOAI"
+        },
+        "Id": "0PSVg0000006dBeOAI",
+        "Name": "AgentforceServiceAgentUser",
+        "Label": "Agentforce Service Agent User",
+        "IsOwnedByProfile": false
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSVe000000yWaLOAU"
+        },
+        "Id": "0PSVe000000yWaLOAU",
+        "Name": "AncCrmIntegrationUser",
+        "Label": "Agentic Near Core CRM",
+        "IsOwnedByProfile": false
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSVe000000yWaMOAU"
+        },
+        "Id": "0PSVe000000yWaMOAU",
+        "Name": "AncMarketingIntegrationUser",
+        "Label": "Agentic Near Core Marketing",
+        "IsOwnedByProfile": false
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSVe000000yWaNOAU"
+        },
+        "Id": "0PSVe000000yWaNOAU",
+        "Name": "AncPersonalizationIntegrationUser",
+        "Label": "Agentic Near Core Personalization",
+        "IsOwnedByProfile": false
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSVe000000yWaOOAU"
+        },
+        "Id": "0PSVe000000yWaOOAU",
+        "Name": "AncProvisioningIntegrationUser",
+        "Label": "Agentic Near Core Provisioning",
+        "IsOwnedByProfile": false
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PS3Y000000hRrcWAE"
+        },
+        "Id": "0PS3Y000000hRrcWAE",
+        "Name": "CallCoachingIncluded",
+        "Label": "Einstein Conversation Insights Included",
+        "IsOwnedByProfile": false
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PS3Y000000hRreWAE"
+        },
+        "Id": "0PS3Y000000hRreWAE",
+        "Name": "EinsteinActivityCaptureIncluded",
+        "Label": "Einstein Activity Capture Included",
+        "IsOwnedByProfile": false
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PS3Y000001FikFWAS"
+        },
+        "Id": "0PS3Y000001FikFWAS",
+        "Name": "EinsteinAgent",
+        "Label": "Einstein Case Classification User",
+        "IsOwnedByProfile": false
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PS3Y0000006SZQWA2"
+        },
+        "Id": "0PS3Y0000006SZQWA2",
+        "Name": "EinsteinAgentCWU",
+        "Label": "Einstein Case Wrap-Up User",
+        "IsOwnedByProfile": false
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSVg0000000iKROAY"
+        },
+        "Id": "0PSVg0000000iKROAY",
+        "Name": "EinsteinGPTPromptTemplateManager",
+        "Label": "Prompt Template Manager",
+        "IsOwnedByProfile": false
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PS3Y0000006ctiWAA"
+        },
+        "Id": "0PS3Y0000006ctiWAA",
+        "Name": "EinsteinGPTPromptTemplateUser",
+        "Label": "Prompt Template User",
+        "IsOwnedByProfile": false
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSVg0000002Qw5OAE"
+        },
+        "Id": "0PSVg0000002Qw5OAE",
+        "Name": "EinsteinGPTSalesCallSummaries",
+        "Label": "Einstein Sales Call Summaries",
+        "IsOwnedByProfile": false
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PS3Y000000HhsmWAC"
+        },
+        "Id": "0PS3Y000000HhsmWAC",
+        "Name": "EinsteinGPTSalesEmails",
+        "Label": "Einstein Sales Emails",
+        "IsOwnedByProfile": false
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PS3Y0000006ctjWAA"
+        },
+        "Id": "0PS3Y0000006ctjWAA",
+        "Name": "EinsteinGPTSalesSummaries",
+        "Label": "Einstein Sales Summaries User",
+        "IsOwnedByProfile": false
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PS3Y000000VjKUWA0"
+        },
+        "Id": "0PS3Y000000VjKUWA0",
+        "Name": "EinsteinPredictionsManagerAdmin",
+        "Label": "Einstein Predictions Manager Admin",
+        "IsOwnedByProfile": false
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PS3Y000000VjKWWA0"
+        },
+        "Id": "0PS3Y000000VjKWWA0",
+        "Name": "EinsteinPredictionsManagerUser",
+        "Label": "Einstein Predictions Manager User",
+        "IsOwnedByProfile": false
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PS3Y000000HhmGWAS"
+        },
+        "Id": "0PS3Y000000HhmGWAS",
+        "Name": "EinsteinSalesBots",
+        "Label": "Buyer Assistant Admin",
+        "IsOwnedByProfile": false
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSVg0000006dBmOAI"
+        },
+        "Id": "0PSVg0000006dBmOAI",
+        "Name": "EinsteinServiceInnovations",
+        "Label": "Einstein for Service Innovations",
+        "IsOwnedByProfile": false
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSVg0000006dBxOAI"
+        },
+        "Id": "0PSVg0000006dBxOAI",
+        "Name": "MessagingSessionAgent",
+        "Label": "Messaging Session User",
+        "IsOwnedByProfile": false
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSVe000000cq2POAQ"
+        },
+        "Id": "0PSVe000000cq2POAQ",
+        "Name": "MuleSoftEinsteinPermSet",
+        "Label": "MuleSoftEinsteinPermSet",
+        "IsOwnedByProfile": false
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSVg0000006qM2OAI"
+        },
+        "Id": "0PSVg0000006qM2OAI",
+        "Name": "PromptTemplatePermSet",
+        "Label": "PromptTemplatePermSet",
+        "IsOwnedByProfile": false
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PS3Y000000HhgXWAS"
+        },
+        "Id": "0PS3Y000000HhgXWAS",
+        "Name": "SalesCloudEinsteinForPartners",
+        "Label": "Sales Cloud Einstein for Partners",
+        "IsOwnedByProfile": false
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PS3Y000000hRraWAE"
+        },
+        "Id": "0PS3Y000000hRraWAE",
+        "Name": "SalesCloudEinsteinIncluded",
+        "Label": "Sales Cloud Einstein Included",
+        "IsOwnedByProfile": false
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSVg0000002Qw8OAE"
+        },
+        "Id": "0PSVg0000002Qw8OAE",
+        "Name": "ServiceCatalogAgent",
+        "Label": "Service Catalog Agent",
+        "IsOwnedByProfile": false
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PS0O00000068f8WAA"
+        },
+        "Id": "0PS0O00000068f8WAA",
+        "Name": "StandardEinsteinActivityCapturePsl",
+        "Label": "Standard Einstein Activity Capture",
+        "IsOwnedByProfile": false
+      }
+    ],
+    "totalSize": 32,
+    "done": true
+  }
+}

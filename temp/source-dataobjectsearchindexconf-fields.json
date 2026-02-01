@@ -1,0 +1,121 @@
+{
+  "status": 0,
+  "result": {
+    "records": [
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataObjectSearchIndexConf.Id"
+        },
+        "QualifiedApiName": "Id"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataObjectSearchIndexConf.IsDeleted"
+        },
+        "QualifiedApiName": "IsDeleted"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataObjectSearchIndexConf.DeveloperName"
+        },
+        "QualifiedApiName": "DeveloperName"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataObjectSearchIndexConf.Language"
+        },
+        "QualifiedApiName": "Language"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataObjectSearchIndexConf.MasterLabel"
+        },
+        "QualifiedApiName": "MasterLabel"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataObjectSearchIndexConf.CreatedDate"
+        },
+        "QualifiedApiName": "CreatedDate"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataObjectSearchIndexConf.CreatedBy"
+        },
+        "QualifiedApiName": "CreatedById"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataObjectSearchIndexConf.LastModifiedDate"
+        },
+        "QualifiedApiName": "LastModifiedDate"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataObjectSearchIndexConf.LastModifiedBy"
+        },
+        "QualifiedApiName": "LastModifiedById"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataObjectSearchIndexConf.SystemModstamp"
+        },
+        "QualifiedApiName": "SystemModstamp"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataObjectSearchIndexConf.Application"
+        },
+        "QualifiedApiName": "Application"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataObjectSearchIndexConf.SearchIndex"
+        },
+        "QualifiedApiName": "SearchIndexId"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataObjectSearchIndexConf.NameFieldReference"
+        },
+        "QualifiedApiName": "NameFieldReferenceId"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataObjectSearchIndexConf.Retriever"
+        },
+        "QualifiedApiName": "RetrieverId"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataObjectSearchIndexConf.Channel"
+        },
+        "QualifiedApiName": "Channel"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataObjectSearchIndexConf.ObjectReference"
+        },
+        "QualifiedApiName": "ObjectReferenceId"
+      }
+    ],
+    "totalSize": 16,
+    "done": true
+  }
+}

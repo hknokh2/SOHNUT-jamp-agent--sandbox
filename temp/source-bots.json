@@ -1,0 +1,90 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "0052000000106pJAAQ",
+      "createdByName": "Moshe Shachar",
+      "createdDate": "2023-08-09T09:03:05.000Z",
+      "fileName": "bots/Aliyah_Bot_Enhanced_v2.bot",
+      "fullName": "Aliyah_Bot_Enhanced_v2",
+      "id": "0Xx3Y000000008PSAQ",
+      "lastModifiedById": "0052000000106pJAAQ",
+      "lastModifiedByName": "Moshe Shachar",
+      "lastModifiedDate": "2023-09-04T18:35:15.000Z",
+      "type": "Bot"
+    },
+    {
+      "createdById": "005Ve00000BkCF7IAN",
+      "createdByName": "Amit Joshi",
+      "createdDate": "2025-07-18T16:27:47.000Z",
+      "fileName": "bots/Aliyah_Support.bot",
+      "fullName": "Aliyah_Support",
+      "id": "0XxVe0000000hubKAA",
+      "lastModifiedById": "005Ve00000BkCF7IAN",
+      "lastModifiedByName": "Amit Joshi",
+      "lastModifiedDate": "2025-09-23T20:30:33.000Z",
+      "type": "Bot"
+    },
+    {
+      "createdById": "0052000000106pJAAQ",
+      "createdByName": "Moshe Shachar",
+      "createdDate": "2023-08-02T13:41:33.000Z",
+      "fileName": "bots/Global_Center_Bot.bot",
+      "fullName": "Global_Center_Bot",
+      "id": "0Xx3Y000000008FSAQ",
+      "lastModifiedById": "0052000000106pJAAQ",
+      "lastModifiedByName": "Moshe Shachar",
+      "lastModifiedDate": "2023-09-04T09:49:29.000Z",
+      "type": "Bot"
+    },
+    {
+      "createdById": "0052000000106pJAAQ",
+      "createdByName": "Moshe Shachar",
+      "createdDate": "2023-02-16T14:39:33.000Z",
+      "fileName": "bots/Aliyah_Bot.bot",
+      "fullName": "Aliyah_Bot",
+      "id": "0Xx3Y0000004CQZSA2",
+      "lastModifiedById": "0052000000106pJAAQ",
+      "lastModifiedByName": "Moshe Shachar",
+      "lastModifiedDate": "2023-02-16T14:39:33.000Z",
+      "type": "Bot"
+    },
+    {
+      "createdById": "0052000000106pJAAQ",
+      "createdByName": "Moshe Shachar",
+      "createdDate": "2023-08-09T09:09:25.000Z",
+      "fileName": "bots/Global_Aliyah_Bot.bot",
+      "fullName": "Global_Aliyah_Bot",
+      "id": "0Xx3Y000000008ZSAQ",
+      "lastModifiedById": "0052000000106pJAAQ",
+      "lastModifiedByName": "Moshe Shachar",
+      "lastModifiedDate": "2023-08-09T09:09:25.000Z",
+      "type": "Bot"
+    },
+    {
+      "createdById": "0052000000106pJAAQ",
+      "createdByName": "Moshe Shachar",
+      "createdDate": "2023-02-16T14:26:22.000Z",
+      "fileName": "bots/test.bot",
+      "fullName": "test",
+      "id": "0Xx3Y0000004CQKSA2",
+      "lastModifiedById": "0052000000106pJAAQ",
+      "lastModifiedByName": "Moshe Shachar",
+      "lastModifiedDate": "2023-02-16T14:26:22.000Z",
+      "type": "Bot"
+    },
+    {
+      "createdById": "0052000000106pJAAQ",
+      "createdByName": "Moshe Shachar",
+      "createdDate": "2025-02-12T15:44:53.000Z",
+      "fileName": "bots/Aliya_Enhanced_Bot.bot",
+      "fullName": "Aliya_Enhanced_Bot",
+      "id": "0XxVg00000004A5KAI",
+      "lastModifiedById": "0052000000106pJAAQ",
+      "lastModifiedByName": "Moshe Shachar",
+      "lastModifiedDate": "2025-02-12T15:44:53.000Z",
+      "type": "Bot"
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,191 @@
+{
+  "status": 0,
+  "result": {
+    "records": [
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiFunctionDefinition.Id"
+        },
+        "QualifiedApiName": "Id"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiFunctionDefinition.IsDeleted"
+        },
+        "QualifiedApiName": "IsDeleted"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiFunctionDefinition.DeveloperName"
+        },
+        "QualifiedApiName": "DeveloperName"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiFunctionDefinition.Language"
+        },
+        "QualifiedApiName": "Language"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiFunctionDefinition.MasterLabel"
+        },
+        "QualifiedApiName": "MasterLabel"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiFunctionDefinition.NamespacePrefix"
+        },
+        "QualifiedApiName": "NamespacePrefix"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiFunctionDefinition.ManageableState"
+        },
+        "QualifiedApiName": "ManageableState"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiFunctionDefinition.CreatedDate"
+        },
+        "QualifiedApiName": "CreatedDate"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiFunctionDefinition.CreatedBy"
+        },
+        "QualifiedApiName": "CreatedById"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiFunctionDefinition.LastModifiedDate"
+        },
+        "QualifiedApiName": "LastModifiedDate"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiFunctionDefinition.LastModifiedBy"
+        },
+        "QualifiedApiName": "LastModifiedById"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiFunctionDefinition.SystemModstamp"
+        },
+        "QualifiedApiName": "SystemModstamp"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiFunctionDefinition.Description"
+        },
+        "QualifiedApiName": "Description"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiFunctionDefinition.InvocationTargetType"
+        },
+        "QualifiedApiName": "InvocationTargetType"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiFunctionDefinition.InvocationTarget"
+        },
+        "QualifiedApiName": "InvocationTarget"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiFunctionDefinition.IsConfirmationRequired"
+        },
+        "QualifiedApiName": "IsConfirmationRequired"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiFunctionDefinition.FullName"
+        },
+        "QualifiedApiName": "FullName"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiFunctionDefinition.Metadata"
+        },
+        "QualifiedApiName": "Metadata"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiFunctionDefinition.IsLocal"
+        },
+        "QualifiedApiName": "IsLocal"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiFunctionDefinition.Parent"
+        },
+        "QualifiedApiName": "ParentId"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiFunctionDefinition.IsIncludeInProgressIndicator"
+        },
+        "QualifiedApiName": "IsIncludeInProgressIndicator"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiFunctionDefinition.ProgressIndicatorMessage"
+        },
+        "QualifiedApiName": "ProgressIndicatorMessage"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiFunctionDefinition.Source"
+        },
+        "QualifiedApiName": "Source"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiFunctionDefinition.Plugin"
+        },
+        "QualifiedApiName": "PluginId"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiFunctionDefinition.Planner"
+        },
+        "QualifiedApiName": "PlannerId"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/GenAiFunctionDefinition.LocalDeveloperName"
+        },
+        "QualifiedApiName": "LocalDeveloperName"
+      }
+    ],
+    "totalSize": 26,
+    "done": true
+  }
+}

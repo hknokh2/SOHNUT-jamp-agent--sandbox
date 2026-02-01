@@ -1,0 +1,45 @@
+{
+  "status": 0,
+  "result": {
+    "records": [
+      {
+        "attributes": {
+          "type": "GenAiPlannerFunctionDef",
+          "url": "/services/data/v66.0/tooling/sobjects/GenAiPlannerFunctionDef/17DVe000003lTjBMAU"
+        },
+        "Id": "17DVe000003lTjBMAU",
+        "PlannerId": "16jVe0000002CBZIA2",
+        "Plugin": "179Ve000003iid7IAA"
+      },
+      {
+        "attributes": {
+          "type": "GenAiPlannerFunctionDef",
+          "url": "/services/data/v66.0/tooling/sobjects/GenAiPlannerFunctionDef/17DVe000003lTjCMAU"
+        },
+        "Id": "17DVe000003lTjCMAU",
+        "PlannerId": "16jVe0000002CBZIA2",
+        "Plugin": "179Ve000003iid8IAA"
+      },
+      {
+        "attributes": {
+          "type": "GenAiPlannerFunctionDef",
+          "url": "/services/data/v66.0/tooling/sobjects/GenAiPlannerFunctionDef/17DVe000003lTjDMAU"
+        },
+        "Id": "17DVe000003lTjDMAU",
+        "PlannerId": "16jVe0000002CBZIA2",
+        "Plugin": "172Ve000001WP1AIAW"
+      },
+      {
+        "attributes": {
+          "type": "GenAiPlannerFunctionDef",
+          "url": "/services/data/v66.0/tooling/sobjects/GenAiPlannerFunctionDef/17DVe000003lTknMAE"
+        },
+        "Id": "17DVe000003lTknMAE",
+        "PlannerId": "16jVe0000002CBZIA2",
+        "Plugin": "179Ve000003iiejIAA"
+      }
+    ],
+    "totalSize": 4,
+    "done": true
+  }
+}

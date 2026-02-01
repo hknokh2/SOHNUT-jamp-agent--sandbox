@@ -1,0 +1,71 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "005Ve00000BkCF7IAN",
+      "createdByName": "Amit Joshi",
+      "createdDate": "2025-07-18T17:17:52.000Z",
+      "fileName": "genAiPromptTemplates/answerWithKnowledge_Override.genAiPromptTemplate",
+      "fullName": "answerWithKnowledge_Override",
+      "id": "0hfVe000000IJk9IAG",
+      "lastModifiedById": "005Ve00000HFfsPIAT",
+      "lastModifiedByName": "Vitali Kuperman",
+      "lastModifiedDate": "2025-12-25T10:43:54.000Z",
+      "manageableState": "unmanaged",
+      "type": "GenAiPromptTemplate"
+    },
+    {
+      "createdById": "005Ve00000BkCF7IAN",
+      "createdByName": "Amit Joshi",
+      "createdDate": "2025-07-23T14:31:11.000Z",
+      "fileName": "genAiPromptTemplates/Answer_Questions_with_Multiple_Libraries.genAiPromptTemplate",
+      "fullName": "Answer_Questions_with_Multiple_Libraries",
+      "id": "0hfVe000000IW6HIAW",
+      "lastModifiedById": "005Ve00000BkCF7IAN",
+      "lastModifiedByName": "Amit Joshi",
+      "lastModifiedDate": "2025-07-23T14:31:11.000Z",
+      "manageableState": "unmanaged",
+      "type": "GenAiPromptTemplate"
+    },
+    {
+      "createdById": "005Ve00000BkCF7IAN",
+      "createdByName": "Amit Joshi",
+      "createdDate": "2025-07-23T14:44:55.000Z",
+      "fileName": "genAiPromptTemplates/Aggregate_Libraries_2.genAiPromptTemplate",
+      "fullName": "Aggregate_Libraries_2",
+      "id": "0hfVe000000IWB7IAO",
+      "lastModifiedById": "005Ve00000BkCF7IAN",
+      "lastModifiedByName": "Amit Joshi",
+      "lastModifiedDate": "2025-07-23T14:59:38.000Z",
+      "manageableState": "unmanaged",
+      "type": "GenAiPromptTemplate"
+    },
+    {
+      "createdById": "005Ve00000HFfsPIAT",
+      "createdByName": "Vitali Kuperman",
+      "createdDate": "2026-01-14T18:04:13.000Z",
+      "fileName": "genAiPromptTemplates/Answer_Questions_with_Ogdan.genAiPromptTemplate",
+      "fullName": "Answer_Questions_with_Ogdan",
+      "id": "0hfVe000000Wxg5IAC",
+      "lastModifiedById": "00520000004BTOzAAO",
+      "lastModifiedByName": "Yuliya Luques",
+      "lastModifiedDate": "2026-01-29T10:18:41.000Z",
+      "manageableState": "unmanaged",
+      "type": "GenAiPromptTemplate"
+    },
+    {
+      "createdById": "005Ve00000BkCF7IAN",
+      "createdByName": "Amit Joshi",
+      "createdDate": "2025-07-23T14:35:45.000Z",
+      "fileName": "genAiPromptTemplates/Aggregate_Libraries.genAiPromptTemplate",
+      "fullName": "Aggregate_Libraries",
+      "id": "0hfVe000000IW7tIAG",
+      "lastModifiedById": "005Ve00000BkCF7IAN",
+      "lastModifiedByName": "Amit Joshi",
+      "lastModifiedDate": "2025-07-23T14:35:45.000Z",
+      "manageableState": "unmanaged",
+      "type": "GenAiPromptTemplate"
+    }
+  ],
+  "warnings": []
+}

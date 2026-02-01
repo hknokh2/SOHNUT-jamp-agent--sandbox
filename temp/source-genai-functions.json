@@ -1,0 +1,71 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "005Ve00000BkCF7IAN",
+      "createdByName": "Amit Joshi",
+      "createdDate": "2025-09-25T15:09:37.000Z",
+      "fileName": "genAiFunctions/Case_from_Agent.genAiFunction",
+      "fullName": "Case_from_Agent",
+      "id": "172Ve000001LQ6zIAG",
+      "lastModifiedById": "005Ve00000BkCF7IAN",
+      "lastModifiedByName": "Amit Joshi",
+      "lastModifiedDate": "2025-09-25T15:09:37.000Z",
+      "manageableState": "unmanaged",
+      "type": "GenAiFunction"
+    },
+    {
+      "createdById": "005Ve00000HFfsPIAT",
+      "createdByName": "Vitali Kuperman",
+      "createdDate": "2026-01-14T18:55:35.000Z",
+      "fileName": "genAiFunctions/Answer_Questions_with_Ogdan.genAiFunction",
+      "fullName": "Answer_Questions_with_Ogdan",
+      "id": "172Ve000001V6i5IAC",
+      "lastModifiedById": "005Ve00000HFfsPIAT",
+      "lastModifiedByName": "Vitali Kuperman",
+      "lastModifiedDate": "2026-01-14T18:55:35.000Z",
+      "manageableState": "unmanaged",
+      "type": "GenAiFunction"
+    },
+    {
+      "createdById": "005Ve00000BkCF7IAN",
+      "createdByName": "Amit Joshi",
+      "createdDate": "2025-09-23T20:51:01.000Z",
+      "fileName": "genAiFunctions/Case_from_Bot.genAiFunction",
+      "fullName": "Case_from_Bot",
+      "id": "172Ve000001L7ifIAC",
+      "lastModifiedById": "005Ve00000BkCF7IAN",
+      "lastModifiedByName": "Amit Joshi",
+      "lastModifiedDate": "2025-09-23T20:51:01.000Z",
+      "manageableState": "unmanaged",
+      "type": "GenAiFunction"
+    },
+    {
+      "createdById": "005Ve00000HFfsPIAT",
+      "createdByName": "Vitali Kuperman",
+      "createdDate": "2026-01-04T20:48:41.000Z",
+      "fileName": "genAiFunctions/Get_Family_Member_Information.genAiFunction",
+      "fullName": "Get_Family_Member_Information",
+      "id": "172Ve000001UKVNIA4",
+      "lastModifiedById": "005Ve00000HFfsPIAT",
+      "lastModifiedByName": "Vitali Kuperman",
+      "lastModifiedDate": "2026-01-04T20:48:41.000Z",
+      "manageableState": "unmanaged",
+      "type": "GenAiFunction"
+    },
+    {
+      "createdById": "005Ve00000BkCF7IAN",
+      "createdByName": "Amit Joshi",
+      "createdDate": "2025-07-23T16:25:36.000Z",
+      "fileName": "genAiFunctions/Aggregate_Libraries_2.genAiFunction",
+      "fullName": "Aggregate_Libraries_2",
+      "id": "172Ve000001GX2fIAG",
+      "lastModifiedById": "005Ve00000BkCF7IAN",
+      "lastModifiedByName": "Amit Joshi",
+      "lastModifiedDate": "2025-07-23T16:25:36.000Z",
+      "manageableState": "unmanaged",
+      "type": "GenAiFunction"
+    }
+  ],
+  "warnings": []
+}

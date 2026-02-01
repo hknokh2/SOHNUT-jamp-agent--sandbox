@@ -1,0 +1,79 @@
+{
+  "status": 0,
+  "result": {
+    "records": [
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/GenAiConvDefPlanner"
+        },
+        "QualifiedApiName": "GenAiConvDefPlanner"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/GenAiPlannerAttrDefinition"
+        },
+        "QualifiedApiName": "GenAiPlannerAttrDefinition"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/GenAiPlannerDefinition"
+        },
+        "QualifiedApiName": "GenAiPlannerDefinition"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/GenAiPlannerFunctionDef"
+        },
+        "QualifiedApiName": "GenAiPlannerFunctionDef"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/GenAiPlannerAttrMapping"
+        },
+        "QualifiedApiName": "GenAiPlannerAttrMapping"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/GenAiPlannerRuleExpr"
+        },
+        "QualifiedApiName": "GenAiPlannerRuleExpr"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/GenAiPlannerRuleExprCond"
+        },
+        "QualifiedApiName": "GenAiPlannerRuleExprCond"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/GenAiPlannerRuleExprObject"
+        },
+        "QualifiedApiName": "GenAiPlannerRuleExprObject"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/GenAiPlannerRuleExprAsgn"
+        },
+        "QualifiedApiName": "GenAiPlannerRuleExprAsgn"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/GenAiPlannerRuleExprDef"
+        },
+        "QualifiedApiName": "GenAiPlannerRuleExprDef"
+      }
+    ],
+    "totalSize": 10,
+    "done": true
+  }
+}

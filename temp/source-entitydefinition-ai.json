@@ -1,0 +1,2417 @@
+{
+  "status": 0,
+  "result": {
+    "records": [
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/MailmergeTemplate"
+        },
+        "QualifiedApiName": "MailmergeTemplate"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/EmailRoutingAddress"
+        },
+        "QualifiedApiName": "EmailRoutingAddress"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/EmailStatus"
+        },
+        "QualifiedApiName": "EmailStatus"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/EmailTemplate"
+        },
+        "QualifiedApiName": "EmailTemplate"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/EmailTemplateChangeEvent"
+        },
+        "QualifiedApiName": "EmailTemplateChangeEvent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/Campaign"
+        },
+        "QualifiedApiName": "Campaign"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CampaignShare"
+        },
+        "QualifiedApiName": "CampaignShare"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CampaignOwnerSharingRule"
+        },
+        "QualifiedApiName": "CampaignOwnerSharingRule"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CampaignHistory"
+        },
+        "QualifiedApiName": "CampaignHistory"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CampaignFeed"
+        },
+        "QualifiedApiName": "CampaignFeed"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CampaignTag"
+        },
+        "QualifiedApiName": "CampaignTag"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CampaignChangeEvent"
+        },
+        "QualifiedApiName": "CampaignChangeEvent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CampaignMemberStatus"
+        },
+        "QualifiedApiName": "CampaignMemberStatus"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CampaignMemberStatusChangeEvent"
+        },
+        "QualifiedApiName": "CampaignMemberStatusChangeEvent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CampaignMember"
+        },
+        "QualifiedApiName": "CampaignMember"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CampaignMemberChangeEvent"
+        },
+        "QualifiedApiName": "CampaignMemberChangeEvent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/MailAssociationItem"
+        },
+        "QualifiedApiName": "MailAssociationItem"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CronJobDetail"
+        },
+        "QualifiedApiName": "CronJobDetail"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/SetupAuditTrail"
+        },
+        "QualifiedApiName": "SetupAuditTrail"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/Domain"
+        },
+        "QualifiedApiName": "Domain"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DomainSite"
+        },
+        "QualifiedApiName": "DomainSite"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/OrgWideEmailAddress"
+        },
+        "QualifiedApiName": "OrgWideEmailAddress"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/OrgEmailAddressSecurity"
+        },
+        "QualifiedApiName": "OrgEmailAddressSecurity"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/EmailBrand"
+        },
+        "QualifiedApiName": "EmailBrand"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/EmailServicesFunction"
+        },
+        "QualifiedApiName": "EmailServicesFunction"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/EmailServicesAddress"
+        },
+        "QualifiedApiName": "EmailServicesAddress"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/EmailMessage"
+        },
+        "QualifiedApiName": "EmailMessage"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/EmailMessageChangeEvent"
+        },
+        "QualifiedApiName": "EmailMessageChangeEvent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/EmailMessageRelation"
+        },
+        "QualifiedApiName": "EmailMessageRelation"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/RelationshipDomain"
+        },
+        "QualifiedApiName": "RelationshipDomain"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CampaignInfluenceModel"
+        },
+        "QualifiedApiName": "CampaignInfluenceModel"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/RecalcCampaignStats"
+        },
+        "QualifiedApiName": "RecalcCampaignStats"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ApexEmailNotification"
+        },
+        "QualifiedApiName": "ApexEmailNotification"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/MetadataContainer"
+        },
+        "QualifiedApiName": "MetadataContainer"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/MetadataContainerMember"
+        },
+        "QualifiedApiName": "MetadataContainerMember"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ContainerAsyncRequest"
+        },
+        "QualifiedApiName": "ContainerAsyncRequest"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/SiteDetail"
+        },
+        "QualifiedApiName": "SiteDetail"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/EmailDomainKey"
+        },
+        "QualifiedApiName": "EmailDomainKey"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/SandOmInfoDetail"
+        },
+        "QualifiedApiName": "SandOmInfoDetail"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/EmailCapture"
+        },
+        "QualifiedApiName": "EmailCapture"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/NetworkPublicUsageDailyMetrics"
+        },
+        "QualifiedApiName": "NetworkPublicUsageDailyMetrics"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/MobileApplicationDetail"
+        },
+        "QualifiedApiName": "MobileApplicationDetail"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/MailAppOwaWhitelist"
+        },
+        "QualifiedApiName": "MailAppOwaWhitelist"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/OutgoingEmail"
+        },
+        "QualifiedApiName": "OutgoingEmail"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/OutgoingEmailRelation"
+        },
+        "QualifiedApiName": "OutgoingEmailRelation"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/EmbeddedServiceDetail"
+        },
+        "QualifiedApiName": "EmbeddedServiceDetail"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DomainProvision"
+        },
+        "QualifiedApiName": "DomainProvision"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/NetworkCustomerDailyLoginMetrics"
+        },
+        "QualifiedApiName": "NetworkCustomerDailyLoginMetrics"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/NetworkPCustDailyLoginMetrics"
+        },
+        "QualifiedApiName": "NetworkPCustDailyLoginMetrics"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/NetworkPartnerDailyLoginMetrics"
+        },
+        "QualifiedApiName": "NetworkPartnerDailyLoginMetrics"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ListEmail"
+        },
+        "QualifiedApiName": "ListEmail"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ListEmailShare"
+        },
+        "QualifiedApiName": "ListEmailShare"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ListEmailOwnerSharingRule"
+        },
+        "QualifiedApiName": "ListEmailOwnerSharingRule"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ListEmailChangeEvent"
+        },
+        "QualifiedApiName": "ListEmailChangeEvent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ListEmailRecipientSource"
+        },
+        "QualifiedApiName": "ListEmailRecipientSource"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ListEmailSentResult"
+        },
+        "QualifiedApiName": "ListEmailSentResult"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ListEmailSentResultChangeEvent"
+        },
+        "QualifiedApiName": "ListEmailSentResultChangeEvent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/PartnerFundClaim"
+        },
+        "QualifiedApiName": "PartnerFundClaim"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/PartnerFundClaimShare"
+        },
+        "QualifiedApiName": "PartnerFundClaimShare"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/PartnerFundClaimOwnerSharingRule"
+        },
+        "QualifiedApiName": "PartnerFundClaimOwnerSharingRule"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/PartnerFundClaimHistory"
+        },
+        "QualifiedApiName": "PartnerFundClaimHistory"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/PartnerFundClaimFeed"
+        },
+        "QualifiedApiName": "PartnerFundClaimFeed"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/MlDomain"
+        },
+        "QualifiedApiName": "MlDomain"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataIntegrationRecordPurchasePermission"
+        },
+        "QualifiedApiName": "DataIntegrationRecordPurchasePermission"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AIFilter"
+        },
+        "QualifiedApiName": "AIFilter"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AIFilterGroup"
+        },
+        "QualifiedApiName": "AIFilterGroup"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AIFilterValue"
+        },
+        "QualifiedApiName": "AIFilterValue"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AIModel"
+        },
+        "QualifiedApiName": "AIModel"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AIModelDefinition"
+        },
+        "QualifiedApiName": "AIModelDefinition"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AIManagedField"
+        },
+        "QualifiedApiName": "AIManagedField"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AIPredictionDefinition"
+        },
+        "QualifiedApiName": "AIPredictionDefinition"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AIPredictionField"
+        },
+        "QualifiedApiName": "AIPredictionField"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AIPredictionTarget"
+        },
+        "QualifiedApiName": "AIPredictionTarget"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AIError"
+        },
+        "QualifiedApiName": "AIError"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AIState"
+        },
+        "QualifiedApiName": "AIState"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/EmailDomainFilter"
+        },
+        "QualifiedApiName": "EmailDomainFilter"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/EmailRelay"
+        },
+        "QualifiedApiName": "EmailRelay"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ContactPointEmail"
+        },
+        "QualifiedApiName": "ContactPointEmail"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ContactPointEmailShare"
+        },
+        "QualifiedApiName": "ContactPointEmailShare"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ContactPointEmailOwnerSharingRule"
+        },
+        "QualifiedApiName": "ContactPointEmailOwnerSharingRule"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ContactPointEmailHistory"
+        },
+        "QualifiedApiName": "ContactPointEmailHistory"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ContactPointEmailChangeEvent"
+        },
+        "QualifiedApiName": "ContactPointEmailChangeEvent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/UserEmailPreferredPerson"
+        },
+        "QualifiedApiName": "UserEmailPreferredPerson"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/UserEmailPreferredPersonShare"
+        },
+        "QualifiedApiName": "UserEmailPreferredPersonShare"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/UserEmailPreferredPersonOwnerSharingRule"
+        },
+        "QualifiedApiName": "UserEmailPreferredPersonOwnerSharingRule"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/UserEmailPreferredPersonChangeEvent"
+        },
+        "QualifiedApiName": "UserEmailPreferredPersonChangeEvent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AIApplication"
+        },
+        "QualifiedApiName": "AIApplication"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AIInsightAction"
+        },
+        "QualifiedApiName": "AIInsightAction"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AIInsightFeedback"
+        },
+        "QualifiedApiName": "AIInsightFeedback"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AIInsightReason"
+        },
+        "QualifiedApiName": "AIInsightReason"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AIInsightValue"
+        },
+        "QualifiedApiName": "AIInsightValue"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AIRecordInsight"
+        },
+        "QualifiedApiName": "AIRecordInsight"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AIFactorComponent"
+        },
+        "QualifiedApiName": "AIFactorComponent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AIModelFactor"
+        },
+        "QualifiedApiName": "AIModelFactor"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AIModelMetric"
+        },
+        "QualifiedApiName": "AIModelMetric"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AIDataDefinition"
+        },
+        "QualifiedApiName": "AIDataDefinition"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AIModelGraph"
+        },
+        "QualifiedApiName": "AIModelGraph"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ListEmailIndividualRecipient"
+        },
+        "QualifiedApiName": "ListEmailIndividualRecipient"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/MyDomainDiscoverableLogin"
+        },
+        "QualifiedApiName": "MyDomainDiscoverableLogin"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AIMetric"
+        },
+        "QualifiedApiName": "AIMetric"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AIPredictionEvent"
+        },
+        "QualifiedApiName": "AIPredictionEvent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CommerceSearchIndexInfoChangeEvent"
+        },
+        "QualifiedApiName": "CommerceSearchIndexInfoChangeEvent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ExternalAIModel"
+        },
+        "QualifiedApiName": "ExternalAIModel"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AIPredictionExpression"
+        },
+        "QualifiedApiName": "AIPredictionExpression"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ServiceAISetupDefinition"
+        },
+        "QualifiedApiName": "ServiceAISetupDefinition"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ServiceAISetupField"
+        },
+        "QualifiedApiName": "ServiceAISetupField"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AIApplicationConfig"
+        },
+        "QualifiedApiName": "AIApplicationConfig"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/BatchJobPartFailedRecord"
+        },
+        "QualifiedApiName": "BatchJobPartFailedRecord"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/BatchJobPartFailedRecordHistory"
+        },
+        "QualifiedApiName": "BatchJobPartFailedRecordHistory"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/BatchJobPartFailedRecordFeed"
+        },
+        "QualifiedApiName": "BatchJobPartFailedRecordFeed"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/EmailContent"
+        },
+        "QualifiedApiName": "EmailContent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/EmailContentFeed"
+        },
+        "QualifiedApiName": "EmailContentFeed"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/OrgDomainLog"
+        },
+        "QualifiedApiName": "OrgDomainLog"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ConvDefDialogDailyMetric"
+        },
+        "QualifiedApiName": "ConvDefDialogDailyMetric"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ExternalAIMetric"
+        },
+        "QualifiedApiName": "ExternalAIMetric"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AIInsightReasonMLModelFactor"
+        },
+        "QualifiedApiName": "AIInsightReasonMLModelFactor"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/MktMLAIModel"
+        },
+        "QualifiedApiName": "MktMLAIModel"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/MktMLAIModelHistory"
+        },
+        "QualifiedApiName": "MktMLAIModelHistory"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataModelDomainCapUsage"
+        },
+        "QualifiedApiName": "DataModelDomainCapUsage"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/GenAiConvDefPlanner"
+        },
+        "QualifiedApiName": "GenAiConvDefPlanner"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/GenAiFunctionDefinition"
+        },
+        "QualifiedApiName": "GenAiFunctionDefinition"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/GenAiPlannerAttrDefinition"
+        },
+        "QualifiedApiName": "GenAiPlannerAttrDefinition"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/GenAiPlannerDefinition"
+        },
+        "QualifiedApiName": "GenAiPlannerDefinition"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/GenAiPlannerFunctionDef"
+        },
+        "QualifiedApiName": "GenAiPlannerFunctionDef"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/GenAiPluginDefinition"
+        },
+        "QualifiedApiName": "GenAiPluginDefinition"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/GenAiPluginFunctionDef"
+        },
+        "QualifiedApiName": "GenAiPluginFunctionDef"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/GenAiPromptGenerationConfig"
+        },
+        "QualifiedApiName": "GenAiPromptGenerationConfig"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/GenAiPromptTemplate"
+        },
+        "QualifiedApiName": "GenAiPromptTemplate"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/GenAiPromptTemplateDataProvider"
+        },
+        "QualifiedApiName": "GenAiPromptTemplateDataProvider"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/GenAiPromptTemplateDataProviderParam"
+        },
+        "QualifiedApiName": "GenAiPromptTemplateDataProviderParam"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/GenAiPromptTemplateGenerationConfig"
+        },
+        "QualifiedApiName": "GenAiPromptTemplateGenerationConfig"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/GenAiPromptTemplateInput"
+        },
+        "QualifiedApiName": "GenAiPromptTemplateInput"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/GenAiPromptTemplateVersion"
+        },
+        "QualifiedApiName": "GenAiPromptTemplateVersion"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AITrustAttrSetup"
+        },
+        "QualifiedApiName": "AITrustAttrSetup"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AITrustAttribute"
+        },
+        "QualifiedApiName": "AITrustAttribute"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/EmailBounceEvent"
+        },
+        "QualifiedApiName": "EmailBounceEvent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/FileBasedDataImport"
+        },
+        "QualifiedApiName": "FileBasedDataImport"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/FileBasedDataImportShare"
+        },
+        "QualifiedApiName": "FileBasedDataImportShare"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/FileBasedDataImportOwnerSharingRule"
+        },
+        "QualifiedApiName": "FileBasedDataImportOwnerSharingRule"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/GenAiPluginInstructionDef"
+        },
+        "QualifiedApiName": "GenAiPluginInstructionDef"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/GenAiPromptTemplateActv"
+        },
+        "QualifiedApiName": "GenAiPromptTemplateActv"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/MessagingChannelEmailTemplate"
+        },
+        "QualifiedApiName": "MessagingChannelEmailTemplate"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/NetworkEmailTmplAllowlist"
+        },
+        "QualifiedApiName": "NetworkEmailTmplAllowlist"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/SearchIndexJobStatusEvent"
+        },
+        "QualifiedApiName": "SearchIndexJobStatusEvent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/GenAiPromptGenInstruction"
+        },
+        "QualifiedApiName": "GenAiPromptGenInstruction"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/PolicyRulePrincipalDomain"
+        },
+        "QualifiedApiName": "PolicyRulePrincipalDomain"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/PolicyRuleResourceDomain"
+        },
+        "QualifiedApiName": "PolicyRuleResourceDomain"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ReplyEmailSettings"
+        },
+        "QualifiedApiName": "ReplyEmailSettings"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/SearchIndexObjectConfigShare"
+        },
+        "QualifiedApiName": "SearchIndexObjectConfigShare"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/SearchIndexObjectConfigOwnerSharingRule"
+        },
+        "QualifiedApiName": "SearchIndexObjectConfigOwnerSharingRule"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AiEvalCopilotTestCase"
+        },
+        "QualifiedApiName": "AiEvalCopilotTestCase"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AiEvalCopilotTestCaseRslt"
+        },
+        "QualifiedApiName": "AiEvalCopilotTestCaseRslt"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AiEvalDefinition"
+        },
+        "QualifiedApiName": "AiEvalDefinition"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AiEvalDefinitionVersion"
+        },
+        "QualifiedApiName": "AiEvalDefinitionVersion"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AiEvalPrmptRagTestCsRslt"
+        },
+        "QualifiedApiName": "AiEvalPrmptRagTestCsRslt"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AiEvalPromptTestCase"
+        },
+        "QualifiedApiName": "AiEvalPromptTestCase"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AiEvalPromptTestCaseRslt"
+        },
+        "QualifiedApiName": "AiEvalPromptTestCaseRslt"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AiEvalTestCase"
+        },
+        "QualifiedApiName": "AiEvalTestCase"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AiEvalTestCaseCritRslt"
+        },
+        "QualifiedApiName": "AiEvalTestCaseCritRslt"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AiEvalTestCaseCriteria"
+        },
+        "QualifiedApiName": "AiEvalTestCaseCriteria"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AiEvalTestCaseResult"
+        },
+        "QualifiedApiName": "AiEvalTestCaseResult"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AiEvaluation"
+        },
+        "QualifiedApiName": "AiEvaluation"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AiEvaluationShare"
+        },
+        "QualifiedApiName": "AiEvaluationShare"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AiEvaluationOwnerSharingRule"
+        },
+        "QualifiedApiName": "AiEvaluationOwnerSharingRule"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AiGroundingFileRefShare"
+        },
+        "QualifiedApiName": "AiGroundingFileRefShare"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AiGroundingFileRefOwnerSharingRule"
+        },
+        "QualifiedApiName": "AiGroundingFileRefOwnerSharingRule"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AiPluginUtteranceDef"
+        },
+        "QualifiedApiName": "AiPluginUtteranceDef"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AnalyticsContainerWidgetDef"
+        },
+        "QualifiedApiName": "AnalyticsContainerWidgetDef"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ApprovalSubmissionDetail"
+        },
+        "QualifiedApiName": "ApprovalSubmissionDetail"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ApprovalSubmissionDetailHistory"
+        },
+        "QualifiedApiName": "ApprovalSubmissionDetailHistory"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ApprovalSubmissionDetailFeed"
+        },
+        "QualifiedApiName": "ApprovalSubmissionDetailFeed"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/EvfPipelineSubTaskDetails"
+        },
+        "QualifiedApiName": "EvfPipelineSubTaskDetails"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/GenAiPlannerAttrMapping"
+        },
+        "QualifiedApiName": "GenAiPlannerAttrMapping"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/GenAiPlannerRuleExpr"
+        },
+        "QualifiedApiName": "GenAiPlannerRuleExpr"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/GenAiPlannerRuleExprCond"
+        },
+        "QualifiedApiName": "GenAiPlannerRuleExprCond"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/GenAiPlannerRuleExprObject"
+        },
+        "QualifiedApiName": "GenAiPlannerRuleExprObject"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/PlatformDailyUniqueLoginMetrics"
+        },
+        "QualifiedApiName": "PlatformDailyUniqueLoginMetrics"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AIWorkbookShare"
+        },
+        "QualifiedApiName": "AIWorkbookShare"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AIWorkbookOwnerSharingRule"
+        },
+        "QualifiedApiName": "AIWorkbookOwnerSharingRule"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AIWorksheetColProcEvent"
+        },
+        "QualifiedApiName": "AIWorksheetColProcEvent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AiEvalCopilotTestCaseCntxtVar"
+        },
+        "QualifiedApiName": "AiEvalCopilotTestCaseCntxtVar"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AiEvalCopilotTestCaseConv"
+        },
+        "QualifiedApiName": "AiEvalCopilotTestCaseConv"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataObjectSearchIndexConf"
+        },
+        "QualifiedApiName": "DataObjectSearchIndexConf"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/GenAiPlannerRuleExprAsgn"
+        },
+        "QualifiedApiName": "GenAiPlannerRuleExprAsgn"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/GenAiPlannerRuleExprDef"
+        },
+        "QualifiedApiName": "GenAiPlannerRuleExprDef"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/MsgChannelAvailability"
+        },
+        "QualifiedApiName": "MsgChannelAvailability"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/SenderEmailAddress"
+        },
+        "QualifiedApiName": "SenderEmailAddress"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/SenderEmailAddressShare"
+        },
+        "QualifiedApiName": "SenderEmailAddressShare"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/SenderEmailAddressOwnerSharingRule"
+        },
+        "QualifiedApiName": "SenderEmailAddressOwnerSharingRule"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AIAgentStatusEvent"
+        },
+        "QualifiedApiName": "AIAgentStatusEvent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AiGroundingSourceStageShare"
+        },
+        "QualifiedApiName": "AiGroundingSourceStageShare"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AiGroundingSourceStageOwnerSharingRule"
+        },
+        "QualifiedApiName": "AiGroundingSourceStageOwnerSharingRule"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AiGroundingWebRefShare"
+        },
+        "QualifiedApiName": "AiGroundingWebRefShare"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AiGroundingWebRefOwnerSharingRule"
+        },
+        "QualifiedApiName": "AiGroundingWebRefOwnerSharingRule"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AiJobRun"
+        },
+        "QualifiedApiName": "AiJobRun"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AiJobRunShare"
+        },
+        "QualifiedApiName": "AiJobRunShare"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AiJobRunOwnerSharingRule"
+        },
+        "QualifiedApiName": "AiJobRunOwnerSharingRule"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AiJobRunItem"
+        },
+        "QualifiedApiName": "AiJobRunItem"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AiJobRunItemShare"
+        },
+        "QualifiedApiName": "AiJobRunItemShare"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AiJobRunItemOwnerSharingRule"
+        },
+        "QualifiedApiName": "AiJobRunItemOwnerSharingRule"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AiPlannerSurfOtbdRouteDef"
+        },
+        "QualifiedApiName": "AiPlannerSurfOtbdRouteDef"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AiPlannerSurfaceDef"
+        },
+        "QualifiedApiName": "AiPlannerSurfaceDef"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AiPromptTemplateGenEvent"
+        },
+        "QualifiedApiName": "AiPromptTemplateGenEvent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AiResponseFormatDef"
+        },
+        "QualifiedApiName": "AiResponseFormatDef"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AiResponseFormatIstrDef"
+        },
+        "QualifiedApiName": "AiResponseFormatIstrDef"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AiSurfaceDefinition"
+        },
+        "QualifiedApiName": "AiSurfaceDefinition"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AiSurfaceInstructionDef"
+        },
+        "QualifiedApiName": "AiSurfaceInstructionDef"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AiSurfaceModalityDef"
+        },
+        "QualifiedApiName": "AiSurfaceModalityDef"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AiSurfaceResponseFormat"
+        },
+        "QualifiedApiName": "AiSurfaceResponseFormat"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AuthorizedEmailDomain"
+        },
+        "QualifiedApiName": "AuthorizedEmailDomain"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/OmniSpvsrConfigAIAgent"
+        },
+        "QualifiedApiName": "OmniSpvsrConfigAIAgent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/SrvcMgmntEmailRoutgAddr"
+        },
+        "QualifiedApiName": "SrvcMgmntEmailRoutgAddr"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AIModelExternalReference"
+        },
+        "QualifiedApiName": "AIModelExternalReference"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AITestSuiteWorkbookAssocShare"
+        },
+        "QualifiedApiName": "AITestSuiteWorkbookAssocShare"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AITestSuiteWorkbookAssocOwnerSharingRule"
+        },
+        "QualifiedApiName": "AITestSuiteWorkbookAssocOwnerSharingRule"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AiAuthoringBundleDef"
+        },
+        "QualifiedApiName": "AiAuthoringBundleDef"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AiAuthoringBundleDefVer"
+        },
+        "QualifiedApiName": "AiAuthoringBundleDefVer"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AiAuthoringBundleVerCntntDep"
+        },
+        "QualifiedApiName": "AiAuthoringBundleVerCntntDep"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AiAuthoringBundleVerContent"
+        },
+        "QualifiedApiName": "AiAuthoringBundleVerContent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AiJobRunStatusEvent"
+        },
+        "QualifiedApiName": "AiJobRunStatusEvent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AiModelMonitoringCapability"
+        },
+        "QualifiedApiName": "AiModelMonitoringCapability"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/EventStagedInviteeEmail"
+        },
+        "QualifiedApiName": "EventStagedInviteeEmail"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/FlowTestUniquenessConstraint"
+        },
+        "QualifiedApiName": "FlowTestUniquenessConstraint"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/FlowTestUniquenessConstraintItem"
+        },
+        "QualifiedApiName": "FlowTestUniquenessConstraintItem"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/GenAiPluginDmnRltdFltr"
+        },
+        "QualifiedApiName": "GenAiPluginDmnRltdFltr"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/GenAiPluginDomain"
+        },
+        "QualifiedApiName": "GenAiPluginDomain"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/StagedInviteeEmail"
+        },
+        "QualifiedApiName": "StagedInviteeEmail"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/StagedInviteeEmailShare"
+        },
+        "QualifiedApiName": "StagedInviteeEmailShare"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/StagedInviteeEmailOwnerSharingRule"
+        },
+        "QualifiedApiName": "StagedInviteeEmailOwnerSharingRule"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I400000009SAd"
+        },
+        "QualifiedApiName": "SFGA__Google_Campaign__c"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I400000009SAd.Tag"
+        },
+        "QualifiedApiName": "SFGA__Google_Campaign__Tag"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I400000009SAd.ChangeEvent"
+        },
+        "QualifiedApiName": "SFGA__Google_Campaign__ChangeEvent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I200000001a4N"
+        },
+        "QualifiedApiName": "CampaignMemberAdditionalInfo__c"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I200000001a4N.Share"
+        },
+        "QualifiedApiName": "CampaignMemberAdditionalInfo__Share"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I200000001a4N.OwnerSharingRule"
+        },
+        "QualifiedApiName": "CampaignMemberAdditionalInfo__OwnerSharingRule"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I200000001a4N.Tag"
+        },
+        "QualifiedApiName": "CampaignMemberAdditionalInfo__Tag"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I200000001a4N.ChangeEvent"
+        },
+        "QualifiedApiName": "CampaignMemberAdditionalInfo__ChangeEvent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I2000000020jR"
+        },
+        "QualifiedApiName": "Personal_Klita_Details__c"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I2000000020jR.Share"
+        },
+        "QualifiedApiName": "Personal_Klita_Details__Share"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I2000000020jR.OwnerSharingRule"
+        },
+        "QualifiedApiName": "Personal_Klita_Details__OwnerSharingRule"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I2000000020jR.History"
+        },
+        "QualifiedApiName": "Personal_Klita_Details__History"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I2000000020jR.Tag"
+        },
+        "QualifiedApiName": "Personal_Klita_Details__Tag"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I2000000020jR.ChangeEvent"
+        },
+        "QualifiedApiName": "Personal_Klita_Details__ChangeEvent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I200000002E9f"
+        },
+        "QualifiedApiName": "Questionnaire__c"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I200000002E9f.Share"
+        },
+        "QualifiedApiName": "Questionnaire__Share"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I200000002E9f.OwnerSharingRule"
+        },
+        "QualifiedApiName": "Questionnaire__OwnerSharingRule"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I200000002E9f.History"
+        },
+        "QualifiedApiName": "Questionnaire__History"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I200000002E9f.Tag"
+        },
+        "QualifiedApiName": "Questionnaire__Tag"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I200000002E9f.ChangeEvent"
+        },
+        "QualifiedApiName": "Questionnaire__ChangeEvent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I0O000001haM0"
+        },
+        "QualifiedApiName": "doco__Doco_Paid_Features_Settings_CS__c"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I0O000001haM0.OwnerSharingRule"
+        },
+        "QualifiedApiName": "doco__Doco_Paid_Features_Settings_CS__OwnerSharingRule"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I0O000001haM0.Tag"
+        },
+        "QualifiedApiName": "doco__Doco_Paid_Features_Settings_CS__Tag"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I0O000001haM0.ChangeEvent"
+        },
+        "QualifiedApiName": "doco__Doco_Paid_Features_Settings_CS__ChangeEvent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I20000000gXTH"
+        },
+        "QualifiedApiName": "Contact_Personal_Klita_Detail_History__c"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I20000000gXTH.Tag"
+        },
+        "QualifiedApiName": "Contact_Personal_Klita_Detail_History__Tag"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I20000000gXTH.ChangeEvent"
+        },
+        "QualifiedApiName": "Contact_Personal_Klita_Detail_History__ChangeEvent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I20000000ihRR"
+        },
+        "QualifiedApiName": "QuestionnaireDetailInfo__c"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I20000000ihRR.History"
+        },
+        "QualifiedApiName": "QuestionnaireDetailInfo__History"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I20000000ihRR.Tag"
+        },
+        "QualifiedApiName": "QuestionnaireDetailInfo__Tag"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I20000000ihRR.ChangeEvent"
+        },
+        "QualifiedApiName": "QuestionnaireDetailInfo__ChangeEvent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I20000000nTxm"
+        },
+        "QualifiedApiName": "External_Campaign__c"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I20000000nTxm.Share"
+        },
+        "QualifiedApiName": "External_Campaign__Share"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I20000000nTxm.OwnerSharingRule"
+        },
+        "QualifiedApiName": "External_Campaign__OwnerSharingRule"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I20000000nTxm.History"
+        },
+        "QualifiedApiName": "External_Campaign__History"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I20000000nTxm.Tag"
+        },
+        "QualifiedApiName": "External_Campaign__Tag"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I20000000nTxm.ChangeEvent"
+        },
+        "QualifiedApiName": "External_Campaign__ChangeEvent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000001dHfE"
+        },
+        "QualifiedApiName": "smagicinteract__Incoming_MMS_Detail__c"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000001dHfE.Tag"
+        },
+        "QualifiedApiName": "smagicinteract__Incoming_MMS_Detail__Tag"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000001dHfE.ChangeEvent"
+        },
+        "QualifiedApiName": "smagicinteract__Incoming_MMS_Detail__ChangeEvent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000001dHfN"
+        },
+        "QualifiedApiName": "smagicinteract__LV_MMS_Detail__c"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000001dHfN.Tag"
+        },
+        "QualifiedApiName": "smagicinteract__LV_MMS_Detail__Tag"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000001dHfN.ChangeEvent"
+        },
+        "QualifiedApiName": "smagicinteract__LV_MMS_Detail__ChangeEvent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000001dHfS"
+        },
+        "QualifiedApiName": "smagicinteract__MMS_Detail__c"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000001dHfS.Tag"
+        },
+        "QualifiedApiName": "smagicinteract__MMS_Detail__Tag"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000001dHfS.ChangeEvent"
+        },
+        "QualifiedApiName": "smagicinteract__MMS_Detail__ChangeEvent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000001hh0B"
+        },
+        "QualifiedApiName": "UkraineEmergencyLocation__c"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000001hh0B.Share"
+        },
+        "QualifiedApiName": "UkraineEmergencyLocation__Share"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000001hh0B.OwnerSharingRule"
+        },
+        "QualifiedApiName": "UkraineEmergencyLocation__OwnerSharingRule"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000001hh0B.Tag"
+        },
+        "QualifiedApiName": "UkraineEmergencyLocation__Tag"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000001hh0B.ChangeEvent"
+        },
+        "QualifiedApiName": "UkraineEmergencyLocation__ChangeEvent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000000bl1X"
+        },
+        "QualifiedApiName": "RAM_Questionnaire__c"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000000bl1X.Share"
+        },
+        "QualifiedApiName": "RAM_Questionnaire__Share"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000000bl1X.OwnerSharingRule"
+        },
+        "QualifiedApiName": "RAM_Questionnaire__OwnerSharingRule"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000000bl1X.History"
+        },
+        "QualifiedApiName": "RAM_Questionnaire__History"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000000bl1X.Feed"
+        },
+        "QualifiedApiName": "RAM_Questionnaire__Feed"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000000bl1X.Tag"
+        },
+        "QualifiedApiName": "RAM_Questionnaire__Tag"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000000bl1X.ChangeEvent"
+        },
+        "QualifiedApiName": "RAM_Questionnaire__ChangeEvent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000000foLG"
+        },
+        "QualifiedApiName": "revcult__Domain_Override__c"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000000foLG.OwnerSharingRule"
+        },
+        "QualifiedApiName": "revcult__Domain_Override__OwnerSharingRule"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000000foLG.Tag"
+        },
+        "QualifiedApiName": "revcult__Domain_Override__Tag"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000000foLG.ChangeEvent"
+        },
+        "QualifiedApiName": "revcult__Domain_Override__ChangeEvent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000000foLH"
+        },
+        "QualifiedApiName": "revcult__Email_Subscription__c"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000000foLH.OwnerSharingRule"
+        },
+        "QualifiedApiName": "revcult__Email_Subscription__OwnerSharingRule"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000000foLH.Tag"
+        },
+        "QualifiedApiName": "revcult__Email_Subscription__Tag"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000000foLH.ChangeEvent"
+        },
+        "QualifiedApiName": "revcult__Email_Subscription__ChangeEvent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000000K2C1"
+        },
+        "QualifiedApiName": "eb4sf__Eventbrite_Campaign_Status__c"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000000K2C1.OwnerSharingRule"
+        },
+        "QualifiedApiName": "eb4sf__Eventbrite_Campaign_Status__OwnerSharingRule"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000000K2C1.Tag"
+        },
+        "QualifiedApiName": "eb4sf__Eventbrite_Campaign_Status__Tag"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000000K2C1.ChangeEvent"
+        },
+        "QualifiedApiName": "eb4sf__Eventbrite_Campaign_Status__ChangeEvent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000000K2C5"
+        },
+        "QualifiedApiName": "eb4sf__Eventbrite_Email_Activity__c"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000000K2C5.Share"
+        },
+        "QualifiedApiName": "eb4sf__Eventbrite_Email_Activity__Share"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000000K2C5.OwnerSharingRule"
+        },
+        "QualifiedApiName": "eb4sf__Eventbrite_Email_Activity__OwnerSharingRule"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000000K2C5.Tag"
+        },
+        "QualifiedApiName": "eb4sf__Eventbrite_Email_Activity__Tag"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000000K2C5.ChangeEvent"
+        },
+        "QualifiedApiName": "eb4sf__Eventbrite_Email_Activity__ChangeEvent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000000K2C7"
+        },
+        "QualifiedApiName": "eb4sf__Eventbrite_Mailing__c"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000000K2C7.Share"
+        },
+        "QualifiedApiName": "eb4sf__Eventbrite_Mailing__Share"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000000K2C7.OwnerSharingRule"
+        },
+        "QualifiedApiName": "eb4sf__Eventbrite_Mailing__OwnerSharingRule"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000000K2C7.Tag"
+        },
+        "QualifiedApiName": "eb4sf__Eventbrite_Mailing__Tag"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000000K2C7.ChangeEvent"
+        },
+        "QualifiedApiName": "eb4sf__Eventbrite_Mailing__ChangeEvent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000000K2CG"
+        },
+        "QualifiedApiName": "eb4sf__Eventbrite_Trailhead__c"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000000K2CG.OwnerSharingRule"
+        },
+        "QualifiedApiName": "eb4sf__Eventbrite_Trailhead__OwnerSharingRule"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000000K2CG.Tag"
+        },
+        "QualifiedApiName": "eb4sf__Eventbrite_Trailhead__Tag"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000000K2CG.ChangeEvent"
+        },
+        "QualifiedApiName": "eb4sf__Eventbrite_Trailhead__ChangeEvent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000000K2CK"
+        },
+        "QualifiedApiName": "eb4sf__maintenancelog__c"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000000K2CK.OwnerSharingRule"
+        },
+        "QualifiedApiName": "eb4sf__maintenancelog__OwnerSharingRule"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000000K2CK.Tag"
+        },
+        "QualifiedApiName": "eb4sf__maintenancelog__Tag"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000000K2CK.ChangeEvent"
+        },
+        "QualifiedApiName": "eb4sf__maintenancelog__ChangeEvent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01IVg000000EHXF"
+        },
+        "QualifiedApiName": "Questionnaire_Detail_Row__c"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01IVg000000EHXF.Tag"
+        },
+        "QualifiedApiName": "Questionnaire_Detail_Row__Tag"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01IVg000000EHXF.ChangeEvent"
+        },
+        "QualifiedApiName": "Questionnaire_Detail_Row__ChangeEvent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I0O000001haMJ"
+        },
+        "QualifiedApiName": "Bank_General_Details__mdt"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000001Ze7C"
+        },
+        "QualifiedApiName": "occMainFields__mdt"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000001ZeDs"
+        },
+        "QualifiedApiName": "occDisclaimers__mdt"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000001dHep"
+        },
+        "QualifiedApiName": "smagicinteract__Container_Object__mdt"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01I3Y000001dHfH"
+        },
+        "QualifiedApiName": "smagicinteract__Interface_Details__mdt"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01IVg000000BZ8x"
+        },
+        "QualifiedApiName": "AliyahPortal_MainFields__mdt"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01IVg000000lu8P"
+        },
+        "QualifiedApiName": "AliyahPortal_Disclaimer__mdt"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/Ai4mSettings"
+        },
+        "QualifiedApiName": "Ai4mSettings"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AIReplyRecommendationsSettings"
+        },
+        "QualifiedApiName": "AIReplyRecommendationsSettings"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/BlockchainSettings"
+        },
+        "QualifiedApiName": "BlockchainSettings"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CampaignSettings"
+        },
+        "QualifiedApiName": "CampaignSettings"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ChatterEmailsMDSettings"
+        },
+        "QualifiedApiName": "ChatterEmailsMDSettings"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ClaimMgmtFoundationEnabledSettings"
+        },
+        "QualifiedApiName": "ClaimMgmtFoundationEnabledSettings"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataImportManagementSettings"
+        },
+        "QualifiedApiName": "DataImportManagementSettings"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/EmailAdministrationSettings"
+        },
+        "QualifiedApiName": "EmailAdministrationSettings"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/EmailIntegrationSettings"
+        },
+        "QualifiedApiName": "EmailIntegrationSettings"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/EmailTemplateSettings"
+        },
+        "QualifiedApiName": "EmailTemplateSettings"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/EmailToCaseRoutingAddress"
+        },
+        "QualifiedApiName": "EmailToCaseRoutingAddress"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/EmailToCaseSettings"
+        },
+        "QualifiedApiName": "EmailToCaseSettings"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/MailMergeSettings"
+        },
+        "QualifiedApiName": "MailMergeSettings"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/MyDomainSettings"
+        },
+        "QualifiedApiName": "MyDomainSettings"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/OrganizationSettingsDetail"
+        },
+        "QualifiedApiName": "OrganizationSettingsDetail"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/RetailExecutionSettings"
+        },
+        "QualifiedApiName": "RetailExecutionSettings"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/TrailheadSettings"
+        },
+        "QualifiedApiName": "TrailheadSettings"
+      }
+    ],
+    "totalSize": 344,
+    "done": true
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "status": 0,
+  "result": {
+    "records": [
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataStream.Id"
+        },
+        "QualifiedApiName": "Id"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataStream.IsDeleted"
+        },
+        "QualifiedApiName": "IsDeleted"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataStream.Name"
+        },
+        "QualifiedApiName": "Name"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataStream.CreatedDate"
+        },
+        "QualifiedApiName": "CreatedDate"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataStream.CreatedBy"
+        },
+        "QualifiedApiName": "CreatedById"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataStream.LastModifiedDate"
+        },
+        "QualifiedApiName": "LastModifiedDate"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataStream.LastModifiedBy"
+        },
+        "QualifiedApiName": "LastModifiedById"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataStream.SystemModstamp"
+        },
+        "QualifiedApiName": "SystemModstamp"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataStream.LastViewedDate"
+        },
+        "QualifiedApiName": "LastViewedDate"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataStream.LastReferencedDate"
+        },
+        "QualifiedApiName": "LastReferencedDate"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataStream.UserRecordAccess"
+        },
+        "QualifiedApiName": "UserRecordAccessId"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataStream.RecordVisibility"
+        },
+        "QualifiedApiName": "RecordVisibilityId"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataStream.Description"
+        },
+        "QualifiedApiName": "Description"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataStream.ImportRunStatus"
+        },
+        "QualifiedApiName": "ImportRunStatus"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataStream.DataStreamStatus"
+        },
+        "QualifiedApiName": "DataStreamStatus"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataStream.LastRefreshDate"
+        },
+        "QualifiedApiName": "LastRefreshDate"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataStream.LastNumberOfRowsAddedCount"
+        },
+        "QualifiedApiName": "LastNumberOfRowsAddedCount"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataStream.TotalNumberOfRowsAdded"
+        },
+        "QualifiedApiName": "TotalNumberOfRowsAdded"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataStream.RefreshFrequency"
+        },
+        "QualifiedApiName": "RefreshFrequency"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataStream.RefreshHours"
+        },
+        "QualifiedApiName": "RefreshHours"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataStream.IsRefreshDeliveryHourAutomatic"
+        },
+        "QualifiedApiName": "IsRefreshDeliveryHourAutomatic"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataStream.RefreshDayOfWeek"
+        },
+        "QualifiedApiName": "RefreshDayOfWeek"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataStream.RefreshDayOfMonth"
+        },
+        "QualifiedApiName": "RefreshDayOfMonth"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataStream.RefreshMode"
+        },
+        "QualifiedApiName": "RefreshMode"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataStream.ExternalRecordIdentifier"
+        },
+        "QualifiedApiName": "ExternalRecordIdentifier"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataStream.TotalRowsProcessed"
+        },
+        "QualifiedApiName": "TotalRowsProcessed"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataStream.DataStreamDefinition"
+        },
+        "QualifiedApiName": "DataStreamDefinitionId"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataStream.LastDataChangeStatusDateTime"
+        },
+        "QualifiedApiName": "LastDataChangeStatusDateTime"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataStream.LastDataChangeStatusErrorCode"
+        },
+        "QualifiedApiName": "LastDataChangeStatusErrorCode"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataStream.IsNewFieldsAvailable"
+        },
+        "QualifiedApiName": "IsNewFieldsAvailable"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataStream.StreamType"
+        },
+        "QualifiedApiName": "StreamType"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataStream.ExternalStreamErrorCode"
+        },
+        "QualifiedApiName": "ExternalStreamErrorCode"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataStream.ProblemRecordsDataLakeObject"
+        },
+        "QualifiedApiName": "ProblemRecordsDataLakeObject"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataStream.DeletionRecordsDataLakeObject"
+        },
+        "QualifiedApiName": "DeletionRecordsDataLakeObject"
+      },
+      {
+        "attributes": {
+          "type": "FieldDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/FieldDefinition/DataStream.FullRefreshIntervalDays"
+        },
+        "QualifiedApiName": "FullRefreshIntervalDays"
+      }
+    ],
+    "totalSize": 35,
+    "done": true
+  }
+}

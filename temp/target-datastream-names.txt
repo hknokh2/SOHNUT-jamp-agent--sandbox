@@ -1,0 +1,4 @@
+ProvisionedFeatureStream
+TenantBillingUsageEventStream
+TenantEntitlementTransactionStream
+TenantUsageTypeMultiplierStream

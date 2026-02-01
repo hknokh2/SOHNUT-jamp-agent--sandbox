@@ -1,0 +1,1318 @@
+{
+  "status": 0,
+  "result": {
+    "records": [
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataCategoryGroupLocalization"
+        },
+        "QualifiedApiName": "DataCategoryGroupLocalization"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataCategoryLocalization"
+        },
+        "QualifiedApiName": "DataCategoryLocalization"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataType"
+        },
+        "QualifiedApiName": "DataType"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataStatistics"
+        },
+        "QualifiedApiName": "DataStatistics"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DatacloudAddress"
+        },
+        "QualifiedApiName": "DatacloudAddress"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataAssessmentBIMetrics"
+        },
+        "QualifiedApiName": "DataAssessmentBIMetrics"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataAssessmentMetric"
+        },
+        "QualifiedApiName": "DataAssessmentMetric"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataAssessmentFieldMetric"
+        },
+        "QualifiedApiName": "DataAssessmentFieldMetric"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataAssessmentValueMetric"
+        },
+        "QualifiedApiName": "DataAssessmentValueMetric"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataAssessmentConfigItem"
+        },
+        "QualifiedApiName": "DataAssessmentConfigItem"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataIntegrationRecordPurchasePermission"
+        },
+        "QualifiedApiName": "DataIntegrationRecordPurchasePermission"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataUseLegalBasis"
+        },
+        "QualifiedApiName": "DataUseLegalBasis"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataUseLegalBasisShare"
+        },
+        "QualifiedApiName": "DataUseLegalBasisShare"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataUseLegalBasisOwnerSharingRule"
+        },
+        "QualifiedApiName": "DataUseLegalBasisOwnerSharingRule"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataUseLegalBasisHistory"
+        },
+        "QualifiedApiName": "DataUseLegalBasisHistory"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataUseLegalBasisChangeEvent"
+        },
+        "QualifiedApiName": "DataUseLegalBasisChangeEvent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataUsePurpose"
+        },
+        "QualifiedApiName": "DataUsePurpose"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataUsePurposeShare"
+        },
+        "QualifiedApiName": "DataUsePurposeShare"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataUsePurposeOwnerSharingRule"
+        },
+        "QualifiedApiName": "DataUsePurposeOwnerSharingRule"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataUsePurposeHistory"
+        },
+        "QualifiedApiName": "DataUsePurposeHistory"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataUsePurposeChangeEvent"
+        },
+        "QualifiedApiName": "DataUsePurposeChangeEvent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataStreamStatusEvent"
+        },
+        "QualifiedApiName": "DataStreamStatusEvent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataConnectorS3"
+        },
+        "QualifiedApiName": "DataConnectorS3"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataPlatDataSetBundle"
+        },
+        "QualifiedApiName": "DataPlatDataSetBundle"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataPlatform"
+        },
+        "QualifiedApiName": "DataPlatform"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataPlatformDataSet"
+        },
+        "QualifiedApiName": "DataPlatformDataSet"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataSource"
+        },
+        "QualifiedApiName": "DataSource"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataSourceObject"
+        },
+        "QualifiedApiName": "DataSourceObject"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataModelTaxonomy"
+        },
+        "QualifiedApiName": "DataModelTaxonomy"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataObjectCategory"
+        },
+        "QualifiedApiName": "DataObjectCategory"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataStream"
+        },
+        "QualifiedApiName": "DataStream"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataStreamHistory"
+        },
+        "QualifiedApiName": "DataStreamHistory"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataStreamFeed"
+        },
+        "QualifiedApiName": "DataStreamFeed"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataStreamDefinition"
+        },
+        "QualifiedApiName": "DataStreamDefinition"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataAssetUsageTrackingInfo"
+        },
+        "QualifiedApiName": "DataAssetUsageTrackingInfo"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataAssetSemanticGraphEdge"
+        },
+        "QualifiedApiName": "DataAssetSemanticGraphEdge"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataPackageKitShare"
+        },
+        "QualifiedApiName": "DataPackageKitShare"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataPackageKitOwnerSharingRule"
+        },
+        "QualifiedApiName": "DataPackageKitOwnerSharingRule"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataPackageKitDefinition"
+        },
+        "QualifiedApiName": "DataPackageKitDefinition"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataSourceBundle"
+        },
+        "QualifiedApiName": "DataSourceBundle"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataSourceBundleShare"
+        },
+        "QualifiedApiName": "DataSourceBundleShare"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataSourceBundleOwnerSharingRule"
+        },
+        "QualifiedApiName": "DataSourceBundleOwnerSharingRule"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataSourceBundleDefinition"
+        },
+        "QualifiedApiName": "DataSourceBundleDefinition"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataAction"
+        },
+        "QualifiedApiName": "DataAction"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataActionHistory"
+        },
+        "QualifiedApiName": "DataActionHistory"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataActionFeed"
+        },
+        "QualifiedApiName": "DataActionFeed"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataActionTarget"
+        },
+        "QualifiedApiName": "DataActionTarget"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataActionTargetShare"
+        },
+        "QualifiedApiName": "DataActionTargetShare"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataActionTargetOwnerSharingRule"
+        },
+        "QualifiedApiName": "DataActionTargetOwnerSharingRule"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataActionTargetHistory"
+        },
+        "QualifiedApiName": "DataActionTargetHistory"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataActionTargetFeed"
+        },
+        "QualifiedApiName": "DataActionTargetFeed"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataLakeObjectInstance"
+        },
+        "QualifiedApiName": "DataLakeObjectInstance"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataLakeObjectInstanceHistory"
+        },
+        "QualifiedApiName": "DataLakeObjectInstanceHistory"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataLakeObjectInstanceFeed"
+        },
+        "QualifiedApiName": "DataLakeObjectInstanceFeed"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataObjectDataChgEvent"
+        },
+        "QualifiedApiName": "DataObjectDataChgEvent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataObjectMetadataChgEvent"
+        },
+        "QualifiedApiName": "DataObjectMetadataChgEvent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataPackageKitObject"
+        },
+        "QualifiedApiName": "DataPackageKitObject"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataSrcDataModelFieldMap"
+        },
+        "QualifiedApiName": "DataSrcDataModelFieldMap"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataStreamTemplate"
+        },
+        "QualifiedApiName": "DataStreamTemplate"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataWeaveResource"
+        },
+        "QualifiedApiName": "DataWeaveResource"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataStreamNewFieldEvent"
+        },
+        "QualifiedApiName": "DataStreamNewFieldEvent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataConnectorStatusEvent"
+        },
+        "QualifiedApiName": "DataConnectorStatusEvent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataSpace"
+        },
+        "QualifiedApiName": "DataSpace"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataSpaceHistory"
+        },
+        "QualifiedApiName": "DataSpaceHistory"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataSpaceFeed"
+        },
+        "QualifiedApiName": "DataSpaceFeed"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataSpaceFilterCondition"
+        },
+        "QualifiedApiName": "DataSpaceFilterCondition"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataSpaceFilterCriteria"
+        },
+        "QualifiedApiName": "DataSpaceFilterCriteria"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataSpaceInternalOrg"
+        },
+        "QualifiedApiName": "DataSpaceInternalOrg"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataConnectorConvStorage"
+        },
+        "QualifiedApiName": "DataConnectorConvStorage"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataSyncConnectorEvent"
+        },
+        "QualifiedApiName": "DataSyncConnectorEvent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataspaceScope"
+        },
+        "QualifiedApiName": "DataspaceScope"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataspaceScopeAccess"
+        },
+        "QualifiedApiName": "DataspaceScopeAccess"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataActionJobSummary"
+        },
+        "QualifiedApiName": "DataActionJobSummary"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataActionJobSummaryShare"
+        },
+        "QualifiedApiName": "DataActionJobSummaryShare"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataActionJobSummaryOwnerSharingRule"
+        },
+        "QualifiedApiName": "DataActionJobSummaryOwnerSharingRule"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataActionJobSummaryHistory"
+        },
+        "QualifiedApiName": "DataActionJobSummaryHistory"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataActionJobSummaryFeed"
+        },
+        "QualifiedApiName": "DataActionJobSummaryFeed"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataActionJobStatusEvent"
+        },
+        "QualifiedApiName": "DataActionJobStatusEvent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataCalcInsightTemplate"
+        },
+        "QualifiedApiName": "DataCalcInsightTemplate"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataConnectionParamTmpl"
+        },
+        "QualifiedApiName": "DataConnectionParamTmpl"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataConnectorInternalS3"
+        },
+        "QualifiedApiName": "DataConnectorInternalS3"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataGraph"
+        },
+        "QualifiedApiName": "DataGraph"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataGraphDefinition"
+        },
+        "QualifiedApiName": "DataGraphDefinition"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataGraphDependencyMppng"
+        },
+        "QualifiedApiName": "DataGraphDependencyMppng"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataGraphField"
+        },
+        "QualifiedApiName": "DataGraphField"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataGraphFilterCondition"
+        },
+        "QualifiedApiName": "DataGraphFilterCondition"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataGraphFilterCriteria"
+        },
+        "QualifiedApiName": "DataGraphFilterCriteria"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataGraphRecencyCriteria"
+        },
+        "QualifiedApiName": "DataGraphRecencyCriteria"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataGraphSource"
+        },
+        "QualifiedApiName": "DataGraphSource"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataGraphVersion"
+        },
+        "QualifiedApiName": "DataGraphVersion"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataKitObjectDependency"
+        },
+        "QualifiedApiName": "DataKitObjectDependency"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataKitObjectTemplate"
+        },
+        "QualifiedApiName": "DataKitObjectTemplate"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataModelDomainCapUsage"
+        },
+        "QualifiedApiName": "DataModelDomainCapUsage"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataMultiOrgConnection"
+        },
+        "QualifiedApiName": "DataMultiOrgConnection"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataMultiOrgObjectRef"
+        },
+        "QualifiedApiName": "DataMultiOrgObjectRef"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataMultiOrgServiceEvent"
+        },
+        "QualifiedApiName": "DataMultiOrgServiceEvent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataMultiOrgSyncStatus"
+        },
+        "QualifiedApiName": "DataMultiOrgSyncStatus"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataRemoteOrgDataSpaceMap"
+        },
+        "QualifiedApiName": "DataRemoteOrgDataSpaceMap"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataCloudCapability"
+        },
+        "QualifiedApiName": "DataCloudCapability"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataCommunicationCap"
+        },
+        "QualifiedApiName": "DataCommunicationCap"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataCommunicationCapShare"
+        },
+        "QualifiedApiName": "DataCommunicationCapShare"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataCommunicationCapOwnerSharingRule"
+        },
+        "QualifiedApiName": "DataCommunicationCapOwnerSharingRule"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataCommunicationCapHistory"
+        },
+        "QualifiedApiName": "DataCommunicationCapHistory"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataCommunicationCapFeed"
+        },
+        "QualifiedApiName": "DataCommunicationCapFeed"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataQueryWorkspace"
+        },
+        "QualifiedApiName": "DataQueryWorkspace"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataQueryWorkspaceShare"
+        },
+        "QualifiedApiName": "DataQueryWorkspaceShare"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataQueryWorkspaceOwnerSharingRule"
+        },
+        "QualifiedApiName": "DataQueryWorkspaceOwnerSharingRule"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataQueryWorkspaceHistory"
+        },
+        "QualifiedApiName": "DataQueryWorkspaceHistory"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataQueryWorkspaceFeed"
+        },
+        "QualifiedApiName": "DataQueryWorkspaceFeed"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataQueryWorkspaceTab"
+        },
+        "QualifiedApiName": "DataQueryWorkspaceTab"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataSemanticSearch"
+        },
+        "QualifiedApiName": "DataSemanticSearch"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataSemanticSearchHistory"
+        },
+        "QualifiedApiName": "DataSemanticSearchHistory"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataSemanticSearchFeed"
+        },
+        "QualifiedApiName": "DataSemanticSearchFeed"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataCommCapActvTargetShare"
+        },
+        "QualifiedApiName": "DataCommCapActvTargetShare"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataCommCapActvTargetOwnerSharingRule"
+        },
+        "QualifiedApiName": "DataCommCapActvTargetOwnerSharingRule"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataCommCapActvTargetHistory"
+        },
+        "QualifiedApiName": "DataCommCapActvTargetHistory"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataCommCapActvTargetFeed"
+        },
+        "QualifiedApiName": "DataCommCapActvTargetFeed"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataCommCapDataSpace"
+        },
+        "QualifiedApiName": "DataCommCapDataSpace"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataCommCapDim"
+        },
+        "QualifiedApiName": "DataCommCapDim"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataCommCapDimValue"
+        },
+        "QualifiedApiName": "DataCommCapDimValue"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataCommCapRelatedDim"
+        },
+        "QualifiedApiName": "DataCommCapRelatedDim"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataCommCapRule"
+        },
+        "QualifiedApiName": "DataCommCapRule"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataCommCapRuleDim"
+        },
+        "QualifiedApiName": "DataCommCapRuleDim"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataConctCredExpiryEvent"
+        },
+        "QualifiedApiName": "DataConctCredExpiryEvent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataKitDeployEvent"
+        },
+        "QualifiedApiName": "DataKitDeployEvent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataKitDeploymentLog"
+        },
+        "QualifiedApiName": "DataKitDeploymentLog"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataKitDeploymentLogShare"
+        },
+        "QualifiedApiName": "DataKitDeploymentLogShare"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataKitDeploymentLogOwnerSharingRule"
+        },
+        "QualifiedApiName": "DataKitDeploymentLogOwnerSharingRule"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataObjBillableStatusEvent"
+        },
+        "QualifiedApiName": "DataObjBillableStatusEvent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataShellTntUpgradeEvent"
+        },
+        "QualifiedApiName": "DataShellTntUpgradeEvent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataShrMappingStatusEvent"
+        },
+        "QualifiedApiName": "DataShrMappingStatusEvent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataAssetPromotionRequest"
+        },
+        "QualifiedApiName": "DataAssetPromotionRequest"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataLineageDefSyncLogShare"
+        },
+        "QualifiedApiName": "DataLineageDefSyncLogShare"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataLineageDefSyncLogOwnerSharingRule"
+        },
+        "QualifiedApiName": "DataLineageDefSyncLogOwnerSharingRule"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataLineageDefSyncLogHistory"
+        },
+        "QualifiedApiName": "DataLineageDefSyncLogHistory"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataLineageDefSyncLogFeed"
+        },
+        "QualifiedApiName": "DataLineageDefSyncLogFeed"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataLineageNodeDefSyncLog"
+        },
+        "QualifiedApiName": "DataLineageNodeDefSyncLog"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataLineageNodeDefSyncLogShare"
+        },
+        "QualifiedApiName": "DataLineageNodeDefSyncLogShare"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataLineageNodeDefSyncLogOwnerSharingRule"
+        },
+        "QualifiedApiName": "DataLineageNodeDefSyncLogOwnerSharingRule"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataLineageNodeDefSyncLogHistory"
+        },
+        "QualifiedApiName": "DataLineageNodeDefSyncLogHistory"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataLineageNodeDefSyncLogFeed"
+        },
+        "QualifiedApiName": "DataLineageNodeDefSyncLogFeed"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataCustomCodeFuncInvOpt"
+        },
+        "QualifiedApiName": "DataCustomCodeFuncInvOpt"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataCustomCodeStatEvent"
+        },
+        "QualifiedApiName": "DataCustomCodeStatEvent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataFeatureDeprovisionEvent"
+        },
+        "QualifiedApiName": "DataFeatureDeprovisionEvent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataMltOrgMdatChgLineage"
+        },
+        "QualifiedApiName": "DataMltOrgMdatChgLineage"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataMltOrgMdatChgsetEvent"
+        },
+        "QualifiedApiName": "DataMltOrgMdatChgsetEvent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataObjSecondaryIndex"
+        },
+        "QualifiedApiName": "DataObjSecondaryIndex"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataObjSecondaryIndexHistory"
+        },
+        "QualifiedApiName": "DataObjSecondaryIndexHistory"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataObjSecondaryIndexFeed"
+        },
+        "QualifiedApiName": "DataObjSecondaryIndexFeed"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataObjTagDetectionInfo"
+        },
+        "QualifiedApiName": "DataObjTagDetectionInfo"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataObjectBuildOrgTemplate"
+        },
+        "QualifiedApiName": "DataObjectBuildOrgTemplate"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataObjectSearchIndexConf"
+        },
+        "QualifiedApiName": "DataObjectSearchIndexConf"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataOrgExtShareEvent"
+        },
+        "QualifiedApiName": "DataOrgExtShareEvent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataOrgFeatureAllowList"
+        },
+        "QualifiedApiName": "DataOrgFeatureAllowList"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataAccsHier"
+        },
+        "QualifiedApiName": "DataAccsHier"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataAccsHierCnct"
+        },
+        "QualifiedApiName": "DataAccsHierCnct"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataAccsHierCnctTrgtDataSpc"
+        },
+        "QualifiedApiName": "DataAccsHierCnctTrgtDataSpc"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataAccsHierCnctTrgtHier"
+        },
+        "QualifiedApiName": "DataAccsHierCnctTrgtHier"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataConnector"
+        },
+        "QualifiedApiName": "DataConnector"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataConnectorLocalization"
+        },
+        "QualifiedApiName": "DataConnectorLocalization"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataConnectorAttribute"
+        },
+        "QualifiedApiName": "DataConnectorAttribute"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataConnectorAttributeLocalization"
+        },
+        "QualifiedApiName": "DataConnectorAttributeLocalization"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataConnectorAttributeOpt"
+        },
+        "QualifiedApiName": "DataConnectorAttributeOpt"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataConnectorAttributeOptLocalization"
+        },
+        "QualifiedApiName": "DataConnectorAttributeOptLocalization"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataConnectorError"
+        },
+        "QualifiedApiName": "DataConnectorError"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataConnectorErrorLocalization"
+        },
+        "QualifiedApiName": "DataConnectorErrorLocalization"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataContentLensSource"
+        },
+        "QualifiedApiName": "DataContentLensSource"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataContentLensSourceHistory"
+        },
+        "QualifiedApiName": "DataContentLensSourceHistory"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataContentLensSourceFeed"
+        },
+        "QualifiedApiName": "DataContentLensSourceFeed"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataHarmonizedModelObjRef"
+        },
+        "QualifiedApiName": "DataHarmonizedModelObjRef"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataLineageFullRefStEvent"
+        },
+        "QualifiedApiName": "DataLineageFullRefStEvent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataObjectDecorator"
+        },
+        "QualifiedApiName": "DataObjectDecorator"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataAccsHierSrcSubstMap"
+        },
+        "QualifiedApiName": "DataAccsHierSrcSubstMap"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataKnowledgeSpace"
+        },
+        "QualifiedApiName": "DataKnowledgeSpace"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataKnowledgeSpaceShare"
+        },
+        "QualifiedApiName": "DataKnowledgeSpaceShare"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataKnowledgeSpaceOwnerSharingRule"
+        },
+        "QualifiedApiName": "DataKnowledgeSpaceOwnerSharingRule"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataKnowledgeSpaceSession"
+        },
+        "QualifiedApiName": "DataKnowledgeSpaceSession"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataKnowledgeSrcFileRef"
+        },
+        "QualifiedApiName": "DataKnowledgeSrcFileRef"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataKnowledgeSrcFileRefShare"
+        },
+        "QualifiedApiName": "DataKnowledgeSrcFileRefShare"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataKnowledgeSrcFileRefOwnerSharingRule"
+        },
+        "QualifiedApiName": "DataKnowledgeSrcFileRefOwnerSharingRule"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataQuickAttribute"
+        },
+        "QualifiedApiName": "DataQuickAttribute"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataQuickAttributeHistory"
+        },
+        "QualifiedApiName": "DataQuickAttributeHistory"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataQuickAttributeFeed"
+        },
+        "QualifiedApiName": "DataQuickAttributeFeed"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataQuickAttributeChangeEvent"
+        },
+        "QualifiedApiName": "DataQuickAttributeChangeEvent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataDotComSettings"
+        },
+        "QualifiedApiName": "DataDotComSettings"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataImportManagementSettings"
+        },
+        "QualifiedApiName": "DataImportManagementSettings"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataSourceSettings"
+        },
+        "QualifiedApiName": "DataSourceSettings"
+      }
+    ],
+    "totalSize": 187,
+    "done": true
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "status": 0,
+  "result": {
+    "records": [
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/GenAiFunctionDefinition"
+        },
+        "QualifiedApiName": "GenAiFunctionDefinition"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/GenAiPlannerFunctionDef"
+        },
+        "QualifiedApiName": "GenAiPlannerFunctionDef"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/GenAiPluginFunctionDef"
+        },
+        "QualifiedApiName": "GenAiPluginFunctionDef"
+      }
+    ],
+    "totalSize": 3,
+    "done": true
+  }
+}

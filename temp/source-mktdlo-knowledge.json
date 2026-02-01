@@ -1,0 +1,33 @@
+{
+  "status": 0,
+  "result": {
+    "records": [
+      {
+        "attributes": {
+          "type": "MktDataLakeObject",
+          "url": "/services/data/v66.0/tooling/sobjects/MktDataLakeObject/0gOVe0000000On7MAE"
+        },
+        "Id": "0gOVe0000000On7MAE",
+        "DeveloperName": "Knowledge_kav_Home",
+        "MasterLabel": "Knowledge_kav_Home",
+        "ExternalName": "Knowledge_kav_Home__dll",
+        "DataLakeObjectStatus": "ACTIVE",
+        "IsEnabled": true
+      },
+      {
+        "attributes": {
+          "type": "MktDataLakeObject",
+          "url": "/services/data/v66.0/tooling/sobjects/MktDataLakeObject/0gOVe0000000OnAMAU"
+        },
+        "Id": "0gOVe0000000OnAMAU",
+        "DeveloperName": "Knowledge_DataCategorySelection_Home",
+        "MasterLabel": "Knowledge_DataCategorySelection_Home",
+        "ExternalName": "Knowledge_DataCategorySelection_Home__dll",
+        "DataLakeObjectStatus": "ACTIVE",
+        "IsEnabled": true
+      }
+    ],
+    "totalSize": 2,
+    "done": true
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "status": 0,
+  "result": {
+    "records": [
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CommerceSearchIndexInfoChangeEvent"
+        },
+        "QualifiedApiName": "CommerceSearchIndexInfoChangeEvent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/SearchIndexJobStatusEvent"
+        },
+        "QualifiedApiName": "SearchIndexJobStatusEvent"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/SearchIndexObjectConfigShare"
+        },
+        "QualifiedApiName": "SearchIndexObjectConfigShare"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/SearchIndexObjectConfigOwnerSharingRule"
+        },
+        "QualifiedApiName": "SearchIndexObjectConfigOwnerSharingRule"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataObjectSearchIndexConf"
+        },
+        "QualifiedApiName": "DataObjectSearchIndexConf"
+      }
+    ],
+    "totalSize": 5,
+    "done": true
+  }
+}
