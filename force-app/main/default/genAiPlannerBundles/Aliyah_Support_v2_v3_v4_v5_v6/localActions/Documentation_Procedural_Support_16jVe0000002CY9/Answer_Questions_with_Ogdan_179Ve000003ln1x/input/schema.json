@@ -1,0 +1,22 @@
+{
+  "required" : [ "Input:User_Question" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "Input:User_Question" : {
+      "title" : "User Question",
+      "description" : "Required. A string created by generative AI to be used in the knowledge article search.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    },
+    "citationMode" : {
+      "title" : "Citation Mode",
+      "description" : "The URL to use for citations for custom Agents.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType",
+  "lightning:textIndexed" : true
+}

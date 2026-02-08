@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCategoryGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>EDUCATION</label>
+                <name>EDUCATION</name>
+            </dataCategory>
+            <dataCategory>
+                <label>ALIYAH PROCESS</label>
+                <name>ALIYAH_PROCESS</name>
+            </dataCategory>
+            <dataCategory>
+                <label>BENEFITS</label>
+                <name>BENEFITS</name>
+            </dataCategory>
+            <dataCategory>
+                <label>FIRST STEPS IN ISRAEL</label>
+                <name>FIRST_STEPS_IN_ISRAEL</name>
+            </dataCategory>
+            <dataCategory>
+                <label>INTEGRATION (KLITA)</label>
+                <name>INTEGRATION_KLITA</name>
+            </dataCategory>
+            <dataCategory>
+                <label>HEALTH</label>
+                <name>HEALTH</name>
+            </dataCategory>
+            <label>FAQ</label>
+            <name>FAQ</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Personnal status documents</label>
+                <name>Personnalstatusdocuments</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Court permission for Aliyah of child</label>
+                <name>CourtpermissionforAliyahofchild</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Proof of Parent&apos;s custody</label>
+                <name>ProofofParentscustody</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Guardianship</label>
+                <name>Guardianship</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Name Change with authentication</label>
+                <name>NameChangewithauthentication</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Waiver of confidentiality*</label>
+                <name>Waiverofconfidentiality</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Passport*</label>
+                <name>Passport</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Passport pictures*</label>
+                <name>Passportpictures</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Aliyah visa*</label>
+                <name>Aliyahvisa</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Proof of connection to Jewish family mem</label>
+                <name>ProofofconnectiontoJewishfamilymemberapo</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Aliyah Interview*</label>
+                <name>AliyahInterview</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Berur Ezrachut*</label>
+                <name>BerurEzrachut</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Birth certificate with Apostille if requ</label>
+                <name>BirthcertificatewithApostilleifrequ</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Ezrach Oleh Declaration*</label>
+                <name>EzrachOlehDeclaration</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Divorce certificate with Apostille if re</label>
+                <name>DivorcecertificatewithApostilleifre</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Marriage Certificate with apostille if r</label>
+                <name>MarriageCertificatewithapostilleifr</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Teudat Oleh / Zakaut*</label>
+                <name>TeudatOlehZakaut</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Death certificate of spouse with Apostil</label>
+                <name>DeathcertificateofspousewithApostil</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Declaration of unaccompanying Ex-Spouse*</label>
+                <name>DeclarationofunaccompanyingExSpouse</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Declaration of family obligations*</label>
+                <name>Declarationoffamilyobligations</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Declaration of Split Aliyah*</label>
+                <name>DeclarationofSplitAliyah</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Health declaration*</label>
+                <name>Healthdeclaration</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Israeli passport or other travel documen</label>
+                <name>Israelipassportorothertraveldocumen</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Conversion- Proof of Judaism personal le</label>
+                <name>ConversionProofofJudaismpersonalle</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Conversion Proof of Judaism- Rabbi&apos;s let</label>
+                <name>ConversionProofofJudaismRabbislet</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Lishkat Hakesher Docs*</label>
+                <name>LishkatHakesherDocs</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Medical report*</label>
+                <name>Medicalreport</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Parents&apos; permission for Aliyah of a mino</label>
+                <name>ParentspermissionforAliyahofamino</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Family book*</label>
+                <name>Familybook</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Adoption Certificate with apostille if r</label>
+                <name>AdoptionCertificatewithapostilleifr</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Conversion- Proof of Judaism - conversio</label>
+                <name>ConversionProofofJudaismconversio</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Other*</label>
+                <name>Other</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Katin Chozer - Parents&apos; declaration *</label>
+                <name>KatinChozerParentsdeclaration</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Proof of Jewish Status of candidate or r</label>
+                <name>ProofofJewishStatusofcandidateorr</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Katin Chozer - confirmation of participa</label>
+                <name>KatinChozerconfirmationofparticipa</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Proof document of attending a MASA progr</label>
+                <name>ProofdocumentofattendingaMASAprogr</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Proof document of Machal service*</label>
+                <name>ProofdocumentofMachalservice</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Proof document of military service via H</label>
+                <name>ProofdocumentofmilitaryserviceviaH</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Proof document of national service*</label>
+                <name>Proofdocumentofnationalservice</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Common law partnership agreement- aposti</label>
+                <name>Commonlawpartnershipagreementaposti</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Proof of father&apos;s custody (divorce agree</label>
+                <name>Proofoffatherscustodydivorceagree</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Proof of Judaism (POJ) of the candidate&apos;</label>
+                <name>ProofofJudaismPOJofthecandidate</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Proof of mother&apos;s custody (divorce agree</label>
+                <name>Proofofmotherscustodydivorceagree</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Proof of non residence in Israel for 7 y</label>
+                <name>ProofofnonresidenceinIsraelfor7y</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Katin Chozer - confirmation of parents&apos;</label>
+                <name>KatinChozerconfirmationofparents</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Katin Chozer - confirmation of living ou</label>
+                <name>KatinChozerconfirmationoflivingou</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Gorer Zakaut- proof of non residence in</label>
+                <name>GorerZakautproofofnonresidencein</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Toshav Chozer - answer from Misrad Hakli</label>
+                <name>ToshavChozeranswerfromMisradHakli</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Temporary resident A1- proof of receivin</label>
+                <name>TemporaryresidentA1proofofreceivin</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Conversion -Proof of Judaism confirmatio</label>
+                <name>ConversionProofofJudaismconfirmatio</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Renouncement of Israeli citizenship*</label>
+                <name>Renouncement_of_Israeli_citizenship</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Drishat Krovim form*</label>
+                <name>DrishatKrovimform</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Criminal background check with apostille</label>
+                <name>Criminalbackgroundcheckwithapostille</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Visa application form including declarat</label>
+                <name>Visaapplicationformincludingdeclarat</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Katin Chozer - parents&apos; entry and exit f</label>
+                <name>KatinChozerparentsentryandexitf</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Katin Chozer- parents&apos; proof of employme</label>
+                <name>KatinChozerparentsproofofemployme</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Police Clearance With An Apostille Certi</label>
+                <name>PoliceClearanceWithAnApostilleCerti</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Questionnaire*</label>
+                <name>Questionnaire</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Flight ticket</label>
+                <name>Flightticket</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Settling intent questionnaire*</label>
+                <name>Settlingintentquestionnaire</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Settling intent supporting documents*</label>
+                <name>Settlingintentsupportingdocuments</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Bank transfer proof*</label>
+                <name>Banktransferproof</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Family photos*</label>
+                <name>Familyphotos</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Health certificate (086Y)*</label>
+                <name>Healthcertificate086Y</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Vaccination card*</label>
+                <name>Vaccinationcard</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Report card or matriculation certificate</label>
+                <name>Reportcardormatriculationcertificate</name>
+            </dataCategory>
+            <dataCategory>
+                <label>University evaluation document*</label>
+                <name>Universityevaluationdocument</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Complete/incomplete secondary education</label>
+                <name>Completeincompletesecondaryeducation</name>
+            </dataCategory>
+            <dataCategory>
+                <label>College record book with grades*</label>
+                <name>Collegerecordbookwithgrades</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Terms of Agreement*</label>
+                <name>TermsofAgreement</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Appeal*</label>
+                <name>Appeal</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Program Participation Confirmation*</label>
+                <name>ProgramParticipationConfirmation</name>
+            </dataCategory>
+            <label>Documents</label>
+            <name>Documents</name>
+        </dataCategory>
+        <label>All</label>
+        <name>All</name>
+    </dataCategory>
+    <label>Portal Aliyah</label>
+    <objectUsage>
+        <object>SvcCatalogItemDef</object>
+        <object>KnowledgeArticleVersion</object>
+    </objectUsage>
+</DataCategoryGroup>

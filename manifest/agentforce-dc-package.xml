@@ -1,41 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>DataCategoryCustom__dlm.CreatedById__c</members>
-        <members>DataCategoryCustom__dlm.CreatedDate__c</members>
-        <members>DataCategoryCustom__dlm.DataCategoryGroupId__c</members>
-        <members>DataCategoryCustom__dlm.DataSourceObject__c</members>
-        <members>DataCategoryCustom__dlm.DataSource__c</members>
-        <members>DataCategoryCustom__dlm.DeveloperName__c</members>
-        <members>DataCategoryCustom__dlm.Id__c</members>
-        <members>DataCategoryCustom__dlm.InternalOrganization__c</members>
-        <members>DataCategoryCustom__dlm.LastModifiedById__c</members>
-        <members>DataCategoryCustom__dlm.LastModifiedDate__c</members>
-        <members>DataCategoryCustom__dlm.MasterLabel__c</members>
-        <members>DataCategoryCustom__dlm.ParentId__c</members>
-        <members>DataCategoryCustom__dlm.SortOrder__c</members>
-        <members>DataCategoryCustom__dlm.SortStyle__c</members>
-        <members>DataCategoryGroupCustom__dlm.CreatedById__c</members>
-        <members>DataCategoryGroupCustom__dlm.CreatedDate__c</members>
-        <members>DataCategoryGroupCustom__dlm.DataSourceObject__c</members>
-        <members>DataCategoryGroupCustom__dlm.DataSource__c</members>
-        <members>DataCategoryGroupCustom__dlm.Description__c</members>
-        <members>DataCategoryGroupCustom__dlm.DeveloperName__c</members>
-        <members>DataCategoryGroupCustom__dlm.Id__c</members>
-        <members>DataCategoryGroupCustom__dlm.InternalOrganization__c</members>
-        <members>DataCategoryGroupCustom__dlm.LastModifiedById__c</members>
-        <members>DataCategoryGroupCustom__dlm.LastModifiedDate__c</members>
-        <members>DataCategoryGroupCustom__dlm.MasterLabel__c</members>
-        <members>DataCategoryGroupCustom__dlm.Status__c</members>
-        <members>DataCategorySelectionCustom__dlm.CreatedById__c</members>
-        <members>DataCategorySelectionCustom__dlm.CreatedDate__c</members>
-        <members>DataCategorySelectionCustom__dlm.DataCategoryGroupId__c</members>
-        <members>DataCategorySelectionCustom__dlm.DataCategoryId__c</members>
-        <members>DataCategorySelectionCustom__dlm.DataSourceObject__c</members>
-        <members>DataCategorySelectionCustom__dlm.DataSource__c</members>
-        <members>DataCategorySelectionCustom__dlm.Id__c</members>
-        <members>DataCategorySelectionCustom__dlm.InternalOrganization__c</members>
-        <members>DataCategorySelectionCustom__dlm.ParentId__c</members>
         <members>ssot__KnowledgeArticleVersion__dlm.Aliyah_Portal_FAQ_Categories_c__c</members>
         <members>ssot__KnowledgeArticleVersion__dlm.Aliyah_Portal_StepbyStep_Categories_c__c</members>
         <members>ssot__KnowledgeArticleVersion__dlm.Answer_c__c</members>
@@ -61,9 +26,6 @@
         <members>DataCategory_Home</members>
         <members>Knowledge_DataCategorySelection_Home</members>
         <members>Knowledge_kav_Home</members>
-        <members>SalesforceDotCom_Home</members>
-        <members>SalesforceDotCom_Home1</members>
-        <members>SalesforceDotCom_Home2</members>
         <members>SalesforceDotCom_Home3</members>
         <name>DataKitObjectDependency</name>
     </types>
@@ -86,9 +48,6 @@
         <members>KB_Agentforce_DevOps_1769977815348</members>
         <members>KB_Agentforce_DevOps_1769978232569</members>
         <members>KB_Agentforce_DevOps_1769978232944</members>
-        <members>KB_Agentforce_DevOps_1769978233508</members>
-        <members>KB_Agentforce_DevOps_1769978233848</members>
-        <members>KB_Agentforce_DevOps_1769978234193</members>
         <members>KB_Agentforce_DevOps_1769978235580</members>
         <members>KB_Agentforce_DevOps_1769978236606</members>
         <members>KB_Agentforce_DevOps_1769978237835</members>
@@ -183,11 +142,8 @@
         <name>DataSrcDataModelFieldMap</name>
     </types>
     <types>
-        <members>DataCategoryGroup_Home_1769978236279</members>
-        <members>DataCategory_Home_1769978238572</members>
-        <members>Knowledge_DataCategorySelection_Home_1769978240204</members>
         <members>Knowledge_kav_Home_1769978244545</members>
         <name>DataStreamTemplate</name>
     </types>
-    <version>66.0</version>
+    <version>65.0</version>
 </Package>

@@ -2,6 +2,7 @@
 <RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Documents</fullName>
     <active>true</active>
+    <description>This RT is used to store the information on document types for Aliyah portal only</description>
     <label>Documents</label>
     <picklistValues>
         <picklist>Aliyah_Portal_FAQ_Categories__c</picklist>
