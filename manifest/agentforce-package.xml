@@ -7,7 +7,6 @@
     </types>
     <types>
         <members>Answer_Questions_with_Ogdan</members>
-        <members>answerWithKnowledge_Override</members>
         <name>GenAiPromptTemplate</name>
     </types>
     <types>

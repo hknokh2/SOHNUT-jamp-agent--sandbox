@@ -151,7 +151,7 @@ Agentforce / Service Agent
 
 4) Search Index + Retriever
 - Create Search Index "Ogdan_Knowledge" (Vector or Hybrid) on the Knowledge DLO.
-- Ensure a retriever exists in Einstein Studio. Create "Ogdan_Knowledge_Retriever_1Cx_hm58199f7ec" if needed.
+- Ensure a retriever exists in Einstein Studio. Create "Ogdan_Knowledge_Retriever_1Cx_8orcafc5846" if needed.
 
 5) Prompt Templates
 - Deploy GenAiPromptTemplate:

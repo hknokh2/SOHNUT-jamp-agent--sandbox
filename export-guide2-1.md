@@ -28,7 +28,7 @@
    - Messaging for In-App and Web User
 9. Profiles -> System Administrator ->  Object Settings -> Data Streams and Data Lake Objects  => Tabs On
 10. Create "EinsteinServiceAgent User" .
-    Give it some user name similar to the source org, like: aliyah_support@00dve000010fhm5.ext 
+    Give it some user name similar to the source org, like: aliyah_support@00ddt000005l8or1543637767.ext 
     email: noreply@salesforce.com 
     Profile: Einstein Agent User
     User License: Einstein Agent
@@ -44,7 +44,7 @@
 
       - Knowledge_kav_Home
     - Search Indexes -> Add -> Ogdan_Knowledge
-    - Retrievers  -> Add -> Ogdan Knowledge Retriever (Ogdan_Knowledge_Retriever_1Cx_hm58199f7ec)
+    - Retrievers  -> Add -> Ogdan Knowledge Retriever (Ogdan_Knowledge_Retriever_1Cx_8orcafc5846)
     - Press "Download Manifest File" -> Save to the file to "manifest/agentforce-dc-package.xml" (typically  it's a part of your SFDX project inside ./manifest folder), below is the actual manifest file from the jamp--agent.sandbox:
 
 ```XML
@@ -85,7 +85,7 @@
         <members>Knowledge_DataCategorySelection_Home</members>
         <members>Knowledge_kav_Home</members>
         <members>Ogdan_Knowledge</members>
-        <members>Ogdan_Knowledge_Retriever_1Cx_hm58199f7ec</members>
+        <members>Ogdan_Knowledge_Retriever_1Cx_8orcafc5846</members>
         <members>SalesforceDotCom_Home</members>
         <name>DataKitObjectTemplate</name>
     </types>
@@ -273,8 +273,8 @@
     - DataCategoryGroupCustom\_\_dlm.KQ_Id__c
 
 12. Go to Aliya_Support.bot-met.xml and change  to the username which was set at the step 10.
-    `<botUser>aliyah_support@00dve000003fhm5.ext</botUser>`
-    to `<botUser>aliyah_support@00dve000010fhm5.ext</botUser>`
+    `<botUser>aliyah_support@00ddt000005l8or1543637767.ext</botUser>`
+    to `<botUser>aliyah_support@00ddt000005l8or1543637767.ext</botUser>`
 
 13. Deploy the package manifest/agentforce-dc-package.xml:
 

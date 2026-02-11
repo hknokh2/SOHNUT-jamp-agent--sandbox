@@ -3,7 +3,7 @@
     <dataKitSource>LOCAL</dataKitSource>
     <dataKitType>SANDBOX</dataKitType>
     <dataSpaceDefinitionDevName>default</dataSpaceDefinitionDevName>
-    <deploymentOrder>{&quot;isAutoSequence&quot;:false,&quot;sequence&quot;:[{&quot;devName&quot;:&quot;KnowledgeDataStream&quot;,&quot;type&quot;:&quot;DataStream&quot;},{&quot;devName&quot;:&quot;Ogdan_Knowledge&quot;,&quot;type&quot;:&quot;DataSemanticSearch&quot;},{&quot;devName&quot;:&quot;Ogdan_Knowledge_Retriever_1Cx_hm58199f7ec&quot;,&quot;type&quot;:&quot;AIRetrieverDefinition&quot;}]}</deploymentOrder>
+    <deploymentOrder>{&quot;isAutoSequence&quot;:false,&quot;sequence&quot;:[{&quot;devName&quot;:&quot;KnowledgeDataStream&quot;,&quot;type&quot;:&quot;DataStream&quot;},{&quot;devName&quot;:&quot;Ogdan_Knowledge&quot;,&quot;type&quot;:&quot;DataSemanticSearch&quot;},{&quot;devName&quot;:&quot;Ogdan_Knowledge_Retriever_1Cx_8orcafc5846&quot;,&quot;type&quot;:&quot;AIRetrieverDefinition&quot;}]}</deploymentOrder>
     <developerName>KB_Agentforce_DevOps</developerName>
     <isDeployed>false</isDeployed>
     <isEnabled>false</isEnabled>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Allows custom permissions for Agentforce Agent : Aliyah_Support&apos;s agent user : aliyah_support@00ddt000005l8or1543637767.ext.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Aliyah_Support647963984 Permissions</label>
+    <license>Einstein Agent</license>
+</PermissionSet>

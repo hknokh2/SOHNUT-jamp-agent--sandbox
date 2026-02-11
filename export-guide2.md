@@ -109,7 +109,7 @@ Search Index:
 Retriever:
 1) Einstein Studio -> Retrievers
 2) Create:
-   - Name: Ogdan_Knowledge_Retriever_1Cx_hm58199f7ec
+   - Name: Ogdan_Knowledge_Retriever_1Cx_8orcafc5846
    - Search Index: Ogdan_Knowledge
 
 ---

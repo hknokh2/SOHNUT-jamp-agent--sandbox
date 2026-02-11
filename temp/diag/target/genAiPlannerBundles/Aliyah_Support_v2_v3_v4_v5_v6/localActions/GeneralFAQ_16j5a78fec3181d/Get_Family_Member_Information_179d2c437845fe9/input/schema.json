@@ -1,0 +1,14 @@
+{
+  "required" : [ "ContactID" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "ContactID" : {
+      "title" : "ContactID",
+      "description" : "Get contact ID from topic.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}
