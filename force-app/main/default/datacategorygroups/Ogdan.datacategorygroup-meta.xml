@@ -8,7 +8,7 @@
     <description>This is for Knowledge Articles from the Ogdan</description>
     <label>Ogdan</label>
     <objectUsage>
-        <object>SvcCatalogItemDef</object>
         <object>KnowledgeArticleVersion</object>
+        <object>SvcCatalogItemDef</object>
     </objectUsage>
 </DataCategoryGroup>

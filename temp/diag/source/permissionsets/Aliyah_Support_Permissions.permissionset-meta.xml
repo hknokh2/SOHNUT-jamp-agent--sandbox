@@ -28,7 +28,7 @@
         <viewSegmentationDefinitions>false</viewSegmentationDefinitions>
         <viewSemanticSearchDefinitions>false</viewSemanticSearchDefinitions>
     </dataspaceScopes>
-    <description>Allows custom permissions for Agentforce Agent : Aliyah_Support&apos;s agent user : aliyah_support@00dve000003fhm5.ext.</description>
+    <description>Allows custom permissions for Agentforce Agent : Aliyah_Support&apos;s agent user : aliyah_support@00drr00000nphzf1543097289.ext.</description>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.AM_comments__c</field>

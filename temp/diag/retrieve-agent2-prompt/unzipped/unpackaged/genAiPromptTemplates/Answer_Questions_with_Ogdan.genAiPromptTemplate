@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenAiPromptTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
-    <activeVersionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_29</activeVersionIdentifier>
+    <activeVersionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_31</activeVersionIdentifier>
     <description>Answer Questions with Ogdan</description>
     <developerName>Answer_Questions_with_Ogdan</developerName>
     <masterLabel>Answer Questions with Ogdan</masterLabel>
@@ -1109,7 +1109,6 @@ Response:
             <referenceName>Input:User_Question</referenceName>
             <required>true</required>
         </inputs>
-        <primaryModel>Anthropic_Claude_Sonnet_4_5_on_Amazon_0_1_CM_12l_hm59c5aacf4</primaryModel>
         <responseFormat>JSON</responseFormat>
         <status>Published</status>
         <templateDataProviders>
@@ -1373,7 +1372,6 @@ Response:
             <referenceName>Input:User_Question</referenceName>
             <required>true</required>
         </inputs>
-        <primaryModel>Anthropic_Claude_Sonnet_4_5_on_Amazon_0_1_CM_12l_hm59c5aacf4</primaryModel>
         <responseFormat>JSON</responseFormat>
         <status>Published</status>
         <templateDataProviders>
@@ -1507,7 +1505,7 @@ Response:
         </inputs>
         <primaryModel>sfdc_ai__DefaultBedrockAnthropicClaude45Sonnet</primaryModel>
         <responseFormat>JSON</responseFormat>
-        <status>Draft</status>
+        <status>Published</status>
         <templateDataProviders>
             <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</definition>
             <description>Ogdan Knowledge</description>

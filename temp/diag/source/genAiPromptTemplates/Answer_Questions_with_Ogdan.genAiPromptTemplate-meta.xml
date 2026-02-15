@@ -26,7 +26,7 @@ INSTRUCTIONS
 ###
 KNOWLEDGE:
 **Retrieved Knowledge:**
-{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_hm58199f7ec.results}
+{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6.results}
 
 
  ###
@@ -43,7 +43,7 @@ Response:
         <responseFormat>JSON</responseFormat>
         <status>Published</status>
         <templateDataProviders>
-            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_hm58199f7ec</definition>
+            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</definition>
             <description>Ogdan Knowledge</description>
             <label>Ogdan Knowledge Retriever</label>
             <parameters>
@@ -52,7 +52,7 @@ Response:
                 <parameterName>searchText</parameterName>
                 <valueExpression>{!$Input:User_Question}</valueExpression>
             </parameters>
-            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_hm58199f7ec</referenceName>
+            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</referenceName>
         </templateDataProviders>
         <versionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_7</versionIdentifier>
     </templateVersions>
@@ -87,7 +87,7 @@ CITATION INSTRUCTIONS:
 ###
 KNOWLEDGE:
 **Retrieved Knowledge:**
-{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_hm58199f7ec.results}
+{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6.results}
 
  ###
 Response:
@@ -103,7 +103,7 @@ Response:
         <responseFormat>JSON</responseFormat>
         <status>Published</status>
         <templateDataProviders>
-            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_hm58199f7ec</definition>
+            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</definition>
             <description>Ogdan Knowledge</description>
             <label>Ogdan Knowledge Retriever</label>
             <parameters>
@@ -112,7 +112,7 @@ Response:
                 <parameterName>searchText</parameterName>
                 <valueExpression>{!$Input:User_Question}</valueExpression>
             </parameters>
-            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_hm58199f7ec</referenceName>
+            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</referenceName>
         </templateDataProviders>
         <versionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_8</versionIdentifier>
     </templateVersions>
@@ -138,7 +138,7 @@ INSTRUCTIONS
 ###
 KNOWLEDGE:
 **Retrieved Knowledge:**
-{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_hm58199f7ec.results}
+{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6.results}
 
 
  ###
@@ -155,7 +155,7 @@ Response:
         <responseFormat>JSON</responseFormat>
         <status>Published</status>
         <templateDataProviders>
-            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_hm58199f7ec</definition>
+            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</definition>
             <description>Ogdan Knowledge</description>
             <label>Ogdan Knowledge Retriever</label>
             <parameters>
@@ -164,7 +164,7 @@ Response:
                 <parameterName>searchText</parameterName>
                 <valueExpression>{!$Input:User_Question}</valueExpression>
             </parameters>
-            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_hm58199f7ec</referenceName>
+            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</referenceName>
         </templateDataProviders>
         <versionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_9</versionIdentifier>
     </templateVersions>
@@ -200,7 +200,7 @@ CITATION INSTRUCTIONS:
 ###
 KNOWLEDGE:
 **Retrieved Knowledge:**
-{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_hm58199f7ec.results}
+{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6.results}
 
 
  ###
@@ -217,7 +217,7 @@ Response:
         <responseFormat>JSON</responseFormat>
         <status>Published</status>
         <templateDataProviders>
-            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_hm58199f7ec</definition>
+            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</definition>
             <description>Ogdan Knowledge</description>
             <label>Ogdan Knowledge Retriever</label>
             <parameters>
@@ -226,7 +226,7 @@ Response:
                 <parameterName>searchText</parameterName>
                 <valueExpression>{!$Input:User_Question}</valueExpression>
             </parameters>
-            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_hm58199f7ec</referenceName>
+            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</referenceName>
         </templateDataProviders>
         <versionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_11</versionIdentifier>
     </templateVersions>
@@ -252,7 +252,7 @@ INSTRUCTIONS
 ###
 KNOWLEDGE:
 **Retrieved Knowledge:**
-{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_hm58199f7ec.results}
+{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6.results}
 
 
  ###
@@ -269,7 +269,7 @@ Response:
         <responseFormat>JSON</responseFormat>
         <status>Draft</status>
         <templateDataProviders>
-            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_hm58199f7ec</definition>
+            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</definition>
             <description>Ogdan Knowledge</description>
             <label>Ogdan Knowledge Retriever</label>
             <parameters>
@@ -278,7 +278,7 @@ Response:
                 <parameterName>searchText</parameterName>
                 <valueExpression>{!$Input:User_Question}</valueExpression>
             </parameters>
-            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_hm58199f7ec</referenceName>
+            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</referenceName>
         </templateDataProviders>
         <versionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_12</versionIdentifier>
     </templateVersions>
@@ -304,7 +304,7 @@ INSTRUCTIONS
 ###
 KNOWLEDGE:
 **Retrieved Knowledge:**
-{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_hm58199f7ec.results}
+{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6.results}
 
 
  ###
@@ -321,7 +321,7 @@ Response:
         <responseFormat>JSON</responseFormat>
         <status>Draft</status>
         <templateDataProviders>
-            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_hm58199f7ec</definition>
+            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</definition>
             <description>Ogdan Knowledge</description>
             <label>Ogdan Knowledge Retriever</label>
             <parameters>
@@ -330,7 +330,7 @@ Response:
                 <parameterName>searchText</parameterName>
                 <valueExpression>{!$Input:User_Question}</valueExpression>
             </parameters>
-            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_hm58199f7ec</referenceName>
+            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</referenceName>
         </templateDataProviders>
         <versionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_13</versionIdentifier>
     </templateVersions>
@@ -366,7 +366,7 @@ CITATION INSTRUCTIONS:
 ###
 KNOWLEDGE:
 **Retrieved Knowledge:**
-{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_hm58199f7ec.results}
+{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6.results}
 
 
  ###
@@ -383,7 +383,7 @@ Response:
         <responseFormat>JSON</responseFormat>
         <status>Draft</status>
         <templateDataProviders>
-            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_hm58199f7ec</definition>
+            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</definition>
             <description>Ogdan Knowledge</description>
             <label>Ogdan Knowledge Retriever</label>
             <parameters>
@@ -392,7 +392,7 @@ Response:
                 <parameterName>searchText</parameterName>
                 <valueExpression>{!$Input:User_Question}</valueExpression>
             </parameters>
-            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_hm58199f7ec</referenceName>
+            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</referenceName>
         </templateDataProviders>
         <versionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_14</versionIdentifier>
     </templateVersions>
@@ -435,7 +435,7 @@ You are a strict knowledge agent. You must cite your source **immediately** afte
 ###
 KNOWLEDGE:
 **Retrieved Knowledge:**
-{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_hm58199f7ec.results}
+{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6.results}
 
  ###
 Response:
@@ -451,7 +451,7 @@ Response:
         <responseFormat>JSON</responseFormat>
         <status>Published</status>
         <templateDataProviders>
-            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_hm58199f7ec</definition>
+            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</definition>
             <description>Ogdan Knowledge</description>
             <label>Ogdan Knowledge Retriever</label>
             <parameters>
@@ -460,7 +460,7 @@ Response:
                 <parameterName>searchText</parameterName>
                 <valueExpression>{!$Input:User_Question}</valueExpression>
             </parameters>
-            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_hm58199f7ec</referenceName>
+            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</referenceName>
         </templateDataProviders>
         <versionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_15</versionIdentifier>
     </templateVersions>
@@ -504,7 +504,7 @@ You are a strict knowledge agent. You must cite your source **immediately** afte
 ###
 KNOWLEDGE:
 **Retrieved Knowledge:**
-{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_hm58199f7ec.results}
+{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6.results}
 
  ###
 Response:
@@ -520,7 +520,7 @@ Response:
         <responseFormat>JSON</responseFormat>
         <status>Published</status>
         <templateDataProviders>
-            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_hm58199f7ec</definition>
+            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</definition>
             <description>Ogdan Knowledge</description>
             <label>Ogdan Knowledge Retriever</label>
             <parameters>
@@ -529,7 +529,7 @@ Response:
                 <parameterName>searchText</parameterName>
                 <valueExpression>{!$Input:User_Question}</valueExpression>
             </parameters>
-            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_hm58199f7ec</referenceName>
+            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</referenceName>
         </templateDataProviders>
         <versionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_16</versionIdentifier>
     </templateVersions>
@@ -570,7 +570,7 @@ Formatting: Display this disclaimer in italics to distinguish it from the list.
 ###
 KNOWLEDGE:
 **Retrieved Knowledge:**
-{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_hm58199f7ec.results}
+{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6.results}
 
  ###
 Response:
@@ -586,7 +586,7 @@ Response:
         <responseFormat>JSON</responseFormat>
         <status>Published</status>
         <templateDataProviders>
-            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_hm58199f7ec</definition>
+            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</definition>
             <description>Ogdan Knowledge</description>
             <label>Ogdan Knowledge Retriever</label>
             <parameters>
@@ -595,7 +595,7 @@ Response:
                 <parameterName>searchText</parameterName>
                 <valueExpression>{!$Input:User_Question}</valueExpression>
             </parameters>
-            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_hm58199f7ec</referenceName>
+            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</referenceName>
         </templateDataProviders>
         <versionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_17</versionIdentifier>
     </templateVersions>
@@ -636,7 +636,7 @@ Formatting: Display this disclaimer in italics to distinguish it from the list.
 ###
 KNOWLEDGE:
 **Retrieved Knowledge:**
-{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_hm58199f7ec.results}
+{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6.results}
 
  ###
 Response:
@@ -652,7 +652,7 @@ Response:
         <responseFormat>JSON</responseFormat>
         <status>Published</status>
         <templateDataProviders>
-            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_hm58199f7ec</definition>
+            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</definition>
             <description>Ogdan Knowledge</description>
             <label>Ogdan Knowledge Retriever</label>
             <parameters>
@@ -661,7 +661,7 @@ Response:
                 <parameterName>searchText</parameterName>
                 <valueExpression>{!$Input:User_Question}</valueExpression>
             </parameters>
-            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_hm58199f7ec</referenceName>
+            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</referenceName>
         </templateDataProviders>
         <versionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_18</versionIdentifier>
     </templateVersions>
@@ -702,7 +702,7 @@ Formatting: Display this disclaimer in bold italics to distinguish it from the l
 ###
 KNOWLEDGE:
 **Retrieved Knowledge:**
-{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_hm58199f7ec.results}
+{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6.results}
 
  ###
 Response:
@@ -718,7 +718,7 @@ Response:
         <responseFormat>JSON</responseFormat>
         <status>Published</status>
         <templateDataProviders>
-            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_hm58199f7ec</definition>
+            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</definition>
             <description>Ogdan Knowledge</description>
             <label>Ogdan Knowledge Retriever</label>
             <parameters>
@@ -727,7 +727,7 @@ Response:
                 <parameterName>searchText</parameterName>
                 <valueExpression>{!$Input:User_Question}</valueExpression>
             </parameters>
-            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_hm58199f7ec</referenceName>
+            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</referenceName>
         </templateDataProviders>
         <versionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_19</versionIdentifier>
     </templateVersions>
@@ -768,7 +768,7 @@ Formatting: Display this disclaimer in bold italics to distinguish it from the l
 ###
 KNOWLEDGE:
 **Retrieved Knowledge:**
-{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_hm58199f7ec.results}
+{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6.results}
 
  ###
 Response:
@@ -784,7 +784,7 @@ Response:
         <responseFormat>JSON</responseFormat>
         <status>Published</status>
         <templateDataProviders>
-            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_hm58199f7ec</definition>
+            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</definition>
             <description>Ogdan Knowledge</description>
             <label>Ogdan Knowledge Retriever</label>
             <parameters>
@@ -793,7 +793,7 @@ Response:
                 <parameterName>searchText</parameterName>
                 <valueExpression>{!$Input:User_Question}</valueExpression>
             </parameters>
-            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_hm58199f7ec</referenceName>
+            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</referenceName>
         </templateDataProviders>
         <versionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_20</versionIdentifier>
     </templateVersions>
@@ -834,7 +834,7 @@ Formatting: Display this disclaimer in bold italics to distinguish it from the l
 ###
 KNOWLEDGE:
 **Retrieved Knowledge:**
-{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_hm58199f7ec.results}
+{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6.results}
 
  ###
 Response:
@@ -850,7 +850,7 @@ Response:
         <responseFormat>JSON</responseFormat>
         <status>Published</status>
         <templateDataProviders>
-            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_hm58199f7ec</definition>
+            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</definition>
             <description>Ogdan Knowledge</description>
             <label>Ogdan Knowledge Retriever</label>
             <parameters>
@@ -859,7 +859,7 @@ Response:
                 <parameterName>searchText</parameterName>
                 <valueExpression>{!$Input:User_Question}</valueExpression>
             </parameters>
-            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_hm58199f7ec</referenceName>
+            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</referenceName>
         </templateDataProviders>
         <versionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_21</versionIdentifier>
     </templateVersions>
@@ -900,7 +900,7 @@ Formatting: Display this disclaimer in bold italics to distinguish it from the l
 ###
 KNOWLEDGE:
 **Retrieved Knowledge:**
-{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_hm58199f7ec.results}
+{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6.results}
 
  ###
 Response:
@@ -916,7 +916,7 @@ Response:
         <responseFormat>JSON</responseFormat>
         <status>Published</status>
         <templateDataProviders>
-            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_hm58199f7ec</definition>
+            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</definition>
             <description>Ogdan Knowledge</description>
             <label>Ogdan Knowledge Retriever</label>
             <parameters>
@@ -925,7 +925,7 @@ Response:
                 <parameterName>searchText</parameterName>
                 <valueExpression>{!$Input:User_Question}</valueExpression>
             </parameters>
-            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_hm58199f7ec</referenceName>
+            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</referenceName>
         </templateDataProviders>
         <versionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_22</versionIdentifier>
     </templateVersions>
@@ -965,7 +965,7 @@ Formatting: Display this disclaimer in bold italics to distinguish it from the l
 ###
 KNOWLEDGE:
 **Retrieved Knowledge:**
-{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_hm58199f7ec.results}
+{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6.results}
 
  ###
 Response:
@@ -981,7 +981,7 @@ Response:
         <responseFormat>JSON</responseFormat>
         <status>Draft</status>
         <templateDataProviders>
-            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_hm58199f7ec</definition>
+            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</definition>
             <description>Ogdan Knowledge</description>
             <label>Ogdan Knowledge Retriever</label>
             <parameters>
@@ -990,7 +990,7 @@ Response:
                 <parameterName>searchText</parameterName>
                 <valueExpression>{!$Input:User_Question}</valueExpression>
             </parameters>
-            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_hm58199f7ec</referenceName>
+            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</referenceName>
         </templateDataProviders>
         <versionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_23</versionIdentifier>
     </templateVersions>
@@ -1018,7 +1018,7 @@ Formatting: Display this disclaimer in bold italics to distinguish it from the l
 ###
 KNOWLEDGE: 
 **Retrieved Knowledge:**
-{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_hm58199f7ec.results}
+{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6.results}
 
 
 ###CITATION INSTRUCTIONS:
@@ -1047,7 +1047,7 @@ Response:
         <responseFormat>JSON</responseFormat>
         <status>Published</status>
         <templateDataProviders>
-            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_hm58199f7ec</definition>
+            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</definition>
             <description>Ogdan Knowledge</description>
             <label>Ogdan Knowledge Retriever</label>
             <parameters>
@@ -1056,7 +1056,7 @@ Response:
                 <parameterName>searchText</parameterName>
                 <valueExpression>{!$Input:User_Question}</valueExpression>
             </parameters>
-            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_hm58199f7ec</referenceName>
+            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</referenceName>
         </templateDataProviders>
         <versionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_24</versionIdentifier>
     </templateVersions>
@@ -1084,7 +1084,7 @@ Formatting: Display this disclaimer in bold italics to distinguish it from the l
 ###
 KNOWLEDGE: 
 **Retrieved Knowledge:**
-{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_hm58199f7ec.results}
+{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6.results}
 
 
 ###CITATION INSTRUCTIONS:
@@ -1113,7 +1113,7 @@ Response:
         <responseFormat>JSON</responseFormat>
         <status>Published</status>
         <templateDataProviders>
-            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_hm58199f7ec</definition>
+            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</definition>
             <description>Ogdan Knowledge</description>
             <label>Ogdan Knowledge Retriever</label>
             <parameters>
@@ -1122,7 +1122,7 @@ Response:
                 <parameterName>searchText</parameterName>
                 <valueExpression>{!$Input:User_Question}</valueExpression>
             </parameters>
-            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_hm58199f7ec</referenceName>
+            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</referenceName>
         </templateDataProviders>
         <versionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_25</versionIdentifier>
     </templateVersions>
@@ -1150,7 +1150,7 @@ Formatting: Display this disclaimer in bold italics to distinguish it from the l
 ###
 KNOWLEDGE: 
 **Retrieved Knowledge:**
-{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_hm58199f7ec.results}
+{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6.results}
 
 
 ###CITATION INSTRUCTIONS:
@@ -1179,7 +1179,7 @@ Response:
         <responseFormat>JSON</responseFormat>
         <status>Published</status>
         <templateDataProviders>
-            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_hm58199f7ec</definition>
+            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</definition>
             <description>Ogdan Knowledge</description>
             <label>Ogdan Knowledge Retriever</label>
             <parameters>
@@ -1188,7 +1188,7 @@ Response:
                 <parameterName>searchText</parameterName>
                 <valueExpression>{!$Input:User_Question}</valueExpression>
             </parameters>
-            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_hm58199f7ec</referenceName>
+            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</referenceName>
         </templateDataProviders>
         <versionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_26</versionIdentifier>
     </templateVersions>

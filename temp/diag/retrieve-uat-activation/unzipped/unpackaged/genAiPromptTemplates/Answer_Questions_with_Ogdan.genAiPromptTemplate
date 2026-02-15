@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenAiPromptTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
-    <activeVersionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_29</activeVersionIdentifier>
+    <activeVersionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_26</activeVersionIdentifier>
     <description>Answer Questions with Ogdan</description>
     <developerName>Answer_Questions_with_Ogdan</developerName>
     <masterLabel>Answer Questions with Ogdan</masterLabel>
@@ -26,7 +26,7 @@ INSTRUCTIONS
 ###
 KNOWLEDGE:
 **Retrieved Knowledge:**
-{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6.results}
+{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_8orcafc5846.results}
 
 
  ###
@@ -43,7 +43,7 @@ Response:
         <responseFormat>JSON</responseFormat>
         <status>Published</status>
         <templateDataProviders>
-            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</definition>
+            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_8orcafc5846</definition>
             <description>Ogdan Knowledge</description>
             <label>Ogdan Knowledge Retriever</label>
             <parameters>
@@ -52,7 +52,7 @@ Response:
                 <parameterName>searchText</parameterName>
                 <valueExpression>{!$Input:User_Question}</valueExpression>
             </parameters>
-            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</referenceName>
+            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_8orcafc5846</referenceName>
         </templateDataProviders>
         <versionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_7</versionIdentifier>
     </templateVersions>
@@ -87,7 +87,7 @@ CITATION INSTRUCTIONS:
 ###
 KNOWLEDGE:
 **Retrieved Knowledge:**
-{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6.results}
+{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_8orcafc5846.results}
 
  ###
 Response:
@@ -103,7 +103,7 @@ Response:
         <responseFormat>JSON</responseFormat>
         <status>Published</status>
         <templateDataProviders>
-            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</definition>
+            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_8orcafc5846</definition>
             <description>Ogdan Knowledge</description>
             <label>Ogdan Knowledge Retriever</label>
             <parameters>
@@ -112,7 +112,7 @@ Response:
                 <parameterName>searchText</parameterName>
                 <valueExpression>{!$Input:User_Question}</valueExpression>
             </parameters>
-            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</referenceName>
+            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_8orcafc5846</referenceName>
         </templateDataProviders>
         <versionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_8</versionIdentifier>
     </templateVersions>
@@ -138,7 +138,7 @@ INSTRUCTIONS
 ###
 KNOWLEDGE:
 **Retrieved Knowledge:**
-{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6.results}
+{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_8orcafc5846.results}
 
 
  ###
@@ -155,7 +155,7 @@ Response:
         <responseFormat>JSON</responseFormat>
         <status>Published</status>
         <templateDataProviders>
-            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</definition>
+            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_8orcafc5846</definition>
             <description>Ogdan Knowledge</description>
             <label>Ogdan Knowledge Retriever</label>
             <parameters>
@@ -164,7 +164,7 @@ Response:
                 <parameterName>searchText</parameterName>
                 <valueExpression>{!$Input:User_Question}</valueExpression>
             </parameters>
-            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</referenceName>
+            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_8orcafc5846</referenceName>
         </templateDataProviders>
         <versionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_9</versionIdentifier>
     </templateVersions>
@@ -200,7 +200,7 @@ CITATION INSTRUCTIONS:
 ###
 KNOWLEDGE:
 **Retrieved Knowledge:**
-{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6.results}
+{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_8orcafc5846.results}
 
 
  ###
@@ -217,7 +217,7 @@ Response:
         <responseFormat>JSON</responseFormat>
         <status>Published</status>
         <templateDataProviders>
-            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</definition>
+            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_8orcafc5846</definition>
             <description>Ogdan Knowledge</description>
             <label>Ogdan Knowledge Retriever</label>
             <parameters>
@@ -226,7 +226,7 @@ Response:
                 <parameterName>searchText</parameterName>
                 <valueExpression>{!$Input:User_Question}</valueExpression>
             </parameters>
-            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</referenceName>
+            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_8orcafc5846</referenceName>
         </templateDataProviders>
         <versionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_11</versionIdentifier>
     </templateVersions>
@@ -252,7 +252,7 @@ INSTRUCTIONS
 ###
 KNOWLEDGE:
 **Retrieved Knowledge:**
-{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6.results}
+{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_8orcafc5846.results}
 
 
  ###
@@ -269,7 +269,7 @@ Response:
         <responseFormat>JSON</responseFormat>
         <status>Draft</status>
         <templateDataProviders>
-            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</definition>
+            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_8orcafc5846</definition>
             <description>Ogdan Knowledge</description>
             <label>Ogdan Knowledge Retriever</label>
             <parameters>
@@ -278,7 +278,7 @@ Response:
                 <parameterName>searchText</parameterName>
                 <valueExpression>{!$Input:User_Question}</valueExpression>
             </parameters>
-            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</referenceName>
+            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_8orcafc5846</referenceName>
         </templateDataProviders>
         <versionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_12</versionIdentifier>
     </templateVersions>
@@ -304,7 +304,7 @@ INSTRUCTIONS
 ###
 KNOWLEDGE:
 **Retrieved Knowledge:**
-{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6.results}
+{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_8orcafc5846.results}
 
 
  ###
@@ -321,7 +321,7 @@ Response:
         <responseFormat>JSON</responseFormat>
         <status>Draft</status>
         <templateDataProviders>
-            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</definition>
+            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_8orcafc5846</definition>
             <description>Ogdan Knowledge</description>
             <label>Ogdan Knowledge Retriever</label>
             <parameters>
@@ -330,7 +330,7 @@ Response:
                 <parameterName>searchText</parameterName>
                 <valueExpression>{!$Input:User_Question}</valueExpression>
             </parameters>
-            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</referenceName>
+            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_8orcafc5846</referenceName>
         </templateDataProviders>
         <versionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_13</versionIdentifier>
     </templateVersions>
@@ -366,7 +366,7 @@ CITATION INSTRUCTIONS:
 ###
 KNOWLEDGE:
 **Retrieved Knowledge:**
-{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6.results}
+{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_8orcafc5846.results}
 
 
  ###
@@ -383,7 +383,7 @@ Response:
         <responseFormat>JSON</responseFormat>
         <status>Draft</status>
         <templateDataProviders>
-            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</definition>
+            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_8orcafc5846</definition>
             <description>Ogdan Knowledge</description>
             <label>Ogdan Knowledge Retriever</label>
             <parameters>
@@ -392,7 +392,7 @@ Response:
                 <parameterName>searchText</parameterName>
                 <valueExpression>{!$Input:User_Question}</valueExpression>
             </parameters>
-            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</referenceName>
+            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_8orcafc5846</referenceName>
         </templateDataProviders>
         <versionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_14</versionIdentifier>
     </templateVersions>
@@ -435,7 +435,7 @@ You are a strict knowledge agent. You must cite your source **immediately** afte
 ###
 KNOWLEDGE:
 **Retrieved Knowledge:**
-{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6.results}
+{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_8orcafc5846.results}
 
  ###
 Response:
@@ -451,7 +451,7 @@ Response:
         <responseFormat>JSON</responseFormat>
         <status>Published</status>
         <templateDataProviders>
-            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</definition>
+            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_8orcafc5846</definition>
             <description>Ogdan Knowledge</description>
             <label>Ogdan Knowledge Retriever</label>
             <parameters>
@@ -460,7 +460,7 @@ Response:
                 <parameterName>searchText</parameterName>
                 <valueExpression>{!$Input:User_Question}</valueExpression>
             </parameters>
-            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</referenceName>
+            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_8orcafc5846</referenceName>
         </templateDataProviders>
         <versionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_15</versionIdentifier>
     </templateVersions>
@@ -504,7 +504,7 @@ You are a strict knowledge agent. You must cite your source **immediately** afte
 ###
 KNOWLEDGE:
 **Retrieved Knowledge:**
-{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6.results}
+{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_8orcafc5846.results}
 
  ###
 Response:
@@ -520,7 +520,7 @@ Response:
         <responseFormat>JSON</responseFormat>
         <status>Published</status>
         <templateDataProviders>
-            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</definition>
+            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_8orcafc5846</definition>
             <description>Ogdan Knowledge</description>
             <label>Ogdan Knowledge Retriever</label>
             <parameters>
@@ -529,7 +529,7 @@ Response:
                 <parameterName>searchText</parameterName>
                 <valueExpression>{!$Input:User_Question}</valueExpression>
             </parameters>
-            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</referenceName>
+            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_8orcafc5846</referenceName>
         </templateDataProviders>
         <versionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_16</versionIdentifier>
     </templateVersions>
@@ -570,7 +570,7 @@ Formatting: Display this disclaimer in italics to distinguish it from the list.
 ###
 KNOWLEDGE:
 **Retrieved Knowledge:**
-{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6.results}
+{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_8orcafc5846.results}
 
  ###
 Response:
@@ -586,7 +586,7 @@ Response:
         <responseFormat>JSON</responseFormat>
         <status>Published</status>
         <templateDataProviders>
-            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</definition>
+            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_8orcafc5846</definition>
             <description>Ogdan Knowledge</description>
             <label>Ogdan Knowledge Retriever</label>
             <parameters>
@@ -595,7 +595,7 @@ Response:
                 <parameterName>searchText</parameterName>
                 <valueExpression>{!$Input:User_Question}</valueExpression>
             </parameters>
-            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</referenceName>
+            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_8orcafc5846</referenceName>
         </templateDataProviders>
         <versionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_17</versionIdentifier>
     </templateVersions>
@@ -636,7 +636,7 @@ Formatting: Display this disclaimer in italics to distinguish it from the list.
 ###
 KNOWLEDGE:
 **Retrieved Knowledge:**
-{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6.results}
+{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_8orcafc5846.results}
 
  ###
 Response:
@@ -652,7 +652,7 @@ Response:
         <responseFormat>JSON</responseFormat>
         <status>Published</status>
         <templateDataProviders>
-            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</definition>
+            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_8orcafc5846</definition>
             <description>Ogdan Knowledge</description>
             <label>Ogdan Knowledge Retriever</label>
             <parameters>
@@ -661,7 +661,7 @@ Response:
                 <parameterName>searchText</parameterName>
                 <valueExpression>{!$Input:User_Question}</valueExpression>
             </parameters>
-            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</referenceName>
+            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_8orcafc5846</referenceName>
         </templateDataProviders>
         <versionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_18</versionIdentifier>
     </templateVersions>
@@ -702,7 +702,7 @@ Formatting: Display this disclaimer in bold italics to distinguish it from the l
 ###
 KNOWLEDGE:
 **Retrieved Knowledge:**
-{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6.results}
+{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_8orcafc5846.results}
 
  ###
 Response:
@@ -718,7 +718,7 @@ Response:
         <responseFormat>JSON</responseFormat>
         <status>Published</status>
         <templateDataProviders>
-            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</definition>
+            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_8orcafc5846</definition>
             <description>Ogdan Knowledge</description>
             <label>Ogdan Knowledge Retriever</label>
             <parameters>
@@ -727,7 +727,7 @@ Response:
                 <parameterName>searchText</parameterName>
                 <valueExpression>{!$Input:User_Question}</valueExpression>
             </parameters>
-            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</referenceName>
+            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_8orcafc5846</referenceName>
         </templateDataProviders>
         <versionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_19</versionIdentifier>
     </templateVersions>
@@ -768,7 +768,7 @@ Formatting: Display this disclaimer in bold italics to distinguish it from the l
 ###
 KNOWLEDGE:
 **Retrieved Knowledge:**
-{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6.results}
+{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_8orcafc5846.results}
 
  ###
 Response:
@@ -784,7 +784,7 @@ Response:
         <responseFormat>JSON</responseFormat>
         <status>Published</status>
         <templateDataProviders>
-            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</definition>
+            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_8orcafc5846</definition>
             <description>Ogdan Knowledge</description>
             <label>Ogdan Knowledge Retriever</label>
             <parameters>
@@ -793,7 +793,7 @@ Response:
                 <parameterName>searchText</parameterName>
                 <valueExpression>{!$Input:User_Question}</valueExpression>
             </parameters>
-            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</referenceName>
+            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_8orcafc5846</referenceName>
         </templateDataProviders>
         <versionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_20</versionIdentifier>
     </templateVersions>
@@ -834,7 +834,7 @@ Formatting: Display this disclaimer in bold italics to distinguish it from the l
 ###
 KNOWLEDGE:
 **Retrieved Knowledge:**
-{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6.results}
+{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_8orcafc5846.results}
 
  ###
 Response:
@@ -850,7 +850,7 @@ Response:
         <responseFormat>JSON</responseFormat>
         <status>Published</status>
         <templateDataProviders>
-            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</definition>
+            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_8orcafc5846</definition>
             <description>Ogdan Knowledge</description>
             <label>Ogdan Knowledge Retriever</label>
             <parameters>
@@ -859,7 +859,7 @@ Response:
                 <parameterName>searchText</parameterName>
                 <valueExpression>{!$Input:User_Question}</valueExpression>
             </parameters>
-            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</referenceName>
+            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_8orcafc5846</referenceName>
         </templateDataProviders>
         <versionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_21</versionIdentifier>
     </templateVersions>
@@ -900,7 +900,7 @@ Formatting: Display this disclaimer in bold italics to distinguish it from the l
 ###
 KNOWLEDGE:
 **Retrieved Knowledge:**
-{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6.results}
+{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_8orcafc5846.results}
 
  ###
 Response:
@@ -916,7 +916,7 @@ Response:
         <responseFormat>JSON</responseFormat>
         <status>Published</status>
         <templateDataProviders>
-            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</definition>
+            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_8orcafc5846</definition>
             <description>Ogdan Knowledge</description>
             <label>Ogdan Knowledge Retriever</label>
             <parameters>
@@ -925,7 +925,7 @@ Response:
                 <parameterName>searchText</parameterName>
                 <valueExpression>{!$Input:User_Question}</valueExpression>
             </parameters>
-            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</referenceName>
+            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_8orcafc5846</referenceName>
         </templateDataProviders>
         <versionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_22</versionIdentifier>
     </templateVersions>
@@ -965,7 +965,7 @@ Formatting: Display this disclaimer in bold italics to distinguish it from the l
 ###
 KNOWLEDGE:
 **Retrieved Knowledge:**
-{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6.results}
+{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_8orcafc5846.results}
 
  ###
 Response:
@@ -981,7 +981,7 @@ Response:
         <responseFormat>JSON</responseFormat>
         <status>Draft</status>
         <templateDataProviders>
-            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</definition>
+            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_8orcafc5846</definition>
             <description>Ogdan Knowledge</description>
             <label>Ogdan Knowledge Retriever</label>
             <parameters>
@@ -990,7 +990,7 @@ Response:
                 <parameterName>searchText</parameterName>
                 <valueExpression>{!$Input:User_Question}</valueExpression>
             </parameters>
-            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</referenceName>
+            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_8orcafc5846</referenceName>
         </templateDataProviders>
         <versionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_23</versionIdentifier>
     </templateVersions>
@@ -1018,7 +1018,7 @@ Formatting: Display this disclaimer in bold italics to distinguish it from the l
 ###
 KNOWLEDGE: 
 **Retrieved Knowledge:**
-{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6.results}
+{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_8orcafc5846.results}
 
 
 ###CITATION INSTRUCTIONS:
@@ -1047,7 +1047,7 @@ Response:
         <responseFormat>JSON</responseFormat>
         <status>Published</status>
         <templateDataProviders>
-            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</definition>
+            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_8orcafc5846</definition>
             <description>Ogdan Knowledge</description>
             <label>Ogdan Knowledge Retriever</label>
             <parameters>
@@ -1056,7 +1056,7 @@ Response:
                 <parameterName>searchText</parameterName>
                 <valueExpression>{!$Input:User_Question}</valueExpression>
             </parameters>
-            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</referenceName>
+            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_8orcafc5846</referenceName>
         </templateDataProviders>
         <versionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_24</versionIdentifier>
     </templateVersions>
@@ -1084,7 +1084,7 @@ Formatting: Display this disclaimer in bold italics to distinguish it from the l
 ###
 KNOWLEDGE: 
 **Retrieved Knowledge:**
-{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6.results}
+{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_8orcafc5846.results}
 
 
 ###CITATION INSTRUCTIONS:
@@ -1109,11 +1109,10 @@ Response:
             <referenceName>Input:User_Question</referenceName>
             <required>true</required>
         </inputs>
-        <primaryModel>Anthropic_Claude_Sonnet_4_5_on_Amazon_0_1_CM_12l_hm59c5aacf4</primaryModel>
         <responseFormat>JSON</responseFormat>
         <status>Published</status>
         <templateDataProviders>
-            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</definition>
+            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_8orcafc5846</definition>
             <description>Ogdan Knowledge</description>
             <label>Ogdan Knowledge Retriever</label>
             <parameters>
@@ -1122,7 +1121,7 @@ Response:
                 <parameterName>searchText</parameterName>
                 <valueExpression>{!$Input:User_Question}</valueExpression>
             </parameters>
-            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</referenceName>
+            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_8orcafc5846</referenceName>
         </templateDataProviders>
         <versionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_25</versionIdentifier>
     </templateVersions>
@@ -1150,7 +1149,7 @@ Formatting: Display this disclaimer in bold italics to distinguish it from the l
 ###
 KNOWLEDGE: 
 **Retrieved Knowledge:**
-{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6.results}
+{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_8orcafc5846.results}
 
 
 ###CITATION INSTRUCTIONS:
@@ -1179,7 +1178,7 @@ Response:
         <responseFormat>JSON</responseFormat>
         <status>Published</status>
         <templateDataProviders>
-            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</definition>
+            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_8orcafc5846</definition>
             <description>Ogdan Knowledge</description>
             <label>Ogdan Knowledge Retriever</label>
             <parameters>
@@ -1188,339 +1187,9 @@ Response:
                 <parameterName>searchText</parameterName>
                 <valueExpression>{!$Input:User_Question}</valueExpression>
             </parameters>
-            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</referenceName>
+            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_8orcafc5846</referenceName>
         </templateDataProviders>
         <versionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_26</versionIdentifier>
-    </templateVersions>
-    <templateVersions>
-        <content>### ROLE
-You are a helpful and precise Aliyah support agent. Your goal is to answer the user&apos;s inquiry using strictly the &quot;Retrieved Knowledge&quot;.
-
-### INSTRUCTIONS
-1. **Analyze:** Read the  {!$Input:User_Question}  and look for the answer specifically within the &quot;Retrieved Knowledge&quot;.
-2. **Grounding:**
- - You are strictly forbidden from using any information, facts, dates, or guidelines not found in the retrieved knowledge articles as well as your own outside training data or general knowledge.
- - You are forbidden to provide personal opinions, subjective recommendations, or legal determinations.
- - If the &quot;Retrieved Knowledge&quot; is empty, irrelevant, or does not answer the specific question, you must respond with: &quot;I&apos;m sorry, I cannot find information regarding that in our Knowledge Base.&quot;
-3. **Tone &amp; Format:**
- - Be professional, conversational, and direct.
- - Do not refer to the &quot;context,&quot; &quot;articles,&quot; or &quot;search results&quot; in your final response to the user.
- - If the answer involves steps, use bullet points for readability.
-
-###MANDATORY DISCLAIMER INSTRUCTION: 
-IF your response includes a list of required documents or paperwork (for any status), you MUST append the following disclaimer verbatim at the end of the list in BOLD:
-&quot;You may be asked to provide additional documents based on your specific aliya status and Israeli background.&quot;
-Condition: This disclaimer is required every time a document list is provided.
-Formatting: Display this disclaimer in bold italics to distinguish it from the list.
-
-###
-KNOWLEDGE: 
-**Retrieved Knowledge:**
-{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6.results}
-
-
-###CITATION INSTRUCTIONS:
-1. After answering the question, you MUST add a &quot;Sources&quot; section at the bottom.
-2. For every article you used to answer the question, list it as a clickable link.
-3. Use strict Markdown format for the links: [Name](External URL).
-4. Example format:
- * [How to Reset Password](https://...)
- * [Troubleshooting Login](https://...)
-
-### INPUT DATA
-**User Question:**
-
-
- ###
-Response:
-</content>
-        <inputs>
-            <apiName>User_Question</apiName>
-            <definition>primitive://String</definition>
-            <masterLabel>User Question</masterLabel>
-            <referenceName>Input:User_Question</referenceName>
-            <required>true</required>
-        </inputs>
-        <primaryModel>sfdc_ai__DefaultBedrockAnthropicClaude45Sonnet</primaryModel>
-        <responseFormat>JSON</responseFormat>
-        <status>Draft</status>
-        <templateDataProviders>
-            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</definition>
-            <description>Ogdan Knowledge</description>
-            <label>Ogdan Knowledge Retriever</label>
-            <parameters>
-                <definition>primitive://String</definition>
-                <isRequired>true</isRequired>
-                <parameterName>searchText</parameterName>
-                <valueExpression>{!$Input:User_Question}</valueExpression>
-            </parameters>
-            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</referenceName>
-        </templateDataProviders>
-        <versionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_27</versionIdentifier>
-    </templateVersions>
-    <templateVersions>
-        <content>### ROLE
-You are a helpful and precise Aliyah support agent. Your goal is to answer the user&apos;s inquiry using strictly the &quot;Retrieved Knowledge&quot;.
-
-### INSTRUCTIONS
-1. **Analyze:** Read the  {!$Input:User_Question}  and look for the answer specifically within the &quot;Retrieved Knowledge&quot;.
-2. **Grounding:**
- - You are strictly forbidden from using any information, facts, dates, or guidelines not found in the retrieved knowledge articles as well as your own outside training data or general knowledge.
- - You are forbidden to provide personal opinions, subjective recommendations, or legal determinations.
- - If the &quot;Retrieved Knowledge&quot; is empty, irrelevant, or does not answer the specific question, you must respond with: &quot;I&apos;m sorry, I cannot find information regarding that in our Knowledge Base.&quot;
-3. **Tone &amp; Format:**
- - Be professional, conversational, and direct.
- - Do not refer to the &quot;context,&quot; &quot;articles,&quot; or &quot;search results&quot; in your final response to the user.
- - If the answer involves steps, use bullet points for readability.
-
-###MANDATORY DISCLAIMER INSTRUCTION: 
-IF your response includes a list of required documents or paperwork (for any status), you MUST append the following disclaimer verbatim at the end of the list:
-&quot;You may be asked to provide additional documents based on your specific aliya status and Israeli background.&quot;
-Condition: This disclaimer is required every time a document list is provided.
-Formatting: Display this disclaimer in bold italics to distinguish it from the list.
-
-###
-KNOWLEDGE: 
-**Retrieved Knowledge:**
-{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6.results}
-
-
-###CITATION INSTRUCTIONS:
-1. After answering the question, you MUST add a &quot;Sources&quot; section at the bottom.
-2. For every article you used to answer the question, list it as a clickable link.
-3. Use strict Markdown format for the links: [Name](External URL).
-4. Example format:
- * [How to Reset Password](https://...)
- * [Troubleshooting Login](https://...)
-
-### INPUT DATA
-**User Question:**
-
-
- ###
-Response:
-</content>
-        <inputs>
-            <apiName>User_Question</apiName>
-            <definition>primitive://String</definition>
-            <masterLabel>User Question</masterLabel>
-            <referenceName>Input:User_Question</referenceName>
-            <required>true</required>
-        </inputs>
-        <primaryModel>sfdc_ai__DefaultBedrockAnthropicClaude45Sonnet</primaryModel>
-        <responseFormat>JSON</responseFormat>
-        <status>Published</status>
-        <templateDataProviders>
-            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</definition>
-            <description>Ogdan Knowledge</description>
-            <label>Ogdan Knowledge Retriever</label>
-            <parameters>
-                <definition>primitive://String</definition>
-                <isRequired>true</isRequired>
-                <parameterName>searchText</parameterName>
-                <valueExpression>{!$Input:User_Question}</valueExpression>
-            </parameters>
-            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</referenceName>
-        </templateDataProviders>
-        <versionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_28</versionIdentifier>
-    </templateVersions>
-    <templateVersions>
-        <content>### ROLE
-You are a helpful and precise Aliyah support agent. Your goal is to answer the user&apos;s inquiry using strictly the &quot;Retrieved Knowledge&quot;.
-
-### INSTRUCTIONS
-1. **Analyze:** Read the  {!$Input:User_Question}  and look for the answer specifically within the &quot;Retrieved Knowledge&quot;.
-2. **Grounding:**
- - You are strictly forbidden from using any information, facts, dates, or guidelines not found in the retrieved knowledge articles as well as your own outside training data or general knowledge.
- - You are forbidden to provide personal opinions, subjective recommendations, or legal determinations.
- - If the &quot;Retrieved Knowledge&quot; is empty, irrelevant, or does not answer the specific question, you must respond with: &quot;I&apos;m sorry, I cannot find information regarding that in our Knowledge Base.&quot;
-3. **Tone &amp; Format:**
- - Be professional, conversational, and direct.
- - Do not refer to the &quot;context,&quot; &quot;articles,&quot; or &quot;search results&quot; in your final response to the user.
- - If the answer involves steps, use bullet points for readability.
-
-###MANDATORY DISCLAIMER INSTRUCTION: 
-IF your response includes a list of required documents or paperwork (for any status), you MUST append the following disclaimer verbatim at the end of the list:
-&quot;You may be asked to provide additional documents based on your specific aliya status and Israeli background.&quot;
-Condition: This disclaimer is required every time a document list is provided.
-Formatting: Display this disclaimer in bold italics to distinguish it from the list.
-
-###
-KNOWLEDGE: 
-**Retrieved Knowledge:**
-{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6.results}
-
-
-###CITATION INSTRUCTIONS:
-1. After answering the question, you MUST add a &quot;Sources&quot; section at the bottom.
-2. For every article you used to answer the question, list it as a clickable link.
-3. Use strict Markdown format for the links: [Name](External URL).
-4. Example format:
- * [How to Reset Password](https://...)
- * [Troubleshooting Login](https://...)
-
-### INPUT DATA
-**User Question:**
-
-
- ###
-Response:
-</content>
-        <inputs>
-            <apiName>User_Question</apiName>
-            <definition>primitive://String</definition>
-            <masterLabel>User Question</masterLabel>
-            <referenceName>Input:User_Question</referenceName>
-            <required>true</required>
-        </inputs>
-        <primaryModel>Anthropic_Claude_Sonnet_4_5_on_Amazon_0_1_CM_12l_hm59c5aacf4</primaryModel>
-        <responseFormat>JSON</responseFormat>
-        <status>Published</status>
-        <templateDataProviders>
-            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</definition>
-            <description>Ogdan Knowledge</description>
-            <label>Ogdan Knowledge Retriever</label>
-            <parameters>
-                <definition>primitive://String</definition>
-                <isRequired>true</isRequired>
-                <parameterName>searchText</parameterName>
-                <valueExpression>{!$Input:User_Question}</valueExpression>
-            </parameters>
-            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</referenceName>
-        </templateDataProviders>
-        <versionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_29</versionIdentifier>
-    </templateVersions>
-    <templateVersions>
-        <content>### ROLE
-You are a helpful and precise Aliyah support agent. Your goal is to answer the user&apos;s inquiry using strictly the &quot;Retrieved Knowledge&quot;.
-
-### INSTRUCTIONS
-1. **Analyze:** Read the  {!$Input:User_Question}  and look for the answer specifically within the &quot;Retrieved Knowledge&quot;.
-2. **Grounding:**
- - You are strictly forbidden from using any information, facts, dates, or guidelines not found in the retrieved knowledge articles as well as your own outside training data or general knowledge.
- - You are forbidden to provide personal opinions, subjective recommendations, or legal determinations.
- - If the &quot;Retrieved Knowledge&quot; is empty, irrelevant, or does not answer the specific question, you must respond with: &quot;I&apos;m sorry, I cannot find information regarding that in our Knowledge Base.&quot;
-3. **Tone &amp; Format:**
- - Be professional, conversational, and direct.
- - Do not refer to the &quot;context,&quot; &quot;articles,&quot; or &quot;search results&quot; in your final response to the user.
- - If the answer involves steps, use bullet points for readability.
-
-###MANDATORY DISCLAIMER INSTRUCTION: 
-IF your response includes a list of required documents or paperwork (for any status), you MUST append the following disclaimer verbatim at the end of the list:
-&quot;You may be asked to provide additional documents based on your specific aliya status and Israeli background.&quot;
-Condition: This disclaimer is required every time a document list is provided.
-Formatting: Display this disclaimer in bold italics to distinguish it from the list.
-
-###
-KNOWLEDGE: 
-**Retrieved Knowledge:**
-{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6.results}
-
-
-###CITATION INSTRUCTIONS:
-1. After answering the question, you MUST add a &quot;Sources&quot; section at the bottom.
-2. For every article you used to answer the question, list it as a clickable link.
-3. Use strict Markdown format for the links: [Name](External URL).
-4. Example format:
- * [How to Reset Password](https://...)
- * [Troubleshooting Login](https://...)
-
-### INPUT DATA
-**User Question:**
-
-
- ###
-Response:
-</content>
-        <inputs>
-            <apiName>User_Question</apiName>
-            <definition>primitive://String</definition>
-            <masterLabel>User Question</masterLabel>
-            <referenceName>Input:User_Question</referenceName>
-            <required>true</required>
-        </inputs>
-        <primaryModel>sfdc_ai__DefaultBedrockAnthropicClaude45Sonnet</primaryModel>
-        <responseFormat>JSON</responseFormat>
-        <status>Draft</status>
-        <templateDataProviders>
-            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</definition>
-            <description>Ogdan Knowledge</description>
-            <label>Ogdan Knowledge Retriever</label>
-            <parameters>
-                <definition>primitive://String</definition>
-                <isRequired>true</isRequired>
-                <parameterName>searchText</parameterName>
-                <valueExpression>{!$Input:User_Question}</valueExpression>
-            </parameters>
-            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</referenceName>
-        </templateDataProviders>
-        <versionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_30</versionIdentifier>
-    </templateVersions>
-    <templateVersions>
-        <content>### ROLE
-You are a helpful and precise Aliyah support agent. Your goal is to answer the user&apos;s inquiry using strictly the &quot;Retrieved Knowledge&quot;.
-
-### INSTRUCTIONS
-1. **Analyze:** Read the  {!$Input:User_Question}  and look for the answer specifically within the &quot;Retrieved Knowledge&quot;.
-2. **Grounding:**
- - You are strictly forbidden from using any information, facts, dates, or guidelines not found in the retrieved knowledge articles as well as your own outside training data or general knowledge.
- - You are forbidden to provide personal opinions, subjective recommendations, or legal determinations.
- - If the &quot;Retrieved Knowledge&quot; is empty, irrelevant, or does not answer the specific question, you must respond with: &quot;I&apos;m sorry, I cannot find information regarding that in our Knowledge Base.&quot;
-3. **Tone &amp; Format:**
- - Be professional, conversational, and direct.
- - Do not refer to the &quot;context,&quot; &quot;articles,&quot; or &quot;search results&quot; in your final response to the user.
- - If the answer involves steps, use bullet points for readability.
-
-###MANDATORY DISCLAIMER INSTRUCTION: 
-IF your response includes a list of required documents or paperwork (for any status), you MUST append the following disclaimer verbatim at the end of the list:
-&quot;You may be asked to provide additional documents based on your specific aliya status and Israeli background.&quot;
-Condition: This disclaimer is required every time a document list is provided.
-Formatting: Display this disclaimer in bold italics to distinguish it from the list.
-
-###
-KNOWLEDGE: 
-**Retrieved Knowledge:**
-{!$EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6.results}
-
-
-###CITATION INSTRUCTIONS:
-1. After answering the question, you MUST add a &quot;Sources&quot; section at the bottom.
-2. For every article you used to answer the question, list it as a clickable link.
-3. Use strict Markdown format for the links: [Name](External URL).
-4. Example format:
- * [How to Reset Password](https://...)
- * [Troubleshooting Login](https://...)
-
-### INPUT DATA
-**User Question:**
-
-
- ###
-Response:
-</content>
-        <inputs>
-            <apiName>User_Question</apiName>
-            <definition>primitive://String</definition>
-            <masterLabel>User Question</masterLabel>
-            <referenceName>Input:User_Question</referenceName>
-            <required>true</required>
-        </inputs>
-        <primaryModel>sfdc_ai__DefaultBedrockAnthropicClaude45Sonnet</primaryModel>
-        <responseFormat>JSON</responseFormat>
-        <status>Draft</status>
-        <templateDataProviders>
-            <definition>invocable://getEinsteinRetrieverResults/Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</definition>
-            <description>Ogdan Knowledge</description>
-            <label>Ogdan Knowledge Retriever</label>
-            <parameters>
-                <definition>primitive://String</definition>
-                <isRequired>true</isRequired>
-                <parameterName>searchText</parameterName>
-                <valueExpression>{!$Input:User_Question}</valueExpression>
-            </parameters>
-            <referenceName>EinsteinSearch:Ogdan_Knowledge_Retriever_1Cx_HzF2a0dc4c6</referenceName>
-        </templateDataProviders>
-        <versionIdentifier>sTwnPu0rK8rG7c7vFnySDnzJONuT5See4qs/G854iMM=_31</versionIdentifier>
     </templateVersions>
     <type>einstein_gpt__flex</type>
     <visibility>Global</visibility>
