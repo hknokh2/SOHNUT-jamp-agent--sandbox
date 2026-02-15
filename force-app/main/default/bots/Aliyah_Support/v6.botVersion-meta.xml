@@ -77,9 +77,9 @@
         <dataType>Text</dataType>
         <description>Stores the Salesforce user ID or contact ID.</description>
         <developerName>customerId</developerName>
-        <includeInPrompt>false</includeInPrompt>
+        <includeInPrompt>true</includeInPrompt>
         <label>customerId</label>
-        <visibility>Internal</visibility>
+        <visibility>External</visibility>
     </conversationVariables>
     <conversationVariables>
         <dataType>Text</dataType>
@@ -105,6 +105,7 @@
     </conversationVariables>
     <conversationVariables>
         <dataType>Text</dataType>
+        <description>stores the information on user&apos;s israeli background. for example if they lived in israel before, if themselves or their parents hold israeli citizenship etc</description>
         <developerName>israeliBackground</developerName>
         <includeInPrompt>true</includeInPrompt>
         <label>israeliBackground</label>

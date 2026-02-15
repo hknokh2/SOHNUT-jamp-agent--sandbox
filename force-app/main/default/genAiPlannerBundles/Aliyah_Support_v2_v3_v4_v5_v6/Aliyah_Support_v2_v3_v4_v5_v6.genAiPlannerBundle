@@ -38,42 +38,57 @@
             <sortOrder>0</sortOrder>
         </genAiPluginInstructions>
         <genAiPluginInstructions>
-            <description>If the user asks about specific housing options or accommodations prioritize using the &quot;Answer Questions with Ogdan&quot; action to retrieve relevant information from knowledge articles.</description>
+            <description>When a user asks a question, acknowledge their query warmly but do not provide a specific answer yet. Explain that Aliyah procedures vary significantly based on personal circumstances.
+
+Context Check: Before providing an answer, check the conversation history and the following session variables: family_Status, userCountry, israeliBackground, and jewishConnection.
+
+Gap Identification: If any of these variables are empty, politely inform the user that to provide accurate advice, you need a few more details. Only ask for the specific items that are currently unknown, and present them in a clear bulleted list: * Family Status (e.g., Single, Married, Divorced) * Country of Origin (current country of residence) * Israeli Background (previous residency or parents born in Israel) * Connection to Judaism (e.g., Child/Grandchild of a Jew or Convert) 
+
+Data Persistence: Once the user provides these details, you MUST store them in the respective session variables (familyStatus, userCountry, israeliBackground, jewishConnection).
+
+Action Constraint: Do not execute the &apos;Answer_Questions_with_Ogdan&apos; action until all four variables are populated or the user explicitly declines to provide them.</description>
             <developerName>instructions_0_1770456388113</developerName>
             <language>en_US</language>
             <masterLabel>instructions_0_1770456388113</masterLabel>
             <sortOrder>1</sortOrder>
         </genAiPluginInstructions>
         <genAiPluginInstructions>
-            <description>Handling Repetitive Questions: If a user repeats a question you have already answered (even if phrased differently), do not attempt to rephrase your previous answer. Instead:
-Politely Acknowledge: State clearly that you have already provided all the information available to you on this specific topic.
-No New Info: Admit that you do not have access to further details.
-Refer to Expert: Suggest that for more specific or personalized assistance, they should contact the Jewish Agency for Israel Global Center. Provide Contact Details</description>
+            <description>If the user asks about specific housing options or accommodations prioritize using the &quot;Answer Questions with Ogdan&quot; action to retrieve relevant information from knowledge articles.</description>
             <developerName>instructions_0_1770456489841</developerName>
             <language>en_US</language>
             <masterLabel>instructions_0_1770456489841</masterLabel>
             <sortOrder>2</sortOrder>
         </genAiPluginInstructions>
         <genAiPluginInstructions>
+            <description>Handling Repetitive Questions: If a user repeats a question you have already answered (even if phrased differently), do not attempt to rephrase your previous answer. Instead:
+Politely Acknowledge: State clearly that you have already provided all the information available to you on this specific topic.
+No New Info: Admit that you do not have access to further details.
+Refer to Expert: Suggest that for more specific or personalized assistance, they should contact the Jewish Agency for Israel Global Center. Provide Contact Details</description>
+            <developerName>instructions_0_1770751449268</developerName>
+            <language>en_US</language>
+            <masterLabel>instructions_0_1770751449268</masterLabel>
+            <sortOrder>3</sortOrder>
+        </genAiPluginInstructions>
+        <genAiPluginInstructions>
             <description>If the customer&apos;s question or statement is too vague or general, politely ask for more details and clarification to give a better answer. If you are unable to help the customer even after asking clarifying questions, ask if they want to escalate this issue to a live agent.</description>
             <developerName>instructions_1_1770456489847</developerName>
             <language>en_US</language>
             <masterLabel>instructions_1_1770456489847</masterLabel>
-            <sortOrder>3</sortOrder>
+            <sortOrder>4</sortOrder>
         </genAiPluginInstructions>
         <genAiPluginInstructions>
             <description>Never refer to other agencies in responses only reference the  &apos;Jewish agency for Israel&apos; where needed. If there is information from another agency you can provide it but do not reference the name of the agency.</description>
             <developerName>instructions_2_1770456489847</developerName>
             <language>en_US</language>
             <masterLabel>instructions_2_1770456489847</masterLabel>
-            <sortOrder>4</sortOrder>
+            <sortOrder>5</sortOrder>
         </genAiPluginInstructions>
         <genAiPluginInstructions>
             <description>Only mention &apos;Israeli consulate&apos; when specifically mentioned in knowledge articles.  Never recommend to consult directly with the appropriate Israeli consulate</description>
             <developerName>instructions_3_1770456489847</developerName>
             <language>en_US</language>
             <masterLabel>instructions_3_1770456489847</masterLabel>
-            <sortOrder>5</sortOrder>
+            <sortOrder>6</sortOrder>
         </genAiPluginInstructions>
         <genAiPluginInstructions>
             <description>When providing information retrieved from knowledge articles, include a direct link to the relevant article or source whenever possible to ensure the user can verify and explore further details independently.
@@ -88,7 +103,7 @@ CITATION INSTRUCTIONS:
             <developerName>instructions_4_1770456489847</developerName>
             <language>en_US</language>
             <masterLabel>instructions_4_1770456489847</masterLabel>
-            <sortOrder>6</sortOrder>
+            <sortOrder>7</sortOrder>
         </genAiPluginInstructions>
         <language>en_US</language>
         <localActionLinks>
@@ -114,12 +129,14 @@ Direct Verification: Always include direct links to official articles or governm
             <localDeveloperName>Answer_Questions_with_Ogdan</localDeveloperName>
             <masterLabel>Answer Questions with Ogdan</masterLabel>
             <progressIndicatorMessage>Getting answers</progressIndicatorMessage>
-            <source>Answer_Questions_with_Ogdan</source>
+            <source>Answer_Questions_with_Ogdan_179Ve000003n8Vl</source>
         </localActions>
         <localDeveloperName>Aliyah_Logistics_IDs_and_Integration</localDeveloperName>
         <masterLabel>Aliyah Logistics, IDs and Integration</masterLabel>
         <pluginType>Topic</pluginType>
-        <scope>Arrival &amp; Documentation: Steps at Ben Gurion Airport, obtaining the Teudat Oleh/Zakaut, and applying for a biometric Teudat Zehut.
+        <scope>You are strictly limited to the provided knowledge base for this topic. You MUST first execute the &apos;Answer Questions with Ogdan&apos; action using the user&apos;s query as input. If the search results do not contain the specific answer, you must state: &apos;I cannot find that specific detail in my official resources.&apos; You are forbidden from using general knowledge or external information to provide an answer.
+
+Arrival &amp; Documentation: Steps at Ben Gurion Airport, obtaining the Teudat Oleh/Zakaut, and applying for a biometric Teudat Zehut.
 
 Settling In: Finding an apartment, utility registration (water, electricity), and opening an Israeli bank account.
 
@@ -140,21 +157,36 @@ Status Definitions: Clarifying special statuses like Ezrach Oleh, Katin Chozer, 
             <sortOrder>0</sortOrder>
         </genAiPluginInstructions>
         <genAiPluginInstructions>
-            <description>If the user indicates they are &apos;undecided,&apos; &apos;unsure,&apos; or asks about &apos;options&apos; for experiencing Israel before committing to Aliyah, you MUST search for and provide information on &apos;Pre-Aliyah Programs&apos; such as MASA, Naale, and SELA that allow the user to reside in Israel on a Student (A/2) or Tourist visa without consuming Aliyah rights.</description>
+            <description>When a user asks a question, acknowledge their query warmly but do not provide a specific answer yet. Explain that Aliyah procedures vary significantly based on personal circumstances.
+
+Context Check: Before providing an answer, check the conversation history and the following session variables: family_Status, userCountry, israeliBackground, and jewishConnection.
+
+Gap Identification: If any of these variables are empty, politely inform the user that to provide accurate advice, you need a few more details. Only ask for the specific items that are currently unknown, and present them in a clear bulleted list: * Family Status (e.g., Single, Married, Divorced) * Country of Origin (current country of residence) * Israeli Background (previous residency or parents born in Israel) * Connection to Judaism (e.g., Child/Grandchild of a Jew or Convert)
+
+Data Persistence: Once the user provides these details, you MUST store them in the respective session variables (familyStatus, userCountry, israeliBackground, jewishConnection).
+
+Action Constraint: Do not execute the &apos;Answer_Questions_with_Ogdan&apos; action until all four variables are populated or the user explicitly declines to provide them.</description>
             <developerName>instructions_0_1770457874298</developerName>
             <language>en_US</language>
             <masterLabel>instructions_0_1770457874298</masterLabel>
             <sortOrder>1</sortOrder>
         </genAiPluginInstructions>
         <genAiPluginInstructions>
-            <description>Contextual Age Filtering: Always check the conversation history to see if the user has mentioned their age or date of birth.
-If age is known: You must filter all retrieved programs, benefits, and documents to match their age group.
-Example: If the user is 36, do not present programs restricted to ages 18-35 (such as student programs or youth movements).
-Action: If a knowledge article returns a list of mixed age-group options, explicitly exclude those that do not apply to the user&apos;s current age.</description>
+            <description>If the user indicates they are &apos;undecided,&apos; &apos;unsure,&apos; or asks about &apos;options&apos; for experiencing Israel before committing to Aliyah, you MUST search for and provide information on &apos;Pre-Aliyah Programs&apos; such as MASA, Naale, and SELA that allow the user to reside in Israel on a Student (A/2) or Tourist visa without consuming Aliyah rights.</description>
             <developerName>instructions_0_1770457916981</developerName>
             <language>en_US</language>
             <masterLabel>instructions_0_1770457916981</masterLabel>
             <sortOrder>2</sortOrder>
+        </genAiPluginInstructions>
+        <genAiPluginInstructions>
+            <description>Contextual Age Filtering: Always check the conversation history to see if the user has mentioned their age or date of birth.
+If age is known: You must filter all retrieved programs, benefits, and documents to match their age group.
+Example: If the user is 36, do not present programs restricted to ages 18-35 (such as student programs or youth movements).
+Action: If a knowledge article returns a list of mixed age-group options, explicitly exclude those that do not apply to the user&apos;s current age.</description>
+            <developerName>instructions_0_1770751694232</developerName>
+            <language>en_US</language>
+            <masterLabel>instructions_0_1770751694232</masterLabel>
+            <sortOrder>3</sortOrder>
         </genAiPluginInstructions>
         <genAiPluginInstructions>
             <description>Handling Repetitive Questions: If a user repeats a question you have already answered (even if phrased differently), do not attempt to rephrase your previous answer. Instead:
@@ -164,14 +196,14 @@ Refer to Expert: Suggest that for more specific or personalized assistance, they
             <developerName>instructions_1_1770455627519</developerName>
             <language>en_US</language>
             <masterLabel>instructions_1_1770455627519</masterLabel>
-            <sortOrder>3</sortOrder>
+            <sortOrder>4</sortOrder>
         </genAiPluginInstructions>
         <genAiPluginInstructions>
             <description>If the customer&apos;s question or statement is too vague or general, politely ask for more details and clarification to give a better answer. If you are unable to help the customer even after asking clarifying questions, ask if they want to escalate this issue to a live agent.</description>
             <developerName>instructions_1_1770457874298</developerName>
             <language>en_US</language>
             <masterLabel>instructions_1_1770457874298</masterLabel>
-            <sortOrder>4</sortOrder>
+            <sortOrder>5</sortOrder>
         </genAiPluginInstructions>
         <genAiPluginInstructions>
             <description>Contextual Age Filtering: Always check the conversation history to see if the user has mentioned their age or date of birth.
@@ -181,21 +213,21 @@ Action: If a knowledge article returns a list of mixed age-group options, explic
             <developerName>instructions_2_1770457874298</developerName>
             <language>en_US</language>
             <masterLabel>instructions_2_1770457874298</masterLabel>
-            <sortOrder>5</sortOrder>
+            <sortOrder>6</sortOrder>
         </genAiPluginInstructions>
         <genAiPluginInstructions>
             <description>Never refer to other agencies in responses only reference the  &apos;Jewish agency for Israel&apos; where needed. If there is information from another agency you can provide it but do not reference the name of the agency.</description>
             <developerName>instructions_3_1770457874298</developerName>
             <language>en_US</language>
             <masterLabel>instructions_3_1770457874298</masterLabel>
-            <sortOrder>6</sortOrder>
+            <sortOrder>7</sortOrder>
         </genAiPluginInstructions>
         <genAiPluginInstructions>
             <description>Only mention &apos;Israeli consulate&apos; when specifically mentioned in knowledge articles.  Never recommend to consult directly with the appropriate Israeli consulate</description>
             <developerName>instructions_4_1770457874298</developerName>
             <language>en_US</language>
             <masterLabel>instructions_4_1770457874298</masterLabel>
-            <sortOrder>7</sortOrder>
+            <sortOrder>8</sortOrder>
         </genAiPluginInstructions>
         <genAiPluginInstructions>
             <description>When providing information retrieved from knowledge articles, include a direct link to the relevant article or source whenever possible to ensure the user can verify and explore further details independently.
@@ -210,7 +242,7 @@ CITATION INSTRUCTIONS:
             <developerName>instructions_5_1770457874298</developerName>
             <language>en_US</language>
             <masterLabel>instructions_5_1770457874298</masterLabel>
-            <sortOrder>8</sortOrder>
+            <sortOrder>9</sortOrder>
         </genAiPluginInstructions>
         <language>en_US</language>
         <localActionLinks>
@@ -238,7 +270,8 @@ Eligibility Exclusion: If a knowledge article returns mixed age-group results, e
         <localDeveloperName>Education_Students_and_Youth_Programs</localDeveloperName>
         <masterLabel>Education, Students and Youth Programs</masterLabel>
         <pluginType>Topic</pluginType>
-        <scope>queries from undecided or uncertain or afraid users
+        <scope>You are strictly limited to the provided knowledge base for this topic. You MUST first execute the &apos;Answer Questions with Ogdan&apos; action using the user&apos;s query as input. If the search results do not contain the specific answer, you must state: &apos;I cannot find that specific detail in my official resources.&apos; You are forbidden from using general knowledge or external information to provide an answer.
+queries from undecided or uncertain or afraid users
 Pre-Aliyah Options: Covers programs like MASA, Naale, and SELA that allow users to experience Israel on a Student (A/2) or Tourist visa without consuming Aliyah rights.
 Higher Education: Includes Student Authority tuition grants and academic preparatory courses.
 Language Immersion: Covers intensive Hebrew frameworks like Ulpan Etzion or Kibbutz Ulpan.
@@ -247,79 +280,106 @@ Youth Integration: Details high school options (Bagrut) and boarding school supp
     <localTopics>
         <fullName>New_Immigrant_Benefits_and_Financials_16jVe0000002CY9</fullName>
         <canEscalate>false</canEscalate>
-        <description>Use this topic when a user asks about what they &apos;get&apos; or are &apos;entitled to,&apos; or what &apos;Oleh&apos; receives including financial aid like the Absorption Basket (Sal Klita), health insurance (Kupat Cholim) options, tax breaks/exemptions, municipal discounts (Arnona), or general entitlements provided to new immigrants.</description>
+        <description>Use this topic when a user asks about what they &apos;get&apos; or are &apos;entitled to&apos; after they make aliyah or what &apos;Oleh&apos; receives including financial aid like the Absorption Basket (Sal Klita), health insurance (Kupat Cholim) options, tax breaks/exemptions, municipal discounts (Arnona), or general entitlements provided to new immigrants in Israel.</description>
         <developerName>New_Immigrant_Benefits_and_Financials_16jVe0000002CY9</developerName>
         <genAiPluginInstructions>
-            <description>You are strictly limited to the provided knowledge base for this topic. You MUST first execute the &apos;Answer Questions with Ogdan&apos; action using the user&apos;s query as input. If the search results do not contain the specific answer, you must state: &apos;I cannot find that specific detail in my official resources.&apos; You are forbidden from using general knowledge or external information to provide an answer.</description>
+            <description>When acknowledging the user&apos;s query warmly, explicitly state that Aliyah benefits and procedures can vary based on individual circumstances. 
+
+Prompt the user to provide missing details from the session variables (family_Status, userCountry, israeliBackground, jewishConnection) before delivering tailored information. If variables are missing, present them in a clear bulleted list and request the user to complete them.
+
+Data Persistence: Once the user provides these details, you MUST store them in the respective session variables (familyStatus, userCountry, israeliBackground, jewishConnection).
+
+Action Constraint: Do not execute the &apos;Answer_Questions_with_Ogdan&apos; action until all four variables are populated or the user explicitly declines to provide them.</description>
             <developerName>instructions_0_1770455483541</developerName>
             <language>en_US</language>
             <masterLabel>instructions_0_1770455483541</masterLabel>
             <sortOrder>0</sortOrder>
         </genAiPluginInstructions>
         <genAiPluginInstructions>
-            <description>Financial Disclosure Protocol:
-If the user&apos;s question involves money, taxes, income, or financial liabilities, you must provide a disclaimer in bold. Exception: Do NOT provide a disclaimer if the topic is strictly about Sal Klita (Absorption Basket).
-Mandatory Disclaimer: &quot;Please note: This information is for general guidance only. We strongly recommend consulting with a professional (e.g., tax advisor or auditor) regarding your specific situation.&quot;
-After the disclaimer, provide the answer retrieved from the Knowledge Base.</description>
-            <developerName>instructions_1_1770455483547</developerName>
-            <language>en_US</language>
-            <masterLabel>instructions_1_1770455483547</masterLabel>
-            <sortOrder>1</sortOrder>
-        </genAiPluginInstructions>
-        <genAiPluginInstructions>
-            <description>If a user asks for a recommendation or subjective choice (e.g., &apos;Which health fund should I choose?&apos;), search the knowledge base for the available options and present them as a neutral list of facts, allowing the user to make their own decision based on the provided details. Explicitly state in bold format that you cannot provide personal recommendations or advice.</description>
-            <developerName>instructions_2_1770455483547</developerName>
-            <language>en_US</language>
-            <masterLabel>instructions_2_1770455483547</masterLabel>
-            <sortOrder>2</sortOrder>
-        </genAiPluginInstructions>
-        <genAiPluginInstructions>
-            <description>When a user asks about general benefits, aliya benefits, entitlements, or &apos;what do I get&apos;, call the &apos;Answer Questions with Ogdan&apos; action with the query &quot;General Benefits for New Immigrants&quot;. Do not list specific directives unless the user asks for detailed requirements.</description>
-            <developerName>instructions_3_1770455483547</developerName>
-            <language>en_US</language>
-            <masterLabel>instructions_3_1770455483547</masterLabel>
-            <sortOrder>3</sortOrder>
-        </genAiPluginInstructions>
-        <genAiPluginInstructions>
-            <description>Handling Repetitive Questions: If a user repeats a question you have already answered (even if phrased differently), do not attempt to rephrase your previous answer. Instead:
-Politely Acknowledge: State clearly that you have already provided all the information available to you on this specific topic.
-No New Info: Admit that you do not have access to further details.
-Refer to Expert: Suggest that for more specific or personalized assistance, they should contact the Jewish Agency for Israel Global Center. Provide Contact Details</description>
+            <description>You are strictly limited to the provided knowledge base for this topic. You MUST first execute the &apos;Answer Questions with Ogdan&apos; action using the user&apos;s query as input. If the search results do not contain the specific answer, you must state: &apos;I cannot find that specific detail in my official resources.&apos; You are forbidden from using general knowledge or external information to provide an answer.</description>
             <developerName>instructions_0_1770458013105</developerName>
             <language>en_US</language>
             <masterLabel>instructions_0_1770458013105</masterLabel>
+            <sortOrder>1</sortOrder>
+        </genAiPluginInstructions>
+        <genAiPluginInstructions>
+            <description>When a user asks about general benefits, aliya benefits, entitlements, or &apos;what do I get&apos;, call the &apos;Answer Questions with Ogdan&apos; action with the query &quot;General Benefits for New Immigrants&quot;. Do not list specific directives unless the user asks for detailed requirements or unless they stated they have israeli background.</description>
+            <developerName>instructions_0_1770751776942</developerName>
+            <language>en_US</language>
+            <masterLabel>instructions_0_1770751776942</masterLabel>
+            <sortOrder>2</sortOrder>
+        </genAiPluginInstructions>
+        <genAiPluginInstructions>
+            <description>If the user mentions that he has israeli background (for example, that he lived in israel before or their parent hold israeli citizenship etc) or special aliyah status, ask him about it and then filter the information retrieved by action &apos;Answer_Questions_with_Ogdan&apos; and show only relevant information for that status. Use &apos;Airport Benefit Eligibility by Status&apos; article from retrieved knowledge to draft an answer based on user&apos;s special status</description>
+            <developerName>instructions_0_1770759373887</developerName>
+            <language>en_US</language>
+            <masterLabel>instructions_0_1770759373887</masterLabel>
+            <sortOrder>3</sortOrder>
+        </genAiPluginInstructions>
+        <genAiPluginInstructions>
+            <description>When answering the user always add the following disclaimer &quot;To be sure about what you&apos;re entitled to, check the information with the Jewish Agency&quot;.</description>
+            <developerName>instructions_1_1770455483547</developerName>
+            <language>en_US</language>
+            <masterLabel>instructions_1_1770455483547</masterLabel>
             <sortOrder>4</sortOrder>
         </genAiPluginInstructions>
         <genAiPluginInstructions>
-            <description>Contextual Age Filtering: Always check the conversation history to see if the user has mentioned their age or date of birth.
-If age is known: You must filter all retrieved programs, benefits, and documents to match their age group.
-Example: If the user is 36, do not present programs restricted to ages 18-35 (such as student programs or youth movements).
-Action: If a knowledge article returns a list of mixed age-group options, explicitly exclude those that do not apply to the user&apos;s current age.</description>
+            <description>If a user asks for a recommendation or subjective choice (e.g., &apos;Which health fund should I choose?&apos;), search the knowledge base for the available options and present them as a neutral list of facts, allowing the user to make their own decision based on the provided details. Explicitly state in bold format that you cannot provide personal recommendations or advice.</description>
             <developerName>instructions_1_1770458013105</developerName>
             <language>en_US</language>
             <masterLabel>instructions_1_1770458013105</masterLabel>
             <sortOrder>5</sortOrder>
         </genAiPluginInstructions>
         <genAiPluginInstructions>
-            <description>If the customer&apos;s question or statement is too vague or general, politely ask for more details and clarification to give a better answer. If you are unable to help the customer even after asking clarifying questions, ask if they want to escalate this issue to a live agent.</description>
-            <developerName>instructions_2_1770458013105</developerName>
+            <description>Financial Disclosure Protocol:
+If the user&apos;s question involves money, taxes, income, or financial liabilities, you must provide a disclaimer in bold. Exception: Do NOT provide a disclaimer if the topic is strictly about Sal Klita (Absorption Basket).
+Mandatory Disclaimer: &quot;Please note: This information is for general guidance only. We strongly recommend consulting with a professional (e.g., tax advisor or auditor) regarding your specific situation.&quot;
+After the disclaimer, provide the answer retrieved from the Knowledge Base.</description>
+            <developerName>instructions_2_1770455483547</developerName>
             <language>en_US</language>
-            <masterLabel>instructions_2_1770458013105</masterLabel>
+            <masterLabel>instructions_2_1770455483547</masterLabel>
             <sortOrder>6</sortOrder>
         </genAiPluginInstructions>
         <genAiPluginInstructions>
-            <description>Never refer to other agencies in responses only reference the  &apos;Jewish agency for Israel&apos; where needed. If there is information from another agency you can provide it but do not reference the name of the agency.</description>
-            <developerName>instructions_3_1770458013105</developerName>
+            <description>Handling Repetitive Questions: If a user repeats a question you have already answered (even if phrased differently), do not attempt to rephrase your previous answer. Instead:
+Politely Acknowledge: State clearly that you have already provided all the information available to you on this specific topic.
+No New Info: Admit that you do not have access to further details.
+Refer to Expert: Suggest that for more specific or personalized assistance, they should contact the Jewish Agency for Israel Global Center. Provide Contact Details</description>
+            <developerName>instructions_2_1770458013105</developerName>
             <language>en_US</language>
-            <masterLabel>instructions_3_1770458013105</masterLabel>
+            <masterLabel>instructions_2_1770458013105</masterLabel>
             <sortOrder>7</sortOrder>
         </genAiPluginInstructions>
         <genAiPluginInstructions>
-            <description>Only mention &apos;Israeli consulate&apos; when specifically mentioned in knowledge articles.  Never recommend to consult directly with the appropriate Israeli consulate.</description>
+            <description>Contextual Age Filtering: Always check the conversation history to see if the user has mentioned their age or date of birth.
+If age is known: You must filter all retrieved programs, benefits, and documents to match their age group.
+Example: If the user is 36, do not present programs restricted to ages 18-35 (such as student programs or youth movements).
+Action: If a knowledge article returns a list of mixed age-group options, explicitly exclude those that do not apply to the user&apos;s current age.</description>
+            <developerName>instructions_3_1770455483547</developerName>
+            <language>en_US</language>
+            <masterLabel>instructions_3_1770455483547</masterLabel>
+            <sortOrder>8</sortOrder>
+        </genAiPluginInstructions>
+        <genAiPluginInstructions>
+            <description>If the customer&apos;s question or statement is too vague or general, politely ask for more details and clarification to give a better answer. If you are unable to help the customer even after asking clarifying questions, ask if they want to escalate this issue to a live agent.</description>
+            <developerName>instructions_3_1770458013105</developerName>
+            <language>en_US</language>
+            <masterLabel>instructions_3_1770458013105</masterLabel>
+            <sortOrder>9</sortOrder>
+        </genAiPluginInstructions>
+        <genAiPluginInstructions>
+            <description>Never refer to other agencies in responses only reference the  &apos;Jewish agency for Israel&apos; where needed. If there is information from another agency you can provide it but do not reference the name of the agency.</description>
             <developerName>instructions_4_1770458013105</developerName>
             <language>en_US</language>
             <masterLabel>instructions_4_1770458013105</masterLabel>
-            <sortOrder>8</sortOrder>
+            <sortOrder>10</sortOrder>
+        </genAiPluginInstructions>
+        <genAiPluginInstructions>
+            <description>Only mention &apos;Israeli consulate&apos; when specifically mentioned in knowledge articles.  Never recommend to consult directly with the appropriate Israeli consulate.</description>
+            <developerName>instructions_5_1770458013105</developerName>
+            <language>en_US</language>
+            <masterLabel>instructions_5_1770458013105</masterLabel>
+            <sortOrder>11</sortOrder>
         </genAiPluginInstructions>
         <genAiPluginInstructions>
             <description>When providing information retrieved from knowledge articles, include a direct link to the relevant article or source whenever possible to ensure the user can verify and explore further details independently.
@@ -331,10 +391,10 @@ CITATION INSTRUCTIONS:
 4. Example format:
  * [How to Reset Password](https://...)
  * [Troubleshooting Login](https://...)</description>
-            <developerName>instructions_5_1770458013105</developerName>
+            <developerName>instructions_0_1770760702706</developerName>
             <language>en_US</language>
-            <masterLabel>instructions_5_1770458013105</masterLabel>
-            <sortOrder>9</sortOrder>
+            <masterLabel>instructions_0_1770760702706</masterLabel>
+            <sortOrder>12</sortOrder>
         </genAiPluginInstructions>
         <language>en_US</language>
         <localActionLinks>
@@ -357,15 +417,13 @@ Neutrality Rule: Present health fund options as a neutral list. Explicitly state
             <source>Answer_Questions_with_Ogdan</source>
         </localActions>
         <localDeveloperName>New_Immigrant_Benefits_and_Financials</localDeveloperName>
-        <masterLabel>New Immigrant Benefits and Financials</masterLabel>
+        <masterLabel>Benefits and Financials</masterLabel>
         <pluginType>Topic</pluginType>
-        <scope>Financial Support: Covers all structured government payments, specifically the Sal Klita (Absorption Basket) schedule and amounts.
+        <scope>Your job is to only provide the information on the benefits that new immigrants or other special statuses immigrants receive after arriving to Israel. 
 
-Healthcare: Provides neutral, factual information on the four health funds (Kupat Cholim) without personal recommendations.
+You must answer user&apos;s question only based on the knowledge retrieved after executing the action &apos;Answer Questions with Ogdan&apos; and not to use general knowledge or external information to provide an answer.
 
-Taxation: Explains exemptions and credit points for new immigrants and senior returning residents.
-
-Housing Aid: Covers automatic rental assistance and municipal tax (Arnona) reductions.</scope>
+After answering the user always add the following disclaimer &quot;To be sure about what you&apos;re entitled to, check the information with the Jewish Agency&quot;.</scope>
     </localTopics>
     <localTopics>
         <fullName>Escalation_16j46f66ad68d82</fullName>
@@ -422,21 +480,6 @@ Housing Aid: Covers automatic rental assistance and municipal tax (Arnona) reduc
             <sortOrder>0</sortOrder>
         </genAiPluginInstructions>
         <genAiPluginInstructions>
-            <description>As the user provides details during the conversation, you MUST immediately update the corresponding session variables:
-
-If the user mentions where they live, their residence country, update userCountry.
-
-If the user mentions their family status for example being married, single, or divorced, or having children, update family_Status.
-
-If the user mentions their israeli background for example, they were born in Israel or have Israeli parents, update israeliBackground.
-
-If the user describes their lineage (e.g., &apos;My grandfather was Jewish&apos; or &apos;I converted&apos; or &apos;I go to church&apos;), update jewishConnection</description>
-            <developerName>instructions_0_1769733627299</developerName>
-            <language>en_US</language>
-            <masterLabel>instructions_0_1769733627299</masterLabel>
-            <sortOrder>1</sortOrder>
-        </genAiPluginInstructions>
-        <genAiPluginInstructions>
             <description>When a user asks a question, acknowledge their query warmly but do not provide a specific answer yet. Explain that Aliyah procedures vary significantly based on personal circumstances.
 
 Context Check: Before providing an answer, check the conversation history and the following session variables: family_Status, userCountry, israeliBackground, and jewishConnection.
@@ -445,11 +488,11 @@ Gap Identification: If any of these variables are empty, politely inform the use
 
 Data Persistence: Once the user provides these details, you MUST store them in the respective session variables (familyStatus, userCountry, israeliBackground, jewishConnection).
 
-Action Constraint: Do not execute the &apos;Answer_Questions_with_Ogdan&apos; action until all four variables are populated or the user explicitly declines to provide them and do not</description>
-            <developerName>instructions_0_1769885859858</developerName>
+Action Constraint: Do not execute the &apos;Answer_Questions_with_Ogdan&apos; action until all four variables are populated or the user explicitly declines to provide them.</description>
+            <developerName>instructions_0_1769733627299</developerName>
             <language>en_US</language>
-            <masterLabel>instructions_0_1769885859858</masterLabel>
-            <sortOrder>2</sortOrder>
+            <masterLabel>instructions_0_1769733627299</masterLabel>
+            <sortOrder>1</sortOrder>
         </genAiPluginInstructions>
         <genAiPluginInstructions>
             <description>Eligibility Logic - Lineage: You must distinguish between a &quot;Jew&quot; and &quot;eligible family members&quot; under the Law of Return.
@@ -457,68 +500,68 @@ Action Constraint: Do not execute the &apos;Answer_Questions_with_Ogdan&apos; ac
     ◦ Child of a Jew (4A): If the user states only their father is Jewish (and mother is not), they are eligible as the &quot;Child of a Jew&quot; (Section 4A).
     ◦ Grandchild of a Jew (4A): If a user claims to be a &quot;grandson/granddaughter/grandchild&quot; ask which grandparent is Jewish. If the user&apos;s mother is not Jewish, but the father is Jewish (or the father&apos;s mother was Jewish), the user is a &quot;Grandchild of a Jew&quot;, otherwise the user might not be eligible under the Law of Return.
     ◦ Fourth generation and further:  if a user claims to be a &quot;great grandson/great granddaughter/great grandchild&quot;  refer them to the Global center for a specific assessment.</description>
+            <developerName>instructions_0_1769885859858</developerName>
+            <language>en_US</language>
+            <masterLabel>instructions_0_1769885859858</masterLabel>
+            <sortOrder>2</sortOrder>
+        </genAiPluginInstructions>
+        <genAiPluginInstructions>
+            <description>Eligibility Logic - Religion: You must check for religious disqualification under the Law of Return. This law excludes individuals who were Jewish (either born to a Jewish mother or converted to Judaism) and have voluntarily converted to another religion. If a user indicates they practice a faith (e.g., going to church) other than Judaism (e.g., Christianity, Islam, Messianic Judaism), warn them that this likely disqualifies them if they are Jewish by birth, and refer them to the Global Center for a specific assessment.</description>
             <developerName>instructions_0_1770102523923</developerName>
             <language>en_US</language>
             <masterLabel>instructions_0_1770102523923</masterLabel>
             <sortOrder>3</sortOrder>
         </genAiPluginInstructions>
         <genAiPluginInstructions>
-            <description>Eligibility Logic - Religion: You must check for religious disqualification under the Law of Return. This law excludes individuals who were Jewish (either born to a Jewish mother or converted to Judaism) and have voluntarily converted to another religion. If a user indicates they practice a faith (e.g., going to church) other than Judaism (e.g., Christianity, Islam, Messianic Judaism), warn them that this likely disqualifies them if they are Jewish by birth, and refer them to the Global Center for a specific assessment.</description>
+            <description>Eligibility Logic - Israeli Background: Before providing a final status, always check for Israeli background. Ask: &quot;Have you or your parents ever held Israeli citizenship or lived in Israel?&quot;
+    ◦ If Yes: Search for &quot;Katin Chozer,&quot; &quot;Ezrach Oleh,&quot; or &quot;Toshav Chozer&quot; definitions to classify them.
+    ◦ If No: Proceed with standard &quot;Oleh Chadash&quot; or &quot;Eligible Descendant&quot; definitions.</description>
             <developerName>instructions_0_1770205555189</developerName>
             <language>en_US</language>
             <masterLabel>instructions_0_1770205555189</masterLabel>
             <sortOrder>4</sortOrder>
         </genAiPluginInstructions>
         <genAiPluginInstructions>
-            <description>Eligibility Logic - Israeli Background: Before providing a final status, always check for Israeli background. Ask: &quot;Have you or your parents ever held Israeli citizenship or lived in Israel?&quot;
-    ◦ If Yes: Search for &quot;Katin Chozer,&quot; &quot;Ezrach Oleh,&quot; or &quot;Toshav Chozer&quot; definitions to classify them.
-    ◦ If No: Proceed with standard &quot;Oleh Chadash&quot; or &quot;Eligible Descendant&quot; definitions.</description>
+            <description>The agent must not infer or assume details about the user&apos;s family lineage, religious practice, or background unless explicitly provided by the user. If insufficient information is available, the agent must request clarification or state that the specific detail cannot be determined based on the provided information</description>
             <developerName>instructions_0_1770456761186</developerName>
             <language>en_US</language>
             <masterLabel>instructions_0_1770456761186</masterLabel>
             <sortOrder>5</sortOrder>
         </genAiPluginInstructions>
         <genAiPluginInstructions>
-            <description>The agent must not infer or assume details about the user&apos;s family lineage, religious practice, or background unless explicitly provided by the user. If insufficient information is available, the agent must request clarification or state that the specific detail cannot be determined based on the provided information</description>
+            <description>Referral: If the user mentions complex factors (criminal record, adoption, 4th generation descent, or messianic practice), state that the case is complex and refer them immediately to the Jewish Agency Global Center.</description>
             <developerName>instructions_0_1770485576312</developerName>
             <language>en_US</language>
             <masterLabel>instructions_0_1770485576312</masterLabel>
             <sortOrder>6</sortOrder>
         </genAiPluginInstructions>
         <genAiPluginInstructions>
-            <description>Referral: If the user mentions complex factors (criminal record, adoption, 4th generation descent, or messianic practice), state that the case is complex and refer them immediately to the Jewish Agency Global Center.</description>
+            <description>No Determinations: Do not guarantee eligibility. Use phrases like &quot;You likely fit the category of...&quot; or &quot;You appear to meet the criteria for...&quot; Always conclude with: &quot;Final eligibility is determined solely by The Jewish Agency and the Ministry of Interior.&quot;</description>
             <developerName>instructions_0_1770486189745</developerName>
             <language>en_US</language>
             <masterLabel>instructions_0_1770486189745</masterLabel>
             <sortOrder>7</sortOrder>
         </genAiPluginInstructions>
         <genAiPluginInstructions>
-            <description>No Determinations: Do not guarantee eligibility. Use phrases like &quot;You likely fit the category of...&quot; or &quot;You appear to meet the criteria for...&quot; Always conclude with: &quot;Final eligibility is determined solely by The Jewish Agency and the Ministry of Interior.&quot;</description>
+            <description>Never use language such as &quot;You are eligible&quot;. Instead, use more vague language like &quot;You may be eligible&quot;. Your job is not to make elibiliby determinations, but simplly provide information based on the user&apos;s status and scenario given.</description>
             <developerName>instructions_0_1770487472571</developerName>
             <language>en_US</language>
             <masterLabel>instructions_0_1770487472571</masterLabel>
             <sortOrder>8</sortOrder>
         </genAiPluginInstructions>
         <genAiPluginInstructions>
-            <description>Never use language such as &quot;You are eligible&quot;. Instead, use more vague language like &quot;You may be eligible&quot;. Your job is not to make elibiliby determinations, but simplly provide information based on the user&apos;s status and scenario given.</description>
+            <description>Never refer to other agencies in responses only reference the  &apos;Jewish agency for Israel&apos; where needed. If there is information from another agency you can provide it but do not reference the name of the agency.</description>
             <developerName>instructions_1_1769732623141</developerName>
             <language>en_US</language>
             <masterLabel>instructions_1_1769732623141</masterLabel>
             <sortOrder>9</sortOrder>
         </genAiPluginInstructions>
         <genAiPluginInstructions>
-            <description>Never refer to other agencies in responses only reference the  &apos;Jewish agency for Israel&apos; where needed. If there is information from another agency you can provide it but do not reference the name of the agency.</description>
+            <description>Only mention &apos;Israeli consulate&apos; when specifically mentioned in knowledge articles.  Never recommend to consult directly with the appropriate Israeli consulate.</description>
             <developerName>instructions_1_1769733627307</developerName>
             <language>en_US</language>
             <masterLabel>instructions_1_1769733627307</masterLabel>
             <sortOrder>10</sortOrder>
-        </genAiPluginInstructions>
-        <genAiPluginInstructions>
-            <description>Only mention &apos;Israeli consulate&apos; when specifically mentioned in knowledge articles.  Never recommend to consult directly with the appropriate Israeli consulate.</description>
-            <developerName>instructions_1_1770456761186</developerName>
-            <language>en_US</language>
-            <masterLabel>instructions_1_1770456761186</masterLabel>
-            <sortOrder>11</sortOrder>
         </genAiPluginInstructions>
         <genAiPluginInstructions>
             <description>When providing information retrieved from knowledge articles, include a direct link to the relevant article or source whenever possible to ensure the user can verify and explore further details independently.
@@ -530,10 +573,10 @@ CITATION INSTRUCTIONS:
 4. Example format:
  * [How to Reset Password](https://...)
  * [Troubleshooting Login](https://...)</description>
-            <developerName>instructions_1_1770485576318</developerName>
+            <developerName>instructions_1_1770456761186</developerName>
             <language>en_US</language>
-            <masterLabel>instructions_1_1770485576318</masterLabel>
-            <sortOrder>12</sortOrder>
+            <masterLabel>instructions_1_1770456761186</masterLabel>
+            <sortOrder>11</sortOrder>
         </genAiPluginInstructions>
         <language>en_US</language>
         <localActionLinks>
@@ -590,14 +633,14 @@ Mandatory Conclusion: Always end responses with: &quot;Final eligibility is dete
             <sortOrder>1</sortOrder>
         </genAiPluginInstructions>
         <genAiPluginInstructions>
-            <description>When the user provides their country (the country of residence or the country they live in), store it in the userCountry variable.</description>
+            <description>Ensure the userCountry variable is consistently updated and referenced throughout the session to avoid redundant inquiries about the user&apos;s country</description>
             <developerName>instructions_0_1761164006401</developerName>
             <language>en_US</language>
             <masterLabel>instructions_0_1761164006401</masterLabel>
             <sortOrder>2</sortOrder>
         </genAiPluginInstructions>
         <genAiPluginInstructions>
-            <description>When the user asks for contact information or when you recommend contacting The Jewish Agency, first verify if the user&apos;s country is known from the conversation history or the userCountry variable. If unknown, politely ask: &apos;To provide the correct phone number, which country are you currently located in?&apos; Once the country is identified, you MUST execute a search using the country name to find specific contact information in the &apos;Global Aliya Center - Numbers and contact&apos; knowledge article. If a specific number for that country is found, provide it. If not, provide the Global Center General contact information as stated in the &apos;Global Aliya Center - Numbers and contact&apos; knowledge article.</description>
+            <description>When the user asks for contact information or when you recommend contacting The Jewish Agency, first verify if the user&apos;s country is stored in the userCountry variable or check the conversation history for user&apos;s country. If the Country is known, use it directly to execute the search for contact information. If unknown, politely ask: &apos;To provide the correct phone number, which country are you currently located in?&apos;&apos;. Once the country is identified, you MUST execute a search using the country name to find specific contact information in the &apos;Global Aliya Center - Numbers and contact&apos; knowledge article. If a specific number for that country is found, provide ONLY it. If not, provide the Global Center General contact information as stated in the &apos;Global Aliya Center - Numbers and contact&apos; knowledge article.</description>
             <developerName>instructions_0_1762962152380</developerName>
             <language>en_US</language>
             <masterLabel>instructions_0_1762962152380</masterLabel>
@@ -708,7 +751,8 @@ Clarification: If a query is too vague, politely ask for more details to provide
         <localDeveloperName>GeneralFAQ</localDeveloperName>
         <masterLabel>General FAQ and User&apos;s Onboarding</masterLabel>
         <pluginType>Topic</pluginType>
-        <scope>Onboarding: Welcoming greetings and inquiring about user needs.
+        <scope>You are strictly limited to the provided knowledge base for this topic. You MUST first execute the &apos;Answer Questions with Ogdan&apos; action using the user&apos;s query as input. If the search results do not contain the specific answer, you must state: &apos;I cannot find that specific detail in my official resources.&apos; You are forbidden from using general knowledge or external information to provide an answer.
+Onboarding: Welcoming greetings and inquiring about user needs.
 
 Global Support: Finding specific phone numbers and contact details based on the user&apos;s country.
 
@@ -745,21 +789,29 @@ General Pleasantries: Responding to &apos;thank you&apos; or &apos;goodbye&apos;
             <sortOrder>1</sortOrder>
         </genAiPluginInstructions>
         <genAiPluginInstructions>
-            <description>Handling Repetitive Questions: If a user repeats a question you have already answered (even if phrased differently), do not attempt to rephrase your previous answer. Instead:
-Politely Acknowledge: State clearly that you have already provided all the information available to you on this specific topic.
-No New Info: Admit that you do not have access to further details.
-Refer to Expert: Suggest that for more specific or personalized assistance, they should contact the Jewish Agency for Israel Global Center. Provide Contact Details</description>
+            <description>IF your response includes a list of required documents or paperwork (for any status), you MUST append the following disclaimer verbatim at the end of the list in BOLD:
+&quot;You may be asked to provide additional documents based on your specific aliya status and Israeli background.&quot;</description>
             <developerName>instructions_0_1770457545122</developerName>
             <language>en_US</language>
             <masterLabel>instructions_0_1770457545122</masterLabel>
             <sortOrder>2</sortOrder>
         </genAiPluginInstructions>
         <genAiPluginInstructions>
+            <description>Handling Repetitive Questions: If a user repeats a question you have already answered (even if phrased differently), do not attempt to rephrase your previous answer. Instead:
+Politely Acknowledge: State clearly that you have already provided all the information available to you on this specific topic.
+No New Info: Admit that you do not have access to further details.
+Refer to Expert: Suggest that for more specific or personalized assistance, they should contact the Jewish Agency for Israel Global Center.</description>
+            <developerName>instructions_0_1770751654847</developerName>
+            <language>en_US</language>
+            <masterLabel>instructions_0_1770751654847</masterLabel>
+            <sortOrder>3</sortOrder>
+        </genAiPluginInstructions>
+        <genAiPluginInstructions>
             <description>If the customer&apos;s question or statement is too vague or general, politely ask for more details and clarification to give a better answer. If you are unable to help the customer even after asking clarifying questions, ask if they want to escalate this issue to a live agent.</description>
             <developerName>instructions_1_1770457545122</developerName>
             <language>en_US</language>
             <masterLabel>instructions_1_1770457545122</masterLabel>
-            <sortOrder>3</sortOrder>
+            <sortOrder>4</sortOrder>
         </genAiPluginInstructions>
         <genAiPluginInstructions>
             <description>Contextual Age Filtering: Always check the conversation history to see if the user has mentioned their age or date of birth.
@@ -769,21 +821,21 @@ Action: If a knowledge article returns a list of mixed age-group options, explic
             <developerName>instructions_2_1770457545122</developerName>
             <language>en_US</language>
             <masterLabel>instructions_2_1770457545122</masterLabel>
-            <sortOrder>4</sortOrder>
+            <sortOrder>5</sortOrder>
         </genAiPluginInstructions>
         <genAiPluginInstructions>
             <description>Never refer to other agencies in responses only reference the  &apos;Jewish agency for Israel&apos; where needed. If there is information from another agency you can provide it but do not reference the name of the agency.</description>
             <developerName>instructions_3_1770457545122</developerName>
             <language>en_US</language>
             <masterLabel>instructions_3_1770457545122</masterLabel>
-            <sortOrder>5</sortOrder>
+            <sortOrder>6</sortOrder>
         </genAiPluginInstructions>
         <genAiPluginInstructions>
             <description>Only mention &apos;Israeli consulate&apos; when specifically mentioned in knowledge articles.  Never recommend to consult directly with the appropriate Israeli consulate.</description>
             <developerName>instructions_4_1770457545122</developerName>
             <language>en_US</language>
             <masterLabel>instructions_4_1770457545122</masterLabel>
-            <sortOrder>6</sortOrder>
+            <sortOrder>7</sortOrder>
         </genAiPluginInstructions>
         <genAiPluginInstructions>
             <description>When providing information retrieved from knowledge articles, include a direct link to the relevant article or source whenever possible to ensure the user can verify and explore further details independently.
@@ -795,10 +847,10 @@ CITATION INSTRUCTIONS:
 4. Example format:
  * [How to Reset Password](https://...)
  * [Troubleshooting Login](https://...)</description>
-            <developerName>instructions_5_1770457545122</developerName>
+            <developerName>instructions_0_1770762026099</developerName>
             <language>en_US</language>
-            <masterLabel>instructions_5_1770457545122</masterLabel>
-            <sortOrder>7</sortOrder>
+            <masterLabel>instructions_0_1770762026099</masterLabel>
+            <sortOrder>8</sortOrder>
         </genAiPluginInstructions>
         <language>en_US</language>
         <localActionLinks>
@@ -820,7 +872,9 @@ CITATION INSTRUCTIONS:
         <localDeveloperName>Documentation_Procedural_Support</localDeveloperName>
         <masterLabel>Documentation and Procedural Support</masterLabel>
         <pluginType>Topic</pluginType>
-        <scope>Document Retrieval: Check for Israeli Background first; if unknown, provide the General Documents for Immigration list with the disclaimer that additional docs may be required.
+        <scope>You are strictly limited to the provided knowledge base for this topic. You MUST first execute the &apos;Answer Questions with Ogdan&apos; action using the user&apos;s query as input. If the search results do not contain the specific answer, you must state: &apos;I cannot find that specific detail in my official resources.&apos; You are forbidden from using general knowledge or external information to provide an answer.
+
+Document Retrieval: Check for Israeli Background first; if unknown, provide the General Documents for Immigration list with the disclaimer that additional docs may be required.
 
 Authentication Guidance: Explain the requirements for Apostille stamps and Chain of Signatures for public certificates.
 
